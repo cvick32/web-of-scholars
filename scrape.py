@@ -1,10 +1,18 @@
 from bs4 import BeautifulSoup
 import json
+import urllib3
+import certifi
 
-george = open('George_Akerlof.html', 'r')
+http = urllib3.PoolManager(
+  cert_reqs='CERT_REQUIRED',
+  ca_certs=certifi.where()
+)
 
+
+george_http = http.request('GET', 'https://en.wikipedia.org/wiki/George_Akerlof')
+george = george_http.data
 wiki = "https://en.wikipedia.org"
-soup = BeautifulSoup(george.read(), 'html.parser')
+soup = BeautifulSoup(george, 'html.parser')
 advisor_soup = BeautifulSoup(
     '''<th scope="row">Doctoraladvisor</th>''', 'html.parser')
 student_soup = BeautifulSoup(
