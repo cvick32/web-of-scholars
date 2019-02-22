@@ -3,62 +3,63 @@ import json
 import urllib3
 import certifi
 
+WIKI = "https://en.wikipedia.org"
 http = urllib3.PoolManager(
   cert_reqs='CERT_REQUIRED',
   ca_certs=certifi.where()
 )
 
-
-george_http = http.request('GET', 'https://en.wikipedia.org/wiki/George_Akerlof')
-george = george_http.data
-wiki = "https://en.wikipedia.org"
-soup = BeautifulSoup(george, 'html.parser')
-advisor_soup = BeautifulSoup(
-    '''<th scope="row">Doctoraladvisor</th>''', 'html.parser')
-student_soup = BeautifulSoup(
-    '''<th scope="row">Doctoralstudents</th>''', 'html.parser')
-sidebar_details_tag = soup.findAll(
-    "table", {"class": "infobox biography vcard"})
-
-sidebar_details_table = soup.findChildren('table')[0]
-rows = sidebar_details_table.findChildren('tr')
-
 george_json = {}
 
 to_process = []
+'''
+  json schema for scholars 
+  { 
+    name: string;
+    image: string;
+    advisors: [string];
+    students: [string];
+    link: string
+  }
+'''
+def make_request(link):
+  res = http.request('GET', link).data
+  soup = BeautifulSoup(res, 'html.parser')
+  sidebar_details_table = soup.findChildren('table')[0]
+  rows = sidebar_details_table.findChildren('tr')
+  cur_scholar = {}
+  find_advisors_and_students(rows)
 
-def findAdvisorsAndStudents(htmlRows):
-  for row in htmlRows:
+
+def find_advisors_and_students(html_rows):
+  for row in html_rows:
     if row.findChildren(['th']):
       for th in row.findChildren('th'):
         str_array = []
         for string in th.strings:
           str_array.append(repr(string))
         complete_string = ''.join(str_array)
-        complete_string.replace("'", "")
-
         if complete_string == "'Doctoral''advisor'":
-          link_tags = row.findChildren('a')
-          doc_advisors = []
-          for link_tag in link_tags:
-            if link_tag.attrs['href']:
-              link = link_tag.attrs['href']
-              if link[:6] == '/wiki/':
-                to_process.append(wiki + link)
-                doc_advisors.append(link_tag.attrs['title'])
-          george_json["advisors"] = doc_advisors
+          get_links(row, "advisors")
         elif complete_string == "'Doctoral''students'":
-          link_tags = row.findChildren('a')
-          doc_students = []
-          for link_tag in link_tags:
-            if link_tag.attrs['href']:
-              link = link_tag.attrs['href']
-              if link[:6] == '/wiki/':
-                to_process.append(wiki + link)
-                doc_students.append(link_tag.attrs['title'])
-          george_json["students"] = doc_students
+          get_links(row, "students")
+    else:
+      if row.findChildren('img'):
+        george_json["image"] = WIKI + row.findChildren('img')[0].attrs['src']
 
-findAdvisorsAndStudents(rows)
+def get_links(cur_row, group):
+  link_tags = cur_row.findChildren('a')
+  group_members = []
+  for link_tag in link_tags:
+    if link_tag.attrs['href']:
+      link = link_tag.attrs['href']
+      if link[:6] == '/wiki/':
+        new_scholar = {'link': WIKI + link, 'name': link[6:].replace("_", " ")}
+        to_process.append(new_scholar)
+        group_members.append(link_tag.attrs['title'])
+  george_json[group] = group_members
+
+make_request('https://en.wikipedia.org/wiki/George_Akerlof')
 
 print(george_json)
 print(to_process)
