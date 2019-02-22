@@ -13,6 +13,17 @@ debug = open('debug.txt', "w+")
 debug.seek(0)
 debug.truncate()
 
+'''
+  json schema for scholars 
+  { 
+    name: string;
+    image: string;
+    advisors: [string];
+    students: [string];
+    link: string
+  }
+'''
+
 george_json = {
   'link': 'https://en.wikipedia.org/wiki/George_Akerlof',
   'name': 'George Akerlof'
@@ -37,16 +48,6 @@ marie_json ={
   'link': 'https://en.wikipedia.org/wiki/Marie_Curie',
   'name': 'Marie Curie'
 }
-'''
-  json schema for scholars 
-  { 
-    name: string;
-    image: string;
-    advisors: [string];
-    students: [string];
-    link: string
-  }
-'''
 
 to_process = [albert_json, george_json, isaac_json, marie_json, paul_json]
 
@@ -87,7 +88,6 @@ def find_advisors_and_students(html_rows, cur_scholar):
     else:
       if row.findChildren('img'):
         cur_scholar["image"] = 'https:/' + row.findChildren('img')[0].attrs['src']
-  
   return cur_scholar
 
 def get_links(cur_row, group, cur_scholar):
@@ -101,7 +101,6 @@ def get_links(cur_row, group, cur_scholar):
         new_scholar = {'link': WIKI + link, 'name': new_scholar_name }
         to_process.append(new_scholar)
         group_members.append(new_scholar_name)
-
   cur_scholar[group] = group_members
 
 
