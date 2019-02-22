@@ -9,9 +9,11 @@ http = urllib3.PoolManager(
   ca_certs=certifi.where()
 )
 
-george_json = {}
+george_json = {
+  'link': 'https://en.wikipedia.org/wiki/George_Akerlof',
+  'name': 'George Akerlof'
+}
 
-to_process = []
 '''
   json schema for scholars 
   { 
@@ -22,16 +24,19 @@ to_process = []
     link: string
   }
 '''
-def make_request(link):
-  res = http.request('GET', link).data
+
+to_process = [george_json]
+
+all_scholars = []
+
+def make_request(scholar):
+  res = http.request('GET', scholar['link']).data
   soup = BeautifulSoup(res, 'html.parser')
   sidebar_details_table = soup.findChildren('table')[0]
   rows = sidebar_details_table.findChildren('tr')
-  cur_scholar = {}
-  find_advisors_and_students(rows)
+  all_scholars.append(find_advisors_and_students(rows, scholar))
 
-
-def find_advisors_and_students(html_rows):
+def find_advisors_and_students(html_rows, cur_scholar):
   for row in html_rows:
     if row.findChildren(['th']):
       for th in row.findChildren('th'):
@@ -40,14 +45,16 @@ def find_advisors_and_students(html_rows):
           str_array.append(repr(string))
         complete_string = ''.join(str_array)
         if complete_string == "'Doctoral''advisor'":
-          get_links(row, "advisors")
+          get_links(row, "advisors", cur_scholar)
         elif complete_string == "'Doctoral''students'":
-          get_links(row, "students")
+          get_links(row, "students", cur_scholar)
     else:
       if row.findChildren('img'):
-        george_json["image"] = WIKI + row.findChildren('img')[0].attrs['src']
+        cur_scholar["image"] = WIKI + row.findChildren('img')[0].attrs['src']
+  
+  return cur_scholar
 
-def get_links(cur_row, group):
+def get_links(cur_row, group, cur_scholar):
   link_tags = cur_row.findChildren('a')
   group_members = []
   for link_tag in link_tags:
@@ -57,9 +64,16 @@ def get_links(cur_row, group):
         new_scholar = {'link': WIKI + link, 'name': link[6:].replace("_", " ")}
         to_process.append(new_scholar)
         group_members.append(link_tag.attrs['title'])
-  george_json[group] = group_members
+  cur_scholar[group] = group_members
 
-make_request('https://en.wikipedia.org/wiki/George_Akerlof')
+make_request(george_json)
 
-print(george_json)
-print(to_process)
+counter = 0
+while to_process and counter < 100:
+  print(to_process[0])
+  make_request(to_process[0])
+  to_process = to_process[1:]
+  counter += 1
+
+
+print(all_scholars)
