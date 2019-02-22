@@ -1,0 +1,2223 @@
+already seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenno info tableno info tablealready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenno info tablealready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenno info tablealready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenno info tablealready seenno info tablealready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenno info tablealready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenalready seenfull JSON of all found scholars[
+    {
+        "advisors": [
+            "Robert Solow"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/1/18/George_Akerlof.jpg/225px-George_Akerlof.jpg",
+        "link": "https://en.wikipedia.org/wiki/George_Akerlof",
+        "name": "George Akerlof",
+        "students": [
+            "Charles Engel",
+            "Adriana Kugler"
+        ]
+    },
+    {
+        "advisors": [
+            "Wassily Leontief"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/9/95/Robert_Solow_by_Olaf_Storbeck.jpg/220px-Robert_Solow_by_Olaf_Storbeck.jpg",
+        "link": "https://en.wikipedia.org/wiki/Robert_Solow",
+        "name": "Robert Solow",
+        "students": [
+            "Francis M. Bator",
+            "Alain Enthoven",
+            "Ronald W. Jones",
+            "Herbert Mohring",
+            "Ronald Findlay",
+            "George Perry (American economist)",
+            "Harvey M. Wagner",
+            "Michael Intriligator",
+            "Arjun Kumar Sengupta",
+            "Peter Diamond",
+            "George Akerlof",
+            "Joseph Stiglitz",
+            "Martin Weitzman",
+            "Robert J. Gordon",
+            "Robert Hall (economist)",
+            "William Nordhaus",
+            "Avinash Dixit",
+            "Ray Fair",
+            "Alan Blinder",
+            "Vittorio Corbo",
+            "Robert Pindyck",
+            "Jeremy Siegel",
+            "Katsuhito Iwai",
+            "Glenn Loury",
+            "Halbert White",
+            "Mario Baldassarri",
+            "Arnold Kling",
+            "Charlie Bean"
+        ]
+    },
+    {
+        "advisors": [
+            "Jeffrey Frankel",
+            "George Akerlof",
+            "Janet Yellen"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Charles_Engel",
+        "name": "Charles Engel"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/1/11/Adriana_Kugler.jpg/220px-Adriana_Kugler.jpg",
+        "link": "https://en.wikipedia.org/wiki/Adriana_Kugler",
+        "name": "Adriana Kugler"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/3/36/Wassily_Leontief_1973.jpg/220px-Wassily_Leontief_1973.jpg",
+        "link": "https://en.wikipedia.org/wiki/Wassily_Leontief",
+        "name": "Wassily Leontief"
+    },
+    {
+        "advisors": [
+            "Robert Solow"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Francis_M._Bator",
+        "name": "Francis M. Bator"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Alain_Enthoven",
+        "name": "Alain Enthoven"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Ronald_W._Jones",
+        "name": "Ronald W. Jones"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Herbert_Mohring",
+        "name": "Herbert Mohring"
+    },
+    {
+        "advisors": [
+            "Robert M. Solow"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ronald_Findlay",
+        "name": "Ronald Findlay"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/George_Perry_(American_economist)",
+        "name": "George Perry (American economist)"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Harvey_M._Wagner",
+        "name": "Harvey M. Wagner"
+    },
+    {
+        "advisors": [
+            "Robert M. Solow"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Michael_Intriligator",
+        "name": "Michael Intriligator"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/0/05/ARJUN_desk.jpg/200px-ARJUN_desk.jpg",
+        "link": "https://en.wikipedia.org/wiki/Arjun_Kumar_Sengupta",
+        "name": "Arjun Kumar Sengupta"
+    },
+    {
+        "advisors": [
+            "Robert Solow"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Peter_Diamond_%28economist%29.jpg/220px-Peter_Diamond_%28economist%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Peter_Diamond",
+        "name": "Peter Diamond",
+        "students": [
+            "Martin Hellwig",
+            "David K. Levine",
+            "Andrei Shleifer",
+            "Emmanuel Saez"
+        ]
+    },
+    {
+        "advisors": [
+            "Robert Solow"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Empfang_Joseph_E._Stiglitz_im_Rathaus_K%C3%B6ln-1473.jpg/220px-Empfang_Joseph_E._Stiglitz_im_Rathaus_K%C3%B6ln-1473.jpg",
+        "link": "https://en.wikipedia.org/wiki/Joseph_Stiglitz",
+        "name": "Joseph Stiglitz"
+    },
+    {
+        "advisors": [
+            "Robert Solow"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Martin_Weitzman",
+        "name": "Martin Weitzman",
+        "students": [
+            "Nat Keohane",
+            "Andrew Metrick",
+            "Gernot Wagner"
+        ]
+    },
+    {
+        "advisors": [
+            "Robert Solow"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Robert_J._Gordon",
+        "name": "Robert J. Gordon"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Robert_Hall_(economist)",
+        "name": "Robert Hall (economist)"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/0/09/William_Nordhaus_EM1B6005_%2846234137031%29.jpg/220px-William_Nordhaus_EM1B6005_%2846234137031%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/William_Nordhaus",
+        "name": "William Nordhaus"
+    },
+    {
+        "advisors": [
+            "Robert Solow"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Avinash_Dixit.JPG/200px-Avinash_Dixit.JPG",
+        "link": "https://en.wikipedia.org/wiki/Avinash_Dixit",
+        "name": "Avinash Dixit",
+        "students": [
+            "Vijay Kelkar",
+            "Robert Helsley",
+            "Dani Rodrik"
+        ]
+    },
+    {
+        "advisors": [
+            "Robert Solow"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ray_Fair",
+        "name": "Ray Fair"
+    },
+    {
+        "advisors": [
+            "Robert Solow"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Alan_S._Blinder%2C_Vice_Chairman_Federal_Reserve.jpg/220px-Alan_S._Blinder%2C_Vice_Chairman_Federal_Reserve.jpg",
+        "link": "https://en.wikipedia.org/wiki/Alan_Blinder",
+        "name": "Alan Blinder",
+        "students": [
+            "Julio Rotemberg"
+        ]
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Vittorio_Corbo",
+        "name": "Vittorio Corbo"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Robert_Pindyck",
+        "name": "Robert Pindyck"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Jeremy_Siegel",
+        "name": "Jeremy Siegel"
+    },
+    {
+        "advisors": [
+            "Robert Solow"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/9/91/Katsuhito_Iwai_cropped_1_Katsuhito_Iwai_201611.jpg/250px-Katsuhito_Iwai_cropped_1_Katsuhito_Iwai_201611.jpg",
+        "link": "https://en.wikipedia.org/wiki/Katsuhito_Iwai",
+        "name": "Katsuhito Iwai",
+        "students": [
+            "Willem Buiter"
+        ]
+    },
+    {
+        "advisors": [
+            "Robert Solow"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Glenn_Loury.jpg/220px-Glenn_Loury.jpg",
+        "link": "https://en.wikipedia.org/wiki/Glenn_Loury",
+        "name": "Glenn Loury"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Halbert_White",
+        "name": "Halbert White"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Mario_Baldassarri",
+        "name": "Mario Baldassarri"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Arnold_Kling",
+        "name": "Arnold Kling"
+    },
+    {
+        "advisors": [
+            "Robert Solow"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Charlie_Bean.jpg/220px-Charlie_Bean.jpg",
+        "link": "https://en.wikipedia.org/wiki/Charlie_Bean",
+        "name": "Charlie Bean",
+        "students": [
+            "Fabrizio Zilibotti"
+        ]
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Jeffrey_Frankel",
+        "name": "Jeffrey Frankel"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Janet_Yellen_official_Federal_Reserve_portrait.jpg/220px-Janet_Yellen_official_Federal_Reserve_portrait.jpg",
+        "link": "https://en.wikipedia.org/wiki/Janet_Yellen",
+        "name": "Janet Yellen"
+    },
+    {
+        "advisors": [
+            "Wassily Leontief"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/9/95/Robert_Solow_by_Olaf_Storbeck.jpg/220px-Robert_Solow_by_Olaf_Storbeck.jpg",
+        "link": "https://en.wikipedia.org/wiki/Robert_M._Solow",
+        "name": "Robert M. Solow",
+        "students": [
+            "Francis M. Bator",
+            "Alain Enthoven",
+            "Ronald W. Jones",
+            "Herbert Mohring",
+            "Ronald Findlay",
+            "George Perry (American economist)",
+            "Harvey M. Wagner",
+            "Michael Intriligator",
+            "Arjun Kumar Sengupta",
+            "Peter Diamond",
+            "George Akerlof",
+            "Joseph Stiglitz",
+            "Martin Weitzman",
+            "Robert J. Gordon",
+            "Robert Hall (economist)",
+            "William Nordhaus",
+            "Avinash Dixit",
+            "Ray Fair",
+            "Alan Blinder",
+            "Vittorio Corbo",
+            "Robert Pindyck",
+            "Jeremy Siegel",
+            "Katsuhito Iwai",
+            "Glenn Loury",
+            "Halbert White",
+            "Mario Baldassarri",
+            "Arnold Kling",
+            "Charlie Bean"
+        ]
+    },
+    {
+        "advisors": [
+            "Peter Diamond"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Martin-Hellwig.jpg/200px-Martin-Hellwig.jpg",
+        "link": "https://en.wikipedia.org/wiki/Martin_Hellwig",
+        "name": "Martin Hellwig"
+    },
+    {
+        "advisors": [
+            "Peter Diamond"
+        ],
+        "link": "https://en.wikipedia.org/wiki/David_K._Levine",
+        "name": "David K. Levine",
+        "students": [
+            "Guido Tabellini"
+        ]
+    },
+    {
+        "advisors": [
+            "Peter A. Diamond",
+            "Franklin M. Fisher"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Andrei_Shleifer",
+        "name": "Andrei Shleifer",
+        "students": [
+            "Sendhil Mullainathan",
+            "Matthew Gentzkow"
+        ]
+    },
+    {
+        "advisors": [
+            "James M. Poterba",
+            "Peter Diamond"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Emmanuel_Saez",
+        "name": "Emmanuel Saez"
+    },
+    {
+        "advisors": [],
+        "link": "https://en.wikipedia.org/wiki/Nat_Keohane",
+        "name": "Nat Keohane"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Andrew_Metrick",
+        "name": "Andrew Metrick"
+    },
+    {
+        "advisors": [],
+        "link": "https://en.wikipedia.org/wiki/Gernot_Wagner",
+        "name": "Gernot Wagner"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/1/14/Vijay_Kelkar.jpg/220px-Vijay_Kelkar.jpg",
+        "link": "https://en.wikipedia.org/wiki/Vijay_Kelkar",
+        "name": "Vijay Kelkar"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Robert_Helsley",
+        "name": "Robert Helsley"
+    },
+    {
+        "advisors": [
+            "Avinash Dixit"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/3/34/Dani_Rodrik_AB_02.jpg/250px-Dani_Rodrik_AB_02.jpg",
+        "link": "https://en.wikipedia.org/wiki/Dani_Rodrik",
+        "name": "Dani Rodrik"
+    },
+    {
+        "advisors": [
+            "Alan Blinder",
+            "William Hoban Branson"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Rotemberg.jpg/220px-Rotemberg.jpg",
+        "link": "https://en.wikipedia.org/wiki/Julio_Rotemberg",
+        "name": "Julio Rotemberg"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/7/76/Willem_Buiter_1984.jpg/220px-Willem_Buiter_1984.jpg",
+        "link": "https://en.wikipedia.org/wiki/Willem_Buiter",
+        "name": "Willem Buiter"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Fabrizio_Zilibotti",
+        "name": "Fabrizio Zilibotti"
+    },
+    {
+        "advisors": [
+            "David K. Levine"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Guido_Tabellini",
+        "name": "Guido Tabellini"
+    },
+    {
+        "advisors": [
+            "Robert Solow"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Peter_Diamond_%28economist%29.jpg/220px-Peter_Diamond_%28economist%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Peter_A._Diamond",
+        "name": "Peter A. Diamond",
+        "students": [
+            "Martin Hellwig",
+            "David K. Levine",
+            "Andrei Shleifer",
+            "Emmanuel Saez"
+        ]
+    },
+    {
+        "advisors": [
+            "John R. Meyer"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Franklin_M._Fisher",
+        "name": "Franklin M. Fisher",
+        "students": [
+            "Stanley Fischer",
+            "Michael Rothschild",
+            "Richard L. Schmalensee",
+            "Charles F. Manski",
+            "Mark J. Machina",
+            "Douglas Bernheim",
+            "Michael Whinston",
+            "Nancy Rose",
+            "Robert W. Vishny",
+            "Andrei Shleifer"
+        ]
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Sendhil_Mullainathan",
+        "name": "Sendhil Mullainathan"
+    },
+    {
+        "advisors": [
+            "Ariel Pakes",
+            "Andrei Shleifer"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Matthew_Gentzkow",
+        "name": "Matthew Gentzkow"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/James_M._Poterba",
+        "name": "James M. Poterba",
+        "students": [
+            "David Cutler",
+            "Luigi Zingales",
+            "Andrew Samwick",
+            "Caroline Hoxby",
+            "Steven Levitt",
+            "Emmanuel Saez",
+            "Amy Finkelstein",
+            "Stefanie Stantcheva"
+        ]
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/William_Hoban_Branson",
+        "name": "William Hoban Branson"
+    },
+    {
+        "advisors": [
+            "Guy Orcutt",
+            "James Duesenberry"
+        ],
+        "link": "https://en.wikipedia.org/wiki/John_R._Meyer",
+        "name": "John R. Meyer",
+        "students": [
+            "Franklin M. Fisher",
+            "Thomas Sargent"
+        ]
+    },
+    {
+        "advisors": [
+            "Franklin M. Fisher"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Stanley_Fischer_%2814152693510%29.jpg/220px-Stanley_Fischer_%2814152693510%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Stanley_Fischer",
+        "name": "Stanley Fischer",
+        "students": [
+            "Zvi Bodie",
+            "Isher Judge Ahluwalia",
+            "Frederic Mishkin",
+            "Steven M. Sheffrin",
+            "Olivier Blanchard",
+            "Ben Bernanke",
+            "David Hsieh",
+            "Kenneth D. West",
+            "Greg Mankiw",
+            "Jeffrey Miron",
+            "Mark Bils",
+            "David Romer",
+            "Ricardo J. Caballero",
+            "D. Nathan Sheets",
+            "Ilan Goldfajn"
+        ]
+    },
+    {
+        "advisors": [
+            "Franklin M. Fisher"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Michael_Rothschild",
+        "name": "Michael Rothschild",
+        "students": [
+            "Oliver Hart (economist)"
+        ]
+    },
+    {
+        "advisors": [
+            "Franklin M. Fisher"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Richard_L._Schmalensee",
+        "name": "Richard L. Schmalensee",
+        "students": [
+            "Carl Shapiro"
+        ]
+    },
+    {
+        "advisors": [
+            "Franklin M. Fisher"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Charles_F._Manski",
+        "name": "Charles F. Manski"
+    },
+    {
+        "advisors": [
+            "Franklin M. Fisher"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Mark_J._Machina",
+        "name": "Mark J. Machina"
+    },
+    {
+        "advisors": [
+            "Franklin M. Fisher"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Douglas_Bernheim",
+        "name": "Douglas Bernheim"
+    },
+    {
+        "advisors": [
+            "Franklin M. Fisher"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Michael_Whinston",
+        "name": "Michael Whinston"
+    },
+    {
+        "advisors": [
+            "Paul Joskow",
+            "Franklin M. Fisher"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Nancy_Rose",
+        "name": "Nancy Rose"
+    },
+    {
+        "advisors": [
+            "Franklin M. Fisher",
+            "Eric Maskin"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Robert_W._Vishny",
+        "name": "Robert W. Vishny"
+    },
+    {
+        "advisors": [
+            "Zvi Griliches"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ariel_Pakes",
+        "name": "Ariel Pakes",
+        "students": [
+            "Steven T. Berry",
+            "Matthew Gentzkow",
+            "Emi Nakamura"
+        ]
+    },
+    {
+        "advisors": [
+            "James M. Poterba"
+        ],
+        "link": "https://en.wikipedia.org/wiki/David_Cutler",
+        "name": "David Cutler",
+        "students": [
+            "Heidi Williams"
+        ]
+    },
+    {
+        "advisors": [
+            "James M. Poterba",
+            "Oliver Hart (economist)"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/3/32/Luigi_Zingales_2012.jpg/220px-Luigi_Zingales_2012.jpg",
+        "link": "https://en.wikipedia.org/wiki/Luigi_Zingales",
+        "name": "Luigi Zingales"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Andrew_Samwick",
+        "name": "Andrew Samwick"
+    },
+    {
+        "advisors": [
+            "James M. Poterba"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Caroline_Hoxby",
+        "name": "Caroline Hoxby"
+    },
+    {
+        "advisors": [
+            "James M. Poterba"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/2/20/Steven_Levitt%2C_2012.jpg/220px-Steven_Levitt%2C_2012.jpg",
+        "link": "https://en.wikipedia.org/wiki/Steven_Levitt",
+        "name": "Steven Levitt",
+        "students": [
+            "Brian Jacob"
+        ]
+    },
+    {
+        "advisors": [
+            "James M. Poterba",
+            "Jonathan Gruber (economist)"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Amy_Finkelstein",
+        "name": "Amy Finkelstein",
+        "students": [
+            "Heidi Williams"
+        ]
+    },
+    {
+        "advisors": [
+            "James M. Poterba",
+            "Iv\u00e1n Werning"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Stefanie_Stantcheva",
+        "name": "Stefanie Stantcheva"
+    },
+    {
+        "advisors": [],
+        "link": "https://en.wikipedia.org/wiki/Guy_Orcutt",
+        "name": "Guy Orcutt",
+        "students": [
+            "Edwin Kuh",
+            "John R. Meyer"
+        ]
+    },
+    {
+        "advisors": [],
+        "link": "https://en.wikipedia.org/wiki/James_Duesenberry",
+        "name": "James Duesenberry",
+        "students": [
+            "Thomas Schelling",
+            "Edwin Kuh",
+            "John R. Meyer",
+            "Harry Gordon Johnson"
+        ]
+    },
+    {
+        "advisors": [
+            "John R. Meyer"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/4/45/Nobel_Prize_2011-Press_Conference_KVA-DSC_7770.jpg/220px-Nobel_Prize_2011-Press_Conference_KVA-DSC_7770.jpg",
+        "link": "https://en.wikipedia.org/wiki/Thomas_Sargent",
+        "name": "Thomas Sargent",
+        "students": [
+            "Martin Eichenbaum",
+            "Lawrence J. Christiano",
+            "Danny Quah",
+            "Sagiri Kitao"
+        ]
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Zvi_Bodie",
+        "name": "Zvi Bodie"
+    },
+    {
+        "advisors": [
+            "Stanley Fischer"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/4/47/Isher_Judge_Ahluwalia.png/220px-Isher_Judge_Ahluwalia.png",
+        "link": "https://en.wikipedia.org/wiki/Isher_Judge_Ahluwalia",
+        "name": "Isher Judge Ahluwalia"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/2/2e/Frederic_Mishkin%2C_Federal_Reserve_photo_portrait.jpg",
+        "link": "https://en.wikipedia.org/wiki/Frederic_Mishkin",
+        "name": "Frederic Mishkin"
+    },
+    {
+        "advisors": [
+            "Stanley Fischer"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Steven_M._Sheffrin",
+        "name": "Steven M. Sheffrin"
+    },
+    {
+        "advisors": [
+            "Stanley Fischer"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/4/45/Oliver_Blanchard%2C_IMF_98BlanchardWEO1_lg.jpg/220px-Oliver_Blanchard%2C_IMF_98BlanchardWEO1_lg.jpg",
+        "link": "https://en.wikipedia.org/wiki/Olivier_Blanchard",
+        "name": "Olivier Blanchard",
+        "students": [
+            "Fumio Hayashi",
+            "Nobuhiro Kiyotaki",
+            "Roland B\u00e9nabou",
+            "Michael C. Burda",
+            "Ricardo J. Caballero",
+            "Jordi Gal\u00ed",
+            "Anil Kashyap",
+            "Gilles Saint-Paul",
+            "Janice Eberly",
+            "Charles I. Jones",
+            "David Laibson",
+            "Pierre-Olivier Gourinchas",
+            "Robert Shimer",
+            "Augustin Landier",
+            "Justin Wolfers",
+            "Thomas Philippon"
+        ]
+    },
+    {
+        "advisors": [
+            "Stanley Fischer"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ben_Bernanke_official_portrait.jpg/220px-Ben_Bernanke_official_portrait.jpg",
+        "link": "https://en.wikipedia.org/wiki/Ben_Bernanke",
+        "name": "Ben Bernanke"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/David_Hsieh",
+        "name": "David Hsieh"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Kenneth_D._West",
+        "name": "Kenneth D. West"
+    },
+    {
+        "advisors": [
+            "Stanley Fischer"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/9/91/GregoryMankiw.jpg",
+        "link": "https://en.wikipedia.org/wiki/Greg_Mankiw",
+        "name": "Greg Mankiw",
+        "students": [
+            "Miles Kimball",
+            "Xavier Sala-i-Martin",
+            "Karen Dynan",
+            "Jason Furman",
+            "Ricardo Reis"
+        ]
+    },
+    {
+        "advisors": [
+            "Stanley Fischer"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Jeffrey_Miron",
+        "name": "Jeffrey Miron"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Mark_Bils",
+        "name": "Mark Bils"
+    },
+    {
+        "advisors": [
+            "Stanley Fischer"
+        ],
+        "link": "https://en.wikipedia.org/wiki/David_Romer",
+        "name": "David Romer"
+    },
+    {
+        "advisors": [
+            "Olivier Blanchard",
+            "Stanley Fischer"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ricardo_J._Caballero",
+        "name": "Ricardo J. Caballero",
+        "students": [
+            "Mark Aguiar",
+            "Thomas Philippon",
+            "Emmanuel Farhi"
+        ]
+    },
+    {
+        "advisors": [
+            "Rudiger Dornbusch",
+            "Stanley Fischer"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Nathansheets2014.jpg/220px-Nathansheets2014.jpg",
+        "link": "https://en.wikipedia.org/wiki/D._Nathan_Sheets",
+        "name": "D. Nathan Sheets"
+    },
+    {
+        "advisors": [
+            "Rudiger Dornbusch",
+            "Stanley Fischer"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Ilan_Goldfajn.jpg/220px-Ilan_Goldfajn.jpg",
+        "link": "https://en.wikipedia.org/wiki/Ilan_Goldfajn",
+        "name": "Ilan Goldfajn"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Nobel_Laureates_0983_%2831117127490%29.jpg/220px-Nobel_Laureates_0983_%2831117127490%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Oliver_Hart_(economist)",
+        "name": "Oliver Hart (economist)"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Carl_Shapiro",
+        "name": "Carl Shapiro"
+    },
+    {
+        "advisors": [
+            "Richard R. Nelson"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Paul_Joskow",
+        "name": "Paul Joskow",
+        "students": [
+            "Nancy Rose",
+            "Judith Chevalier"
+        ]
+    },
+    {
+        "advisors": [
+            "Kenneth Arrow"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/0/07/05N3441_emaskin.jpg/220px-05N3441_emaskin.jpg",
+        "link": "https://en.wikipedia.org/wiki/Eric_Maskin",
+        "name": "Eric Maskin",
+        "students": [
+            "Jean Tirole",
+            "Drew Fudenberg",
+            "Robert W. Vishny",
+            "Mathias Dewatripont",
+            "David S. Scharfstein",
+            "Abhijit Banerjee"
+        ]
+    },
+    {
+        "advisors": [
+            "Theodore Schultz",
+            "Arnold Harberger"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Zvi_Griliches",
+        "name": "Zvi Griliches",
+        "students": [
+            "Yehuda Grunfeld",
+            "G. S. Maddala",
+            "Robert Barro",
+            "Ariel Pakes",
+            "David Neumark",
+            "Eli Berman"
+        ]
+    },
+    {
+        "advisors": [
+            "Ari\u00e9l Pakes"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Steven_T._Berry",
+        "name": "Steven T. Berry"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Emi_Nakamura",
+        "name": "Emi Nakamura"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Heidi_Williams",
+        "name": "Heidi Williams"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Brian_Jacob",
+        "name": "Brian Jacob"
+    },
+    {
+        "advisors": [
+            "Lawrence F. Katz"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Jonathan_Gruber_at_US_House_Oversight_Cmte_in_2014.jpg/220px-Jonathan_Gruber_at_US_House_Oversight_Cmte_in_2014.jpg",
+        "link": "https://en.wikipedia.org/wiki/Jonathan_Gruber_(economist)",
+        "name": "Jonathan Gruber (economist)",
+        "students": [
+            "Susan Dynarski",
+            "Amy Finkelstein",
+            "Ebonya Washington"
+        ]
+    },
+    {
+        "advisors": [
+            "Fernando Alvarez (economist)"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Iv%C3%A1n_Werning",
+        "name": "Iv%C3%A1n Werning",
+        "students": [
+            "Emmanuel Farhi",
+            "Stefanie Stantcheva"
+        ]
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Edwin_Kuh",
+        "name": "Edwin Kuh"
+    },
+    {
+        "advisors": [
+            "Wassily Leontief",
+            "James Duesenberry"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/6/63/Thomas_Schelling.jpg/220px-Thomas_Schelling.jpg",
+        "link": "https://en.wikipedia.org/wiki/Thomas_Schelling",
+        "name": "Thomas Schelling",
+        "students": [
+            "A. Michael Spence",
+            "Eli Noam"
+        ]
+    },
+    {
+        "advisors": [
+            "James Duesenberry"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Harry_Gordon_Johnson",
+        "name": "Harry Gordon Johnson"
+    },
+    {
+        "advisors": [
+            "Thomas J. Sargent"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Martin_Eichenbaum",
+        "name": "Martin Eichenbaum"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Lawrence_J._Christiano",
+        "name": "Lawrence J. Christiano"
+    },
+    {
+        "advisors": [
+            "Thomas Sargent"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/9/97/2013.04.23-Danny_Quah-KL-UOLIP-0216.JPG/275px-2013.04.23-Danny_Quah-KL-UOLIP-0216.JPG",
+        "link": "https://en.wikipedia.org/wiki/Danny_Quah",
+        "name": "Danny Quah"
+    },
+    {
+        "advisors": [
+            "Thomas J. Sargent"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Sagiri_Kitao",
+        "name": "Sagiri Kitao"
+    },
+    {
+        "advisors": [
+            "Dale W. Jorgenson",
+            "Olivier Blanchard"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Fumio_Hayashi",
+        "name": "Fumio Hayashi"
+    },
+    {
+        "advisors": [
+            "Olivier Blanchard"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Nobuhiro_Kiyotaki",
+        "name": "Nobuhiro Kiyotaki",
+        "students": [
+            "Luis Carranza"
+        ]
+    },
+    {
+        "advisors": [
+            "Olivier Blanchard",
+            "Jean Tirole"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Roland_B%C3%A9nabou",
+        "name": "Roland B%C3%A9nabou",
+        "students": [
+            "Eduardo Engel",
+            "David Laibson"
+        ]
+    },
+    {
+        "advisors": [
+            "Jeffrey Sachs",
+            "Olivier Blanchard"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Michael_C._Burda_-_Festival_Economia_2016.jpg/250px-Michael_C._Burda_-_Festival_Economia_2016.jpg",
+        "link": "https://en.wikipedia.org/wiki/Michael_C._Burda",
+        "name": "Michael C. Burda"
+    },
+    {
+        "advisors": [
+            "Olivier Blanchard"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Jordi_Gal%C3%AD_2014_%28cropped%29.jpg/220px-Jordi_Gal%C3%AD_2014_%28cropped%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Jordi_Gal%C3%AD",
+        "name": "Jordi Gal%C3%AD"
+    },
+    {
+        "advisors": [
+            "Olivier Blanchard"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Anil_Kashyap",
+        "name": "Anil Kashyap"
+    },
+    {
+        "advisors": [
+            "Olivier Blanchard"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Gilles_Saint-Paul",
+        "name": "Gilles Saint-Paul"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Janice_Eberly.jpg/220px-Janice_Eberly.jpg",
+        "link": "https://en.wikipedia.org/wiki/Janice_Eberly",
+        "name": "Janice Eberly"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Charles_I._Jones",
+        "name": "Charles I. Jones"
+    },
+    {
+        "advisors": [
+            "Olivier Jean Blanchard",
+            "Roland B\u00e9nabou"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/2/2b/David_laibson_2007.jpg/220px-David_laibson_2007.jpg",
+        "link": "https://en.wikipedia.org/wiki/David_Laibson",
+        "name": "David Laibson"
+    },
+    {
+        "advisors": [
+            "Olivier Blanchard",
+            "Daron Acemoglu"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Robert_Shimer",
+        "name": "Robert Shimer"
+    },
+    {
+        "advisors": [
+            "Lawrence F. Katz",
+            "Olivier Blanchard"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/4/46/Justin_Wolfers_2012.jpg/220px-Justin_Wolfers_2012.jpg",
+        "link": "https://en.wikipedia.org/wiki/Justin_Wolfers",
+        "name": "Justin Wolfers"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Thomas_Philippon",
+        "name": "Thomas Philippon"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Miles_Kimball",
+        "name": "Miles Kimball"
+    },
+    {
+        "advisors": [
+            "Robert J. Barro",
+            "N. Gregory Mankiw"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/5/58/Economia_en_colors_-_2015_20151001_2038732740.jpg/220px-Economia_en_colors_-_2015_20151001_2038732740.jpg",
+        "link": "https://en.wikipedia.org/wiki/Xavier_Sala-i-Martin",
+        "name": "Xavier Sala-i-Martin"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Karen_Dynan",
+        "name": "Karen Dynan"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/7/73/Jason_Furman_official_portrait.jpg/220px-Jason_Furman_official_portrait.jpg",
+        "link": "https://en.wikipedia.org/wiki/Jason_Furman",
+        "name": "Jason Furman"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Ricardo_Reis",
+        "name": "Ricardo Reis"
+    },
+    {
+        "advisors": [
+            "Ricardo J. Caballero",
+            "Daron Acemoglu"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Mark_Aguiar",
+        "name": "Mark Aguiar"
+    },
+    {
+        "advisors": [
+            "Ricardo J. Caballero",
+            "Iv\u00e1n Werning"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Emmanuel_Farhi",
+        "name": "Emmanuel Farhi"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Rudiger_Dornbusch",
+        "name": "Rudiger Dornbusch"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Richard_R._Nelson",
+        "name": "Richard R. Nelson"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Judith_Chevalier",
+        "name": "Judith Chevalier"
+    },
+    {
+        "advisors": [
+            "Harold Hotelling"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/9/9d/Kenneth_Arrow%2C_Stanford_University.jpg",
+        "link": "https://en.wikipedia.org/wiki/Kenneth_Arrow",
+        "name": "Kenneth Arrow",
+        "students": [
+            "Michael Bruno",
+            "John Geanakoplos",
+            "Nancy Gordon",
+            "John Harsanyi",
+            "Jan Kmenta",
+            "Jean-Jacques Laffont",
+            "Eric S. Maskin",
+            "Roger Myerson",
+            "Andrea Prat",
+            "Karl Shell",
+            "Michael Spence",
+            "Nancy Stokey"
+        ]
+    },
+    {
+        "advisors": [
+            "Eric Maskin"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/6/68/Jean_Tirole_%28cropped%29.jpg/220px-Jean_Tirole_%28cropped%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Jean_Tirole",
+        "name": "Jean Tirole",
+        "students": [
+            "Roland B\u00e9nabou"
+        ]
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Drew_Fudenberg",
+        "name": "Drew Fudenberg"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Mathias_Dewatripont",
+        "name": "Mathias Dewatripont"
+    },
+    {
+        "advisors": [
+            "Oliver Hart (economist)",
+            "Eric Maskin"
+        ],
+        "link": "https://en.wikipedia.org/wiki/David_S._Scharfstein",
+        "name": "David S. Scharfstein",
+        "students": [
+            "Judith Chevalier"
+        ]
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Abhijit_Banerjee",
+        "name": "Abhijit Banerjee"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/b/b4/Theodore_Schultz.jpg",
+        "link": "https://en.wikipedia.org/wiki/Theodore_Schultz",
+        "name": "Theodore Schultz"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Arnold_Harberger",
+        "name": "Arnold Harberger"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Yehuda_Grunfeld",
+        "name": "Yehuda Grunfeld"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/G._S._Maddala",
+        "name": "G. S. Maddala"
+    },
+    {
+        "advisors": [
+            "Zvi Griliches"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Robert_Barro",
+        "name": "Robert Barro",
+        "students": [
+            "Zvi Hercowitz",
+            "Xavier Sala-i-Martin",
+            "Xavier Gabaix",
+            "George-Marios Angeletos",
+            "Emi Nakamura"
+        ]
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/David_Neumark",
+        "name": "David Neumark"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Eli_Berman",
+        "name": "Eli Berman"
+    },
+    {
+        "advisors": [
+            "Zvi Griliches"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ari%C3%A9l_Pakes",
+        "name": "Ari%C3%A9l Pakes",
+        "students": [
+            "Steven T. Berry",
+            "Matthew Gentzkow",
+            "Emi Nakamura"
+        ]
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Lawrence_F._Katz",
+        "name": "Lawrence F. Katz"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Susan_Dynarski",
+        "name": "Susan Dynarski"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Ebonya_Washington",
+        "name": "Ebonya Washington"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Fernando_Alvarez_(economist)",
+        "name": "Fernando Alvarez (economist)"
+    },
+    {
+        "advisors": [
+            "Kenneth Arrow",
+            "Thomas Schelling"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/a6/A_Michael_Spence.jpg/180px-A_Michael_Spence.jpg",
+        "link": "https://en.wikipedia.org/wiki/A._Michael_Spence",
+        "name": "A. Michael Spence"
+    },
+    {
+        "advisors": [
+            "Martin Feldstein",
+            "Thomas Schelling"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/9/91/Eli_Noam.png/220px-Eli_Noam.png",
+        "link": "https://en.wikipedia.org/wiki/Eli_Noam",
+        "name": "Eli Noam"
+    },
+    {
+        "advisors": [
+            "John R. Meyer"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/4/45/Nobel_Prize_2011-Press_Conference_KVA-DSC_7770.jpg/220px-Nobel_Prize_2011-Press_Conference_KVA-DSC_7770.jpg",
+        "link": "https://en.wikipedia.org/wiki/Thomas_J._Sargent",
+        "name": "Thomas J. Sargent",
+        "students": [
+            "Martin Eichenbaum",
+            "Lawrence J. Christiano",
+            "Danny Quah",
+            "Sagiri Kitao"
+        ]
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Dale_W._Jorgenson",
+        "name": "Dale W. Jorgenson"
+    },
+    {
+        "advisors": [
+            "Persi Diaconis",
+            "Ph.D.",
+            "Roland B\u00e9nabou"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Eduardo_Engel.jpg/220px-Eduardo_Engel.jpg",
+        "link": "https://en.wikipedia.org/wiki/Eduardo_Engel",
+        "name": "Eduardo Engel"
+    },
+    {
+        "advisors": [
+            "Martin Feldstein"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/8/88/Jeffrey_D._Sachs_-_World_Economic_Forum_on_East_Asia_2011.jpg/220px-Jeffrey_D._Sachs_-_World_Economic_Forum_on_East_Asia_2011.jpg",
+        "link": "https://en.wikipedia.org/wiki/Jeffrey_Sachs",
+        "name": "Jeffrey Sachs",
+        "students": [
+            "Alberto Alesina",
+            "Michael C. Burda"
+        ]
+    },
+    {
+        "advisors": [
+            "Stanley Fischer"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/4/45/Oliver_Blanchard%2C_IMF_98BlanchardWEO1_lg.jpg/220px-Oliver_Blanchard%2C_IMF_98BlanchardWEO1_lg.jpg",
+        "link": "https://en.wikipedia.org/wiki/Olivier_Jean_Blanchard",
+        "name": "Olivier Jean Blanchard",
+        "students": [
+            "Fumio Hayashi",
+            "Nobuhiro Kiyotaki",
+            "Roland B\u00e9nabou",
+            "Michael C. Burda",
+            "Ricardo J. Caballero",
+            "Jordi Gal\u00ed",
+            "Anil Kashyap",
+            "Gilles Saint-Paul",
+            "Janice Eberly",
+            "Charles I. Jones",
+            "David Laibson",
+            "Pierre-Olivier Gourinchas",
+            "Robert Shimer",
+            "Augustin Landier",
+            "Justin Wolfers",
+            "Thomas Philippon"
+        ]
+    },
+    {
+        "advisors": [
+            "Kevin W. S. Roberts"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/7/75/Acemoglu_2016.png/220px-Acemoglu_2016.png",
+        "link": "https://en.wikipedia.org/wiki/Daron_Acemoglu",
+        "name": "Daron Acemoglu",
+        "students": [
+            "Robert Shimer",
+            "Mark Aguiar",
+            "Pol Antr\u00e0s",
+            "Gabriel Carroll",
+            "Melissa Dell"
+        ]
+    },
+    {
+        "advisors": [
+            "Zvi Griliches"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Robert_J._Barro",
+        "name": "Robert J. Barro",
+        "students": [
+            "Zvi Hercowitz",
+            "Xavier Sala-i-Martin",
+            "Xavier Gabaix",
+            "George-Marios Angeletos",
+            "Emi Nakamura"
+        ]
+    },
+    {
+        "advisors": [
+            "Stanley Fischer"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/9/91/GregoryMankiw.jpg",
+        "link": "https://en.wikipedia.org/wiki/N._Gregory_Mankiw",
+        "name": "N. Gregory Mankiw",
+        "students": [
+            "Miles Kimball",
+            "Xavier Sala-i-Martin",
+            "Karen Dynan",
+            "Jason Furman",
+            "Ricardo Reis"
+        ]
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/4/49/Harold_Hotelling.jpg/220px-Harold_Hotelling.jpg",
+        "link": "https://en.wikipedia.org/wiki/Harold_Hotelling",
+        "name": "Harold Hotelling"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Michael_Bruno",
+        "name": "Michael Bruno"
+    },
+    {
+        "advisors": [
+            "Kenneth Arrow"
+        ],
+        "link": "https://en.wikipedia.org/wiki/John_Geanakoplos",
+        "name": "John Geanakoplos",
+        "students": [
+            "Stephen Morris (game theorist)"
+        ]
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/6/6b/John_Harsanyi.jpg",
+        "link": "https://en.wikipedia.org/wiki/John_Harsanyi",
+        "name": "John Harsanyi"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Jan_Kmenta",
+        "name": "Jan Kmenta"
+    },
+    {
+        "advisors": [
+            "Kenneth Arrow"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Jean-Jacques_Laffont",
+        "name": "Jean-Jacques Laffont",
+        "students": [
+            "Roger Guesnerie",
+            "Gilbert Ak\u00e9",
+            "David Martimort"
+        ]
+    },
+    {
+        "advisors": [
+            "Kenneth Arrow"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/0/07/05N3441_emaskin.jpg/220px-05N3441_emaskin.jpg",
+        "link": "https://en.wikipedia.org/wiki/Eric_S._Maskin",
+        "name": "Eric S. Maskin",
+        "students": [
+            "Jean Tirole",
+            "Drew Fudenberg",
+            "Robert W. Vishny",
+            "Mathias Dewatripont",
+            "David S. Scharfstein",
+            "Abhijit Banerjee"
+        ]
+    },
+    {
+        "advisors": [
+            "Kenneth Arrow"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/f/f6/Myerson_roger_b_print.jpg",
+        "link": "https://en.wikipedia.org/wiki/Roger_Myerson",
+        "name": "Roger Myerson",
+        "students": [
+            "Scott E. Page"
+        ]
+    },
+    {
+        "advisors": [
+            "Kenneth J. Arrow"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Andrea_Prat.jpg/220px-Andrea_Prat.jpg",
+        "link": "https://en.wikipedia.org/wiki/Andrea_Prat",
+        "name": "Andrea Prat"
+    },
+    {
+        "advisors": [
+            "Kenneth Arrow",
+            "Hirofumi Uzawa"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Karl_Shell",
+        "name": "Karl Shell"
+    },
+    {
+        "advisors": [
+            "Kenneth Arrow",
+            "Thomas Schelling"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/a6/A_Michael_Spence.jpg/180px-A_Michael_Spence.jpg",
+        "link": "https://en.wikipedia.org/wiki/Michael_Spence",
+        "name": "Michael Spence"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Nancy_Stokey",
+        "name": "Nancy Stokey"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Zvi_Hercowitz",
+        "name": "Zvi Hercowitz"
+    },
+    {
+        "advisors": [
+            "Robert Barro"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Xavier_Gabaix",
+        "name": "Xavier Gabaix"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/George-Marios_Angeletos",
+        "name": "George-Marios Angeletos"
+    },
+    {
+        "advisors": [
+            "W. M. Gorman"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Martin_Feldstein",
+        "name": "Martin Feldstein",
+        "students": [
+            "Harvey S. Rosen",
+            "Eli Noam",
+            "Jeffrey Sachs",
+            "Joel Slemrod",
+            "Douglas Elmendorf",
+            "Jeffrey Liebman",
+            "Raj Chetty"
+        ]
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Persi_Diaconis_2010.jpg/220px-Persi_Diaconis_2010.jpg",
+        "link": "https://en.wikipedia.org/wiki/Persi_Diaconis",
+        "name": "Persi Diaconis"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Ph.D.",
+        "name": "Ph.D."
+    },
+    {
+        "advisors": [
+            "Jeffrey Sachs"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Alberto_Alesina_%282013%29.jpg/220px-Alberto_Alesina_%282013%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Alberto_Alesina",
+        "name": "Alberto Alesina",
+        "students": [
+            "Silvana Tenreyro"
+        ]
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Kevin_W._S._Roberts",
+        "name": "Kevin W. S. Roberts",
+        "students": [
+            "Daron Acemoglu"
+        ]
+    },
+    {
+        "advisors": [
+            "Daron Acemoglu"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Pol_Antr%C3%A0s",
+        "name": "Pol Antr%C3%A0s"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Gabriel_Carroll",
+        "name": "Gabriel Carroll"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Melissa_Dell",
+        "name": "Melissa Dell"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Stephen_Morris_(game_theorist)",
+        "name": "Stephen Morris (game theorist)"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Roger_Guesnerie",
+        "name": "Roger Guesnerie"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Gilbert_Ak%C3%A9",
+        "name": "Gilbert Ak%C3%A9"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/David_Martimort",
+        "name": "David Martimort"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Scott_E._Page",
+        "name": "Scott E. Page"
+    },
+    {
+        "advisors": [
+            "Harold Hotelling"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/9/9d/Kenneth_Arrow%2C_Stanford_University.jpg",
+        "link": "https://en.wikipedia.org/wiki/Kenneth_J._Arrow",
+        "name": "Kenneth J. Arrow",
+        "students": [
+            "Michael Bruno",
+            "John Geanakoplos",
+            "Nancy Gordon",
+            "John Harsanyi",
+            "Jan Kmenta",
+            "Jean-Jacques Laffont",
+            "Eric S. Maskin",
+            "Roger Myerson",
+            "Andrea Prat",
+            "Karl Shell",
+            "Michael Spence",
+            "Nancy Stokey"
+        ]
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Hirofumi_Uzawa",
+        "name": "Hirofumi Uzawa"
+    },
+    {
+        "advisors": [
+            "George Alexander Duncan"
+        ],
+        "link": "https://en.wikipedia.org/wiki/W._M._Gorman",
+        "name": "W. M. Gorman",
+        "students": [
+            "Edwin Mills (economist)",
+            "Martin Feldstein",
+            "Tim Besley",
+            "Stephen Nickell",
+            "Anthony Shorrocks",
+            "James M. Poterba"
+        ]
+    },
+    {
+        "advisors": [
+            "Martin Feldstein"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Harvey_S._Rosen",
+        "name": "Harvey S. Rosen",
+        "students": [
+            "Douglas Holtz-Eakin"
+        ]
+    },
+    {
+        "advisors": [
+            "Martin Feldstein"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/7/7d/Joel_Slemrod_C-SPAN.jpg",
+        "link": "https://en.wikipedia.org/wiki/Joel_Slemrod",
+        "name": "Joel Slemrod"
+    },
+    {
+        "advisors": [
+            "Martin Feldstein"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Douglas_Elmendorf",
+        "name": "Douglas Elmendorf"
+    },
+    {
+        "advisors": [
+            "Martin Feldstein",
+            "Lawrence F. Katz"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Jeffrey_Liebman",
+        "name": "Jeffrey Liebman"
+    },
+    {
+        "advisors": [
+            "Martin Feldstein"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Raj_Chetty",
+        "name": "Raj Chetty"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/a8/London.bankofengland.arp.jpg/170px-London.bankofengland.arp.jpg",
+        "link": "https://en.wikipedia.org/wiki/Silvana_Tenreyro",
+        "name": "Silvana Tenreyro"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/George_Alexander_Duncan",
+        "name": "George Alexander Duncan"
+    },
+    {
+        "advisors": [
+            "Frank Hahn",
+            "W. M. Gorman"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Edwin_Mills_(economist)",
+        "name": "Edwin Mills (economist)",
+        "students": [
+            "Ryuzo Sato",
+            "Robert Higgs",
+            "Herschel Grossman",
+            "Paul Courant"
+        ]
+    },
+    {
+        "advisors": [
+            "W.M. Gorman"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Tim_Besley",
+        "name": "Tim Besley",
+        "students": [
+            "Dave Donaldson (economist)",
+            "Rohini Pande"
+        ]
+    },
+    {
+        "advisors": [
+            "Frank Hahn",
+            "W. M. Gorman"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/d/dd/Stephen_Nickell.jpg",
+        "link": "https://en.wikipedia.org/wiki/Stephen_Nickell",
+        "name": "Stephen Nickell",
+        "students": [
+            "Jan Hatzius",
+            "Wikipedia:Citation needed",
+            "Gina Raimondo"
+        ]
+    },
+    {
+        "advisors": [
+            "Frank Hahn",
+            "Terence Gorman"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Anthony_Shorrocks",
+        "name": "Anthony Shorrocks"
+    },
+    {
+        "advisors": [
+            "Harvey S. Rosen"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Douglas_Holtz-Eakin",
+        "name": "Douglas Holtz-Eakin"
+    },
+    {
+        "advisors": [
+            "Nicholas Kaldor",
+            "Lionel Robbins"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Frank_Hahn.jpg/230px-Frank_Hahn.jpg",
+        "link": "https://en.wikipedia.org/wiki/Frank_Hahn",
+        "name": "Frank Hahn",
+        "students": [
+            "Edwin Mills (economist)",
+            "Stephen Nickell",
+            "Anthony Shorrocks"
+        ]
+    },
+    {
+        "advisors": [
+            "Edwin Mills (economist)"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ryuzo_Sato",
+        "name": "Ryuzo Sato",
+        "students": [
+            "Phillip Kott"
+        ]
+    },
+    {
+        "advisors": [
+            "Edwin Mills (economist)"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/b/be/Robert_Higgs-independent.jpg/220px-Robert_Higgs-independent.jpg",
+        "link": "https://en.wikipedia.org/wiki/Robert_Higgs",
+        "name": "Robert Higgs",
+        "students": [
+            "Price V. Fishback"
+        ]
+    },
+    {
+        "advisors": [
+            "Carl Christ",
+            "Edwin Mills (economist)"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Herschel_Grossman",
+        "name": "Herschel Grossman",
+        "students": [
+            "Robert King (economist)"
+        ]
+    },
+    {
+        "advisors": [
+            "Edwin Mills (economist)"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Paul_Courant",
+        "name": "Paul Courant"
+    },
+    {
+        "advisors": [
+            "George Alexander Duncan"
+        ],
+        "link": "https://en.wikipedia.org/wiki/W.M._Gorman",
+        "name": "W.M. Gorman",
+        "students": [
+            "Edwin Mills (economist)",
+            "Martin Feldstein",
+            "Tim Besley",
+            "Stephen Nickell",
+            "Anthony Shorrocks",
+            "James M. Poterba"
+        ]
+    },
+    {
+        "advisors": [
+            "Tim Besley",
+            "Robin Burgess"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Dave_Donaldson_(economist)",
+        "name": "Dave Donaldson (economist)"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Rohini_Pande",
+        "name": "Rohini Pande"
+    },
+    {
+        "advisors": [
+            "Stephen Nickell"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Jan_Hatzius",
+        "name": "Jan Hatzius"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/1/1d/Information_icon4.svg/40px-Information_icon4.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Wikipedia:Citation_needed",
+        "name": "Wikipedia:Citation needed"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/e/e3/RI_Governor_Gina_Raimondo_Bristol_parade_%28cropped%29.jpg/220px-RI_Governor_Gina_Raimondo_Bristol_parade_%28cropped%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Gina_Raimondo",
+        "name": "Gina Raimondo"
+    },
+    {
+        "advisors": [
+            "George Alexander Duncan"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Terence_Gorman",
+        "name": "Terence Gorman",
+        "students": [
+            "Edwin Mills (economist)",
+            "Martin Feldstein",
+            "Tim Besley",
+            "Stephen Nickell",
+            "Anthony Shorrocks",
+            "James M. Poterba"
+        ]
+    },
+    {
+        "advisors": [
+            "Allyn Abbott Young",
+            "Lionel Robbins"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/a/a7/Nicholas_Kaldor.jpg",
+        "link": "https://en.wikipedia.org/wiki/Nicholas_Kaldor",
+        "name": "Nicholas Kaldor",
+        "students": [
+            "Frank Hahn"
+        ]
+    },
+    {
+        "advisors": [
+            "Edwin Cannan"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/d/da/Lionel_Robbins.jpg/220px-Lionel_Robbins.jpg",
+        "link": "https://en.wikipedia.org/wiki/Lionel_Robbins",
+        "name": "Lionel Robbins",
+        "students": [
+            "Nicholas Kaldor",
+            "Amiya Kumar Dasgupta",
+            "Abba P. Lerner",
+            "William Baumol",
+            "Frank Hahn"
+        ]
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Phillip_Kott",
+        "name": "Phillip Kott"
+    },
+    {
+        "advisors": [
+            "Robert Higgs"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Price_V._Fishback",
+        "name": "Price V. Fishback"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Carl_Christ",
+        "name": "Carl Christ"
+    },
+    {
+        "advisors": [
+            "Herschel Grossman",
+            "William Poole (economist)"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Robert_King_(economist)",
+        "name": "Robert King (economist)",
+        "students": [
+            "Gary Gorton",
+            "Sergio Rebelo"
+        ]
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/0/03/Robin_Burgess%2C_2013.jpg/200px-Robin_Burgess%2C_2013.jpg",
+        "link": "https://en.wikipedia.org/wiki/Robin_Burgess",
+        "name": "Robin Burgess"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Allyn_Abbott_Young",
+        "name": "Allyn Abbott Young"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/34px-Wikiquote-logo.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Edwin_Cannan",
+        "name": "Edwin Cannan"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Amiya_Kumar_Dasgupta",
+        "name": "Amiya Kumar Dasgupta"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/b/b7/Abba_Lerner.jpg",
+        "link": "https://en.wikipedia.org/wiki/Abba_P._Lerner",
+        "name": "Abba P. Lerner"
+    },
+    {
+        "advisors": [
+            "Lionel Robbins"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/a/a5/William_Baumol.jpg/220px-William_Baumol.jpg",
+        "link": "https://en.wikipedia.org/wiki/William_Baumol",
+        "name": "William Baumol",
+        "students": [
+            "Lionel W. McKenzie",
+            "William G. Bowen",
+            "Burton Malkiel",
+            "Harold Tafler Shapiro"
+        ]
+    },
+    {
+        "advisors": [
+            "Merton Miller"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/4/46/William_Poole_%2814103256133%29_%28cropped%29.jpg/220px-William_Poole_%2814103256133%29_%28cropped%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/William_Poole_(economist)",
+        "name": "William Poole (economist)",
+        "students": [
+            "Robert King (economist)"
+        ]
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Gary_Gorton",
+        "name": "Gary Gorton"
+    },
+    {
+        "advisors": [
+            "Robert King (economist)",
+            "Paul Romer"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Sergio_Rebelo",
+        "name": "Sergio Rebelo"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Lionel_W._McKenzie",
+        "name": "Lionel W. McKenzie"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png",
+        "link": "https://en.wikipedia.org/wiki/William_G._Bowen",
+        "name": "William G. Bowen"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Burton_Malkiel",
+        "name": "Burton Malkiel"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/8/85/HAROLD_SHAPIRO.jpg/220px-HAROLD_SHAPIRO.jpg",
+        "link": "https://en.wikipedia.org/wiki/Harold_Tafler_Shapiro",
+        "name": "Harold Tafler Shapiro"
+    },
+    {
+        "advisors": [
+            "Fritz Machlup"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/7/7c/Merton_Miller.jpg/180px-Merton_Miller.jpg",
+        "link": "https://en.wikipedia.org/wiki/Merton_Miller",
+        "name": "Merton Miller",
+        "students": [
+            "Eugene Fama",
+            "William Poole (economist)"
+        ]
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Paul_Romer_in_2005.jpg/220px-Paul_Romer_in_2005.jpg",
+        "link": "https://en.wikipedia.org/wiki/Paul_Romer",
+        "name": "Paul Romer"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Fritz_Machlup_signature.gif/150px-Fritz_Machlup_signature.gif",
+        "link": "https://en.wikipedia.org/wiki/Fritz_Machlup",
+        "name": "Fritz Machlup"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Eugene_Fama",
+        "name": "Eugene Fama"
+    }
+]
+names of all found scholars
+Ronald W. Jones,
+James M. Poterba,
+Martin Hellwig,
+Mathias Dewatripont,
+Eli Berman,
+Susan Dynarski,
+Vijay Kelkar,
+Frank Hahn,
+Janet Yellen,
+Jeffrey Miron,
+Stefanie Stantcheva,
+James Duesenberry,
+Robert Hall (economist),
+Peter A. Diamond,
+Robert Solow,
+David K. Levine,
+Thomas J. Sargent,
+Kenneth J. Arrow,
+Sendhil Mullainathan,
+Robert Helsley,
+Glenn Loury,
+Caroline Hoxby,
+Andrea Prat,
+Jan Hatzius,
+Robert Pindyck,
+Amiya Kumar Dasgupta,
+Avinash Dixit,
+Charles Engel,
+Robert J. Barro,
+Jeffrey Liebman,
+Gilbert Ak%C3%A9,
+Thomas Philippon,
+Willem Buiter,
+Eli Noam,
+G. S. Maddala,
+Joseph Stiglitz,
+Michael Intriligator,
+Ray Fair,
+Rudiger Dornbusch,
+Nancy Stokey,
+Thomas Schelling,
+Miles Kimball,
+Jordi Gal%C3%AD,
+Oliver Hart (economist),
+Danny Quah,
+Michael Bruno,
+William Poole (economist),
+Drew Fudenberg,
+Theodore Schultz,
+Ilan Goldfajn,
+W.M. Gorman,
+Yehuda Grunfeld,
+Thomas Sargent,
+Dale W. Jorgenson,
+Roger Guesnerie,
+Matthew Gentzkow,
+W. M. Gorman,
+Jean Tirole,
+Robert King (economist),
+Michael Rothschild,
+Ph.D.,
+Jan Kmenta,
+Andrew Metrick,
+Merton Miller,
+Olivier Blanchard,
+Mark Aguiar,
+David Romer,
+Guido Tabellini,
+Janice Eberly,
+Ronald Findlay,
+Lawrence F. Katz,
+Zvi Bodie,
+Hirofumi Uzawa,
+Arjun Kumar Sengupta,
+Guy Orcutt,
+Julio Rotemberg,
+George Alexander Duncan,
+Burton Malkiel,
+Lionel Robbins,
+Lionel W. McKenzie,
+George Akerlof,
+Price V. Fishback,
+Harry Gordon Johnson,
+Robert Higgs,
+Robert M. Solow,
+Emmanuel Farhi,
+Eduardo Engel,
+Eugene Fama,
+Steven M. Sheffrin,
+Mario Baldassarri,
+Ben Bernanke,
+Harvey M. Wagner,
+Nancy Rose,
+Anthony Shorrocks,
+Charles I. Jones,
+Douglas Holtz-Eakin,
+Kenneth D. West,
+Herbert Mohring,
+Dani Rodrik,
+David Martimort,
+Jonathan Gruber (economist),
+Harold Hotelling,
+David Laibson,
+Frederic Mishkin,
+William Baumol,
+Jason Furman,
+Eric Maskin,
+Richard L. Schmalensee,
+Fabrizio Zilibotti,
+Edwin Mills (economist),
+Scott E. Page,
+Greg Mankiw,
+N. Gregory Mankiw,
+Martin Feldstein,
+Charles F. Manski,
+Kenneth Arrow,
+Brian Jacob,
+Joel Slemrod,
+Zvi Hercowitz,
+George-Marios Angeletos,
+David Cutler,
+Edwin Cannan,
+Abhijit Banerjee,
+Robin Burgess,
+Carl Christ,
+Steven Levitt,
+Sergio Rebelo,
+Kevin W. S. Roberts,
+Emi Nakamura,
+Robert W. Vishny,
+Francis M. Bator,
+Gilles Saint-Paul,
+Paul Courant,
+Ari%C3%A9l Pakes,
+Ryuzo Sato,
+Alan Blinder,
+Stephen Nickell,
+Xavier Gabaix,
+Wassily Leontief,
+Robert Shimer,
+Justin Wolfers,
+Ricardo Reis,
+Silvana Tenreyro,
+Charlie Bean,
+Karl Shell,
+Xavier Sala-i-Martin,
+Tim Besley,
+Karen Dynan,
+Raj Chetty,
+Franklin M. Fisher,
+Ricardo J. Caballero,
+Nicholas Kaldor,
+Martin Weitzman,
+Daron Acemoglu,
+Gina Raimondo,
+Carl Shapiro,
+Persi Diaconis,
+John R. Meyer,
+Phillip Kott,
+David S. Scharfstein,
+Harold Tafler Shapiro,
+Michael Whinston,
+Iv%C3%A1n Werning,
+Robert Barro,
+Nat Keohane,
+Lawrence J. Christiano,
+Roger Myerson,
+Alberto Alesina,
+Alain Enthoven,
+Fumio Hayashi,
+Edwin Kuh,
+David Neumark,
+Jeffrey Sachs,
+John Geanakoplos,
+Rohini Pande,
+Allyn Abbott Young,
+Abba P. Lerner,
+Luigi Zingales,
+Amy Finkelstein,
+Roland B%C3%A9nabou,
+Arnold Kling,
+Andrei Shleifer,
+William Hoban Branson,
+Michael C. Burda,
+Gernot Wagner,
+D. Nathan Sheets,
+Michael Spence,
+Harvey S. Rosen,
+Arnold Harberger,
+Eric S. Maskin,
+Sagiri Kitao,
+George Perry (American economist),
+Mark J. Machina,
+Ebonya Washington,
+Fernando Alvarez (economist),
+Andrew Samwick,
+Douglas Bernheim,
+Jean-Jacques Laffont,
+Wikipedia:Citation needed,
+Ariel Pakes,
+Gary Gorton,
+John Harsanyi,
+Mark Bils,
+Steven T. Berry,
+Emmanuel Saez,
+Jeffrey Frankel,
+William Nordhaus,
+Judith Chevalier,
+Pol Antr%C3%A0s,
+Heidi Williams,
+Adriana Kugler,
+Herschel Grossman,
+Dave Donaldson (economist),
+Halbert White,
+Nobuhiro Kiyotaki,
+Olivier Jean Blanchard,
+William G. Bowen,
+Richard R. Nelson,
+Stanley Fischer,
+Vittorio Corbo,
+Terence Gorman,
+Martin Eichenbaum,
+A. Michael Spence,
+Katsuhito Iwai,
+Gabriel Carroll,
+Isher Judge Ahluwalia,
+Paul Romer,
+Jeremy Siegel,
+Paul Joskow,
+Anil Kashyap,
+Douglas Elmendorf,
+Melissa Dell,
+Peter Diamond,
+Robert J. Gordon,
+Fritz Machlup,
+David Hsieh,
+Zvi Griliches,
+Stephen Morris (game theorist),
+number of found scholars in JSON array: 238
+number of found scholars in scholars_seen set: 238
