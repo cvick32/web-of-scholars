@@ -13,6 +13,10 @@ debug = open('debug.txt', "w+")
 debug.seek(0)
 debug.truncate()
 
+scholar_json = open('scholars.json', "w+")
+scholar_json.seek(0)
+scholar_json.truncate()
+
 '''
   json schema for scholars 
   { 
@@ -62,7 +66,7 @@ def make_request(scholar):
     try:
       sidebar_details_table = soup.findChildren('table')[0]
     except:
-      print('no info table')
+      debug.write(scholar['name'] + ' has no info table')
       return 
     rows = sidebar_details_table.findChildren('tr')
     all_scholars.append(find_advisors_and_students(rows, scholar))
@@ -108,8 +112,7 @@ while to_process:
   make_request(to_process[0])
   to_process = to_process[1:]
 
-debug.write("full JSON of all found scholars\n")
-debug.write(json.dumps(all_scholars, indent=4, sort_keys=True))
+scholar_json.write(json.dumps(all_scholars, indent=4, sort_keys=True))
 debug.write("\nnames of all found scholars\n")
 for scholar in seen_scholars:
   debug.write(scholar + ",\n")
