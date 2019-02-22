@@ -9,11 +9,34 @@ http = urllib3.PoolManager(
   ca_certs=certifi.where()
 )
 
+debug = open('debug.txt', "w+")
+debug.seek(0)
+debug.truncate()
+
 george_json = {
   'link': 'https://en.wikipedia.org/wiki/George_Akerlof',
   'name': 'George Akerlof'
 }
 
+albert_json = {
+  'link': 'https://en.wikipedia.org/wiki/Albert_Einstein',
+  'name': 'Albert Einstein'
+}
+
+isaac_json = {
+  'link': 'https://en.wikipedia.org/wiki/Isaac_Newton',
+  'name': 'Isaac Newton'
+}
+
+paul_json = {
+  'link': 'https://en.wikipedia.org/wiki/Paul_Erd%C5%91s',
+  'name': 'Paul Erdős'
+}
+
+marie_json ={
+  'link': 'https://en.wikipedia.org/wiki/Marie_Curie',
+  'name': 'Marie Curie'
+}
 '''
   json schema for scholars 
   { 
@@ -25,16 +48,25 @@ george_json = {
   }
 '''
 
-to_process = [george_json]
+to_process = [isaac_json, marie_json, paul_json, albert_json, george_json]
 
-all_scholars = []
+seen_scholars = set()
+
+all_scholars = list()
 
 def make_request(scholar):
-  res = http.request('GET', scholar['link']).data
-  soup = BeautifulSoup(res, 'html.parser')
-  sidebar_details_table = soup.findChildren('table')[0]
-  rows = sidebar_details_table.findChildren('tr')
-  all_scholars.append(find_advisors_and_students(rows, scholar))
+  if not scholar['name'] in seen_scholars:
+    res = http.request('GET', scholar['link']).data
+    soup = BeautifulSoup(res, 'html.parser')
+    try:
+      sidebar_details_table = soup.findChildren('table')[0]
+    except:
+      print('no info table')
+      return 
+    rows = sidebar_details_table.findChildren('tr')
+    all_scholars.append(find_advisors_and_students(rows, scholar))
+    seen_scholars.add(scholar['name'])
+  
 
 def find_advisors_and_students(html_rows, cur_scholar):
   for row in html_rows:
@@ -45,12 +77,16 @@ def find_advisors_and_students(html_rows, cur_scholar):
           str_array.append(repr(string))
         complete_string = ''.join(str_array)
         if complete_string == "'Doctoral''advisor'":
-          get_links(row, "advisors", cur_scholar)
+          get_links(row, "doctoral_advisors", cur_scholar)
         elif complete_string == "'Doctoral''students'":
-          get_links(row, "students", cur_scholar)
+          get_links(row, "doctoral_students", cur_scholar)
+        elif complete_string == "'Academic''advisors'":
+          get_links(row, "academic_advisors", cur_scholar)
+        elif complete_string == "'Notable''students'":
+          get_links(row, "notable_students", cur_scholar)
     else:
       if row.findChildren('img'):
-        cur_scholar["image"] = WIKI + row.findChildren('img')[0].attrs['src']
+        cur_scholar["image"] = 'https:/' + row.findChildren('img')[0].attrs['src']
   
   return cur_scholar
 
@@ -68,12 +104,18 @@ def get_links(cur_row, group, cur_scholar):
 
 make_request(george_json)
 
-counter = 0
-while to_process and counter < 100:
-  print(to_process[0])
+while to_process:
   make_request(to_process[0])
   to_process = to_process[1:]
-  counter += 1
 
+debug.write("full JSON of all found scholars")
+debug.write(json.dumps(all_scholars, indent=4, sort_keys=True))
+debug.write("\nnames of all found scholars\n")
+for scholar in seen_scholars:
+  debug.write(scholar + ",\n")
+debug.write('number of found scholars in JSON array: ')
+debug.write(str(len(seen_scholars)) + '\n')
+debug.write('number of found scholars in scholars_seen set: ')
+debug.write(str(len(all_scholars)))
 
-print(all_scholars)
+debug.close()
