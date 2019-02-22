@@ -48,7 +48,7 @@ marie_json ={
   }
 '''
 
-to_process = [isaac_json, marie_json, paul_json, albert_json, george_json]
+to_process = [albert_json, george_json, isaac_json, marie_json, paul_json]
 
 seen_scholars = set()
 
@@ -76,13 +76,13 @@ def find_advisors_and_students(html_rows, cur_scholar):
         for string in th.strings:
           str_array.append(repr(string))
         complete_string = ''.join(str_array)
-        if complete_string == "'Doctoral''advisor'":
+        if complete_string == "'Doctoral''advisor'" or complete_string == "'Doctoral advisor'":
           get_links(row, "doctoral_advisors", cur_scholar)
-        elif complete_string == "'Doctoral''students'":
+        elif complete_string == "'Doctoral''students'" or complete_string == "'Doctoral students'":
           get_links(row, "doctoral_students", cur_scholar)
-        elif complete_string == "'Academic''advisors'":
+        elif complete_string == "'Academic''advisors'" or complete_string == "'Academic advisors'":
           get_links(row, "academic_advisors", cur_scholar)
-        elif complete_string == "'Notable''students'":
+        elif complete_string == "'Notable''students'" or complete_string == "'Academic advisors'":
           get_links(row, "notable_students", cur_scholar)
     else:
       if row.findChildren('img'):
@@ -97,18 +97,19 @@ def get_links(cur_row, group, cur_scholar):
     if link_tag.attrs['href']:
       link = link_tag.attrs['href']
       if link[:6] == '/wiki/':
-        new_scholar = {'link': WIKI + link, 'name': link[6:].replace("_", " ")}
+        new_scholar_name = link[6:].replace("_", " ")
+        new_scholar = {'link': WIKI + link, 'name': new_scholar_name }
         to_process.append(new_scholar)
-        group_members.append(link_tag.attrs['title'])
+        group_members.append(new_scholar_name)
+
   cur_scholar[group] = group_members
 
-make_request(george_json)
 
 while to_process:
   make_request(to_process[0])
   to_process = to_process[1:]
 
-debug.write("full JSON of all found scholars")
+debug.write("full JSON of all found scholars\n")
 debug.write(json.dumps(all_scholars, indent=4, sort_keys=True))
 debug.write("\nnames of all found scholars\n")
 for scholar in seen_scholars:
