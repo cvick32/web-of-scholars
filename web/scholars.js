@@ -2,8 +2,8 @@
 scholar_data = "./data/squeezed_scholars.json"
 
 // set up SVG for D3
-const width = 960;
-const height = 500;
+const width = 1000;
+const height = 1000;
 
 const svg = d3.select('body')
   .append('svg')
@@ -21,7 +21,7 @@ const links = new Set();
  * the web.
  */
 function dataLoadAndSetup() {
-  d3.json(scholar_data, function(data) {
+  d3.json(scholar_data).then(function(data) {
     scholars = data;
     setUpLinks();
     console.log(links);
@@ -53,6 +53,7 @@ function findScholar(advisor_name, scholar) {
   links.add({source: found_advisor, target: scholar});
 }
 
+// init D3 force
 
 
 // app start
