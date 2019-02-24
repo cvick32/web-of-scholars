@@ -116,7 +116,7 @@ class ScholarWeb:
     for link_tag in link_tags:
       if link_tag.attrs['href']:
         link = link_tag.attrs['href']
-        if link[:6] == '/wiki/':
+        if link[:6] == '/wiki/' and not link == "https://en.wikipedia.org/wiki/Doctoral_advisor":
           new_scholar_name = link[6:].replace("_", " ")
           new_scholar = {'link': WIKI + link, 'name': new_scholar_name}
           self.to_process.append(new_scholar)
