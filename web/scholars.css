@@ -1,19 +1,61 @@
 
-  .bar{
-    fill: steelblue;
-  }
+body {
+  background-color: bisque;
+}
 
-  .bar:hover{
-    fill: brown;
-  }
+svg {
+  background-color: bisque;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
 
-	.axis {
-	  font: 10px sans-serif;
-	}
+svg:not(.active):not(.ctrl) {
+  cursor: crosshair;
+}
 
-	.axis path,
-	.axis line {
-	  fill: none;
-	  stroke: #000;
-	  shape-rendering: crispEdges;
-	}
+path.link {
+  fill: none;
+  stroke: #000;
+  stroke-width: 4px;
+  cursor: default;
+}
+
+svg:not(.active):not(.ctrl) path.link {
+  cursor: pointer;
+}
+
+path.link.selected {
+  stroke-dasharray: 10,2;
+}
+
+path.link.dragline {
+  pointer-events: none;
+}
+
+path.link.hidden {
+  stroke-width: 0;
+}
+
+circle.node {
+  stroke-width: 1.5px;
+  cursor: pointer;
+}
+
+circle.node.reflexive {
+  stroke: #000 !important;
+  stroke-width: 2.5px;
+}
+
+text {
+  font: 12px sans-serif;
+  pointer-events: none;
+}
+
+text.name {
+  text-anchor: middle;
+  font-weight: bold;
+}
