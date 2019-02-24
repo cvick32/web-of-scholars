@@ -2,7 +2,7 @@
 scholar_data = "./data/squeezed_scholars.json"
 
 let scholars;
-const links = new Set();
+let links = [];
 let totalLinks = 0;
 
 /**
@@ -16,26 +16,21 @@ function dataLoadAndSetup() {
     scholars = data;
     setUpLinks();
     console.log(links);
-    console.log(totalLinks);
+    restart();
   });
 }
 
 function setUpLinks() {
   for (let i = 0; i < scholars.length; i++) {
     cur_scholar = scholars[i];
-
     doctoral_advisors = cur_scholar["doctoral_advisors"];
     academic_advisors = cur_scholar["academic_advisors"];
-
-
     if (doctoral_advisors) {
-      totalLinks += doctoral_advisors.length;
       for (let i = 0; i < doctoral_advisors.length; i++) {
         findScholar(doctoral_advisors[i], cur_scholar);
       }
     }
     if (academic_advisors) {
-      totalLinks += academic_advisors.length;
       for (let i = 0; i < academic_advisors.length; i++) {
         findScholar(academic_advisors[i], cur_scholar);
       }
@@ -47,16 +42,20 @@ function findScholar(advisor_name, scholar) {
   let found_advisor = scholars.filter((doc) => {
     return doc.name === advisor_name;
   });
-  links.add({source: found_advisor, target: scholar});
+  if (found_advisor[0]) {
+    links.push({source: found_advisor[0], target: scholar, left: false, right: true});
+  }
 }
+
 
 // set up SVG for D3
 const width = 2000;
 const height = 1000;
 const colors = d3.scaleOrdinal(d3.schemeCategory10);
 
-test_nodes = [
-  {
+
+test_links = [
+  { source: {
     "doctoral_advisors": [
         "Robert Solow"
     ],
@@ -67,8 +66,7 @@ test_nodes = [
     "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/1/18/George_Akerlof.jpg/225px-George_Akerlof.jpg",
     "link": "https://en.wikipedia.org/wiki/George_Akerlof",
     "name": "George Akerlof"
-  },
-  {
+  }, target: {
     "doctoral_advisors": [
         "Jeffrey Frankel",
         "George Akerlof",
@@ -76,11 +74,7 @@ test_nodes = [
     ],
     "link": "https://en.wikipedia.org/wiki/Charles_Engel",
     "name": "Charles Engel"
-  }
-]
-
-test_links = [
-  { source: test_nodes[0], target: test_nodes[1], left: false, right: true }
+  }, left: false, right: true }
 ]
 
 const svg = d3.select('body')
@@ -133,7 +127,7 @@ function tick() {
 }
 
 function restart() {
-  path = path.data(test_links);
+  path = path.data(links);
   path.exit().remove();
 
   path = path.enter().append('svg:path')
@@ -141,7 +135,7 @@ function restart() {
     .style('marker', (d) => 'url(#arrow')
     .merge(path);
 
-  circle = circle.data(test_nodes, (d) => d.name);
+  circle = circle.data(scholars, (d) => d.name);
 
   circle.selectAll('circle')
     .style('fill', (d) => colors(d.name));
@@ -165,19 +159,11 @@ function restart() {
   circle = g.merge(circle);
 
 
-  force.nodes(test_nodes).force('link').links(test_links);
+  force.nodes(scholars).force('link').links(links);
 
   force.alphaTarget(0.3).restart();
 
 }
 
 // app start
-// dataLoadAndSetup();
-
-restart();
-
-
-
-
-
-
+dataLoadAndSetup();
