@@ -1,1 +1,2 @@
 might need to split everyone up by field, but not every entry has a field, so..
+have to use patterns to put image in svg circle (https://stackoverflow.com/questions/11496734/add-a-background-image-png-to-a-svg-circle-shape)
