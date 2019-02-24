@@ -1,0 +1,2875 @@
+[
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Alfred Kleiner"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Albert_Einstein_signature_1934.svg/150px-Albert_Einstein_signature_1934.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "name": "Albert Einstein"
+    },
+    {
+        "doctoral_advisors": [
+            "Robert Solow"
+        ],
+        "doctoral_students": [
+            "Charles Engel",
+            "Adriana Kugler"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/1/18/George_Akerlof.jpg/225px-George_Akerlof.jpg",
+        "link": "https://en.wikipedia.org/wiki/George_Akerlof",
+        "name": "George Akerlof"
+    },
+    {
+        "academic_advisors": [
+            "Isaac Barrow",
+            "Benjamin Pulleyn"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/8/84/Isaac_Newton_signature_ws.svg/150px-Isaac_Newton_signature_ws.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Isaac_Newton",
+        "name": "Isaac Newton"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Gabriel Lippmann"
+        ],
+        "doctoral_students": [
+            "Andr%C3%A9-Louis Debierne",
+            "%C3%93scar Moreno",
+            "Marguerite Perey",
+            "%C3%89mile Henriot (chemist)"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Marie_Curie_Sk%C5%82odowska_Signature_Polish.svg/150px-Marie_Curie_Sk%C5%82odowska_Signature_Polish.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Marie_Curie",
+        "name": "Marie Curie"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Lip%C3%B3t Fej%C3%A9r"
+        ],
+        "doctoral_students": [
+            "Joseph Kruskal",
+            "George B. Purdy",
+            "Alexander Soifer",
+            "B%C3%A9la Bollob%C3%A1s"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Erdos_budapest_fall_1992_%28cropped%29.jpg/200px-Erdos_budapest_fall_1992_%28cropped%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s",
+        "name": "Paul Erd\u0151s"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Graduation_hat.svg/40px-Graduation_hat.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Doctoral_advisor",
+        "name": "Doctoral advisor"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Johann Jakob M%C3%BCller"
+        ],
+        "doctoral_students": [
+            "Albert Einstein"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/c/c2/ETH-BIB-Kleiner%2C_Alfred_%281849-1916%29-Portrait-Portr_10505.tif_%28cropped%29.jpg/220px-ETH-BIB-Kleiner%2C_Alfred_%281849-1916%29-Portrait-Portr_10505.tif_%28cropped%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Alfred_Kleiner",
+        "name": "Alfred Kleiner"
+    },
+    {
+        "doctoral_advisors": [
+            "Wassily Leontief"
+        ],
+        "doctoral_students": [
+            "Francis M. Bator",
+            "Alain Enthoven",
+            "Ronald W. Jones",
+            "Herbert Mohring",
+            "Ronald Findlay",
+            "George Perry (American economist)",
+            "Harvey M. Wagner",
+            "Michael Intriligator",
+            "Arjun Kumar Sengupta",
+            "Peter Diamond",
+            "George Akerlof",
+            "Joseph Stiglitz",
+            "Martin Weitzman",
+            "Robert J. Gordon",
+            "Robert Hall (economist)",
+            "William Nordhaus",
+            "Avinash Dixit",
+            "Ray Fair",
+            "Alan Blinder",
+            "Vittorio Corbo",
+            "Robert Pindyck",
+            "Jeremy Siegel",
+            "Katsuhito Iwai",
+            "Glenn Loury",
+            "Halbert White",
+            "Mario Baldassarri",
+            "Arnold Kling",
+            "Charlie Bean"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/9/95/Robert_Solow_by_Olaf_Storbeck.jpg/220px-Robert_Solow_by_Olaf_Storbeck.jpg",
+        "link": "https://en.wikipedia.org/wiki/Robert_Solow",
+        "name": "Robert Solow"
+    },
+    {
+        "doctoral_advisors": [
+            "Jeffrey Frankel",
+            "George Akerlof",
+            "Janet Yellen"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Charles_Engel",
+        "name": "Charles Engel"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/1/11/Adriana_Kugler.jpg/220px-Adriana_Kugler.jpg",
+        "link": "https://en.wikipedia.org/wiki/Adriana_Kugler",
+        "name": "Adriana Kugler"
+    },
+    {
+        "academic_advisors": [
+            "James Duport"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Isaac_Barrow_by_Mary_Beale.jpg/220px-Isaac_Barrow_by_Mary_Beale.jpg",
+        "link": "https://en.wikipedia.org/wiki/Isaac_Barrow",
+        "name": "Isaac Barrow"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Benjamin_Pulleyn",
+        "name": "Benjamin Pulleyn"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Gustav Kirchhoff"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Gabriel_Lippmann2.jpg/180px-Gabriel_Lippmann2.jpg",
+        "link": "https://en.wikipedia.org/wiki/Gabriel_Lippmann",
+        "name": "Gabriel Lippmann"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Pierre Curie"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/0/0a/Debierne.jpg",
+        "link": "https://en.wikipedia.org/wiki/Andr%C3%A9-Louis_Debierne",
+        "name": "Andr%C3%A9-Louis Debierne"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png",
+        "link": "https://en.wikipedia.org/wiki/%C3%93scar_Moreno",
+        "name": "%C3%93scar Moreno"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/0/09/Marguerite_Perey.jpg",
+        "link": "https://en.wikipedia.org/wiki/Marguerite_Perey",
+        "name": "Marguerite Perey"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Marie Curie"
+        ],
+        "doctoral_students": [
+            "Pol Duwez"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/0/00/%C3%88mile_Henriot.jpg/220px-%C3%88mile_Henriot.jpg",
+        "link": "https://en.wikipedia.org/wiki/%C3%89mile_Henriot_(chemist)",
+        "name": "%C3%89mile Henriot (chemist)"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Hermann Schwarz"
+        ],
+        "doctoral_students": [
+            "Paul Erd%C5%91s",
+            "John von Neumann",
+            "P%C3%A1l Tur%C3%A1n",
+            "George P%C3%B3lya",
+            "Tibor Rad%C3%B3",
+            "L%C3%A1szl%C3%B3 Kalm%C3%A1r",
+            "Marcel Riesz",
+            "G%C3%A1bor Szeg%C5%91",
+            "Michael Fekete"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Matematikai_konferencia_Szegeden%2C_1928.jpg/220px-Matematikai_konferencia_Szegeden%2C_1928.jpg",
+        "link": "https://en.wikipedia.org/wiki/Lip%C3%B3t_Fej%C3%A9r",
+        "name": "Lip%C3%B3t Fej%C3%A9r"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Joseph_Kruskal",
+        "name": "Joseph Kruskal"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Paul T. Bateman",
+            "Paul Erd%C5%91s"
+        ],
+        "link": "https://en.wikipedia.org/wiki/George_B._Purdy",
+        "name": "George B. Purdy"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Paul Erd%C5%91s"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Alexander_Soifer.jpg/220px-Alexander_Soifer.jpg",
+        "link": "https://en.wikipedia.org/wiki/Alexander_Soifer",
+        "name": "Alexander Soifer"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "L%C3%A1szl%C3%B3 Fejes T%C3%B3th",
+            "Paul Erd%C5%91s",
+            "Frank Adams"
+        ],
+        "doctoral_students": [
+            "Keith Martin Ball",
+            "Graham Brightwell",
+            "Timothy Gowers",
+            "Penny Haxell",
+            "Imre Leader",
+            "Jonathan Partington",
+            "Luke Pebody",
+            "Charles Read (mathematician)",
+            "Yoshiharu Kohayakawa",
+            "Robert Morris (mathematician)"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/4/4f/B%C3%A9la_Bollob%C3%A1s.jpg/220px-B%C3%A9la_Bollob%C3%A1s.jpg",
+        "link": "https://en.wikipedia.org/wiki/B%C3%A9la_Bollob%C3%A1s",
+        "name": "B%C3%A9la Bollob%C3%A1s"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Adolf Fick"
+        ],
+        "doctoral_students": [
+            "Alfred Kleiner"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/b/bc/ETH-BIB-M%C3%BCller%2C_Johann_Jakob_%281846-1875%29-Portrait-Portr_06239.tif_%28cropped%29.jpg/300px-ETH-BIB-M%C3%BCller%2C_Johann_Jakob_%281846-1875%29-Portrait-Portr_06239.tif_%28cropped%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Johann_Jakob_M%C3%BCller",
+        "name": "Johann Jakob M%C3%BCller"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Ladislaus Bortkiewicz",
+            "Werner Sombart"
+        ],
+        "doctoral_students": [
+            "Paul Samuelson",
+            "Thomas Schelling",
+            "Robert Solow",
+            "Kenneth E. Iverson",
+            "Vernon L. Smith",
+            "Richard E. Quandt",
+            "Hyman Minsky",
+            "Khodadad Mirza Farman Farmaian",
+            "Dale W. Jorgenson",
+            "Michael C. Lovell",
+            "Karen R. Polenske"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/3/36/Wassily_Leontief_1973.jpg/220px-Wassily_Leontief_1973.jpg",
+        "link": "https://en.wikipedia.org/wiki/Wassily_Leontief",
+        "name": "Wassily Leontief"
+    },
+    {
+        "doctoral_advisors": [
+            "Robert Solow"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Francis_M._Bator",
+        "name": "Francis M. Bator"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Alain_Enthoven",
+        "name": "Alain Enthoven"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Ronald_W._Jones",
+        "name": "Ronald W. Jones"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Herbert_Mohring",
+        "name": "Herbert Mohring"
+    },
+    {
+        "doctoral_advisors": [
+            "Robert M. Solow"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ronald_Findlay",
+        "name": "Ronald Findlay"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/George_Perry_(American_economist)",
+        "name": "George Perry (American economist)"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Harvey_M._Wagner",
+        "name": "Harvey M. Wagner"
+    },
+    {
+        "doctoral_advisors": [
+            "Robert M. Solow"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Michael_Intriligator",
+        "name": "Michael Intriligator"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/0/05/ARJUN_desk.jpg/200px-ARJUN_desk.jpg",
+        "link": "https://en.wikipedia.org/wiki/Arjun_Kumar_Sengupta",
+        "name": "Arjun Kumar Sengupta"
+    },
+    {
+        "doctoral_advisors": [
+            "Robert Solow"
+        ],
+        "doctoral_students": [
+            "Martin Hellwig",
+            "David K. Levine",
+            "Andrei Shleifer",
+            "Emmanuel Saez"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Peter_Diamond_%28economist%29.jpg/220px-Peter_Diamond_%28economist%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Peter_Diamond",
+        "name": "Peter Diamond"
+    },
+    {
+        "doctoral_advisors": [
+            "Robert Solow"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Empfang_Joseph_E._Stiglitz_im_Rathaus_K%C3%B6ln-1473.jpg/220px-Empfang_Joseph_E._Stiglitz_im_Rathaus_K%C3%B6ln-1473.jpg",
+        "link": "https://en.wikipedia.org/wiki/Joseph_Stiglitz",
+        "name": "Joseph Stiglitz"
+    },
+    {
+        "doctoral_advisors": [
+            "Robert Solow"
+        ],
+        "doctoral_students": [
+            "Nat Keohane",
+            "Andrew Metrick",
+            "Gernot Wagner"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Martin_Weitzman",
+        "name": "Martin Weitzman"
+    },
+    {
+        "doctoral_advisors": [
+            "Robert Solow"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Robert_J._Gordon",
+        "name": "Robert J. Gordon"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Robert_Hall_(economist)",
+        "name": "Robert Hall (economist)"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Robert Solow"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/0/09/William_Nordhaus_EM1B6005_%2846234137031%29.jpg/220px-William_Nordhaus_EM1B6005_%2846234137031%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/William_Nordhaus",
+        "name": "William Nordhaus"
+    },
+    {
+        "doctoral_advisors": [
+            "Robert Solow"
+        ],
+        "doctoral_students": [
+            "Vijay Kelkar",
+            "Robert Helsley",
+            "Dani Rodrik"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Avinash_Dixit.JPG/200px-Avinash_Dixit.JPG",
+        "link": "https://en.wikipedia.org/wiki/Avinash_Dixit",
+        "name": "Avinash Dixit"
+    },
+    {
+        "doctoral_advisors": [
+            "Robert Solow"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ray_Fair",
+        "name": "Ray Fair"
+    },
+    {
+        "doctoral_advisors": [
+            "Robert Solow"
+        ],
+        "doctoral_students": [
+            "Julio Rotemberg"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Alan_S._Blinder%2C_Vice_Chairman_Federal_Reserve.jpg/220px-Alan_S._Blinder%2C_Vice_Chairman_Federal_Reserve.jpg",
+        "link": "https://en.wikipedia.org/wiki/Alan_Blinder",
+        "name": "Alan Blinder"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Vittorio_Corbo",
+        "name": "Vittorio Corbo"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Robert_Pindyck",
+        "name": "Robert Pindyck"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Jeremy_Siegel",
+        "name": "Jeremy Siegel"
+    },
+    {
+        "doctoral_advisors": [
+            "Robert Solow"
+        ],
+        "doctoral_students": [
+            "Willem Buiter"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/9/91/Katsuhito_Iwai_cropped_1_Katsuhito_Iwai_201611.jpg/250px-Katsuhito_Iwai_cropped_1_Katsuhito_Iwai_201611.jpg",
+        "link": "https://en.wikipedia.org/wiki/Katsuhito_Iwai",
+        "name": "Katsuhito Iwai"
+    },
+    {
+        "doctoral_advisors": [
+            "Robert Solow"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Glenn_Loury.jpg/220px-Glenn_Loury.jpg",
+        "link": "https://en.wikipedia.org/wiki/Glenn_Loury",
+        "name": "Glenn Loury"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Halbert_White",
+        "name": "Halbert White"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Mario_Baldassarri",
+        "name": "Mario Baldassarri"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Arnold_Kling",
+        "name": "Arnold Kling"
+    },
+    {
+        "doctoral_advisors": [
+            "Robert Solow"
+        ],
+        "doctoral_students": [
+            "Fabrizio Zilibotti"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Charlie_Bean.jpg/220px-Charlie_Bean.jpg",
+        "link": "https://en.wikipedia.org/wiki/Charlie_Bean",
+        "name": "Charlie Bean"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Jeffrey_Frankel",
+        "name": "Jeffrey Frankel"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Janet_Yellen_official_Federal_Reserve_portrait.jpg/220px-Janet_Yellen_official_Federal_Reserve_portrait.jpg",
+        "link": "https://en.wikipedia.org/wiki/Janet_Yellen",
+        "name": "Janet Yellen"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/James_Duport",
+        "name": "James Duport"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Franz Ernst Neumann",
+            "Wikipedia:Citation needed"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Gustav_Robert_Kirchhoff.jpg/230px-Gustav_Robert_Kirchhoff.jpg",
+        "link": "https://en.wikipedia.org/wiki/Gustav_Kirchhoff",
+        "name": "Gustav Kirchhoff"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Gabriel Lippmann"
+        ],
+        "doctoral_students": [
+            "Paul Langevin",
+            "Andr%C3%A9-Louis Debierne",
+            "Marguerite Perey"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Pierre_Curie_signature.svg/150px-Pierre_Curie_signature.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Pierre_Curie",
+        "name": "Pierre Curie"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "%C3%89mile Henriot (chemist)"
+        ],
+        "doctoral_students": [],
+        "link": "https://en.wikipedia.org/wiki/Pol_Duwez",
+        "name": "Pol Duwez"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Karl Weierstrass",
+            "Ernst Kummer"
+        ],
+        "doctoral_students": [
+            "Lip%C3%B3t Fej%C3%A9r",
+            "Harris Hancock",
+            "Gerhard Hessenberg",
+            "Paul Koebe",
+            "Leon Lichtenstein",
+            "Heinrich Maschke",
+            "Robert Remak (mathematician)",
+            "Theodor Vahlen",
+            "Ernst Zermelo"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/5/59/ETH-BIB-Schwarz%2C_Hermann_Amand_%281843-1921%29-Portrait-Portr_11921.tif_%28cropped%29.jpg/220px-ETH-BIB-Schwarz%2C_Hermann_Amand_%281843-1921%29-Portrait-Portr_11921.tif_%28cropped%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Hermann_Schwarz",
+        "name": "Hermann Schwarz"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Lip%C3%B3t Fej%C3%A9r"
+        ],
+        "doctoral_students": [
+            "Joseph Kruskal",
+            "George B. Purdy",
+            "Alexander Soifer",
+            "B%C3%A9la Bollob%C3%A1s"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Erdos_budapest_fall_1992_%28cropped%29.jpg/200px-Erdos_budapest_fall_1992_%28cropped%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s",
+        "name": "Paul Erd%C5%91s"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Lip%C3%B3t Fej%C3%A9r"
+        ],
+        "doctoral_students": [
+            "Donald B. Gillies",
+            "Israel Halperin",
+            "Friederich Ignaz Mautner"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/a/af/Johnny_von_neumann_sig.gif/150px-Johnny_von_neumann_sig.gif",
+        "link": "https://en.wikipedia.org/wiki/John_von_Neumann",
+        "name": "John von Neumann"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Lip%C3%B3t Fej%C3%A9r"
+        ],
+        "doctoral_students": [
+            "L%C3%A1szl%C3%B3 Babai",
+            "J%C3%A1nos Pintz"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Bundesarchiv_Bild_183-33149-0001%2C_Leipzig%2C_Universit%C3%A4t%2C_Professor_Turan.jpg/150px-Bundesarchiv_Bild_183-33149-0001%2C_Leipzig%2C_Universit%C3%A4t%2C_Professor_Turan.jpg",
+        "link": "https://en.wikipedia.org/wiki/P%C3%A1l_Tur%C3%A1n",
+        "name": "P%C3%A1l Tur%C3%A1n"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Lip%C3%B3t Fej%C3%A9r"
+        ],
+        "doctoral_students": [
+            "Hans Albert Einstein",
+            "Fritz Gassmann",
+            "Albert Pfluger",
+            "James J. Stoker"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/5/5a/George_P%C3%B3lya_ca_1973.jpg/200px-George_P%C3%B3lya_ca_1973.jpg",
+        "link": "https://en.wikipedia.org/wiki/George_P%C3%B3lya",
+        "name": "George P%C3%B3lya"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Matematikai_konferencia_Szegeden%2C_1928.jpg/220px-Matematikai_konferencia_Szegeden%2C_1928.jpg",
+        "link": "https://en.wikipedia.org/wiki/Tibor_Rad%C3%B3",
+        "name": "Tibor Rad%C3%B3"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png",
+        "link": "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Kalm%C3%A1r",
+        "name": "L%C3%A1szl%C3%B3 Kalm%C3%A1r"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Lip%C3%B3t Fej%C3%A9r"
+        ],
+        "doctoral_students": [
+            "Harald Cram%C3%A9r",
+            "Otto Frostman",
+            "Lars G%C3%A5rding",
+            "Einar Carl Hille",
+            "Lars H%C3%B6rmander",
+            "Olof Thorin"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Marcel_Riesz",
+        "name": "Marcel Riesz"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/G%C3%A1bor_Szeg%C5%91",
+        "name": "G%C3%A1bor Szeg%C5%91"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Lip%C3%B3t Fej%C3%A9r"
+        ],
+        "doctoral_students": [
+            "Aryeh Dvoretzky",
+            "Michael Bahir Maschler",
+            "Zeev Nehari",
+            "Menahem Max Schiffer"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Michael_Fekete",
+        "name": "Michael Fekete"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Paul_T._Bateman",
+        "name": "Paul T. Bateman"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/e/e4/L%C3%A1szl%C3%B3_Fejes_T%C3%B3th-1991-Head_shot.png/100px-L%C3%A1szl%C3%B3_Fejes_T%C3%B3th-1991-Head_shot.png",
+        "link": "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Fejes_T%C3%B3th",
+        "name": "L%C3%A1szl%C3%B3 Fejes T%C3%B3th"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Shaun Wylie"
+        ],
+        "doctoral_students": [
+            "B%C3%A9la Bollob%C3%A1s",
+            "Peter Johnstone (mathematician)",
+            "Andrew Ranicki",
+            "C. T. C. Wall"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Puppe_Adams.jpg/170px-Puppe_Adams.jpg",
+        "link": "https://en.wikipedia.org/wiki/Frank_Adams",
+        "name": "Frank Adams"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "B%C3%A9la Bollob%C3%A1s"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/1/11/Ball_Keith.jpg/220px-Ball_Keith.jpg",
+        "link": "https://en.wikipedia.org/wiki/Keith_Martin_Ball",
+        "name": "Keith Martin Ball"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "B%C3%A9la Bollob%C3%A1s"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Graham_R._Brightwell.jpg/220px-Graham_R._Brightwell.jpg",
+        "link": "https://en.wikipedia.org/wiki/Graham_Brightwell",
+        "name": "Graham Brightwell"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "B%C3%A9la Bollob%C3%A1s"
+        ],
+        "doctoral_students": [
+            "David Conlon",
+            "Ben Joseph Green",
+            "Tom Sanders (mathematician)"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/af/Timothy_Gowers_Heidelberg.jpg/220px-Timothy_Gowers_Heidelberg.jpg",
+        "link": "https://en.wikipedia.org/wiki/Timothy_Gowers",
+        "name": "Timothy Gowers"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Penny_Haxell",
+        "name": "Penny Haxell"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "B%C3%A9la Bollob%C3%A1s"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/c/c8/ImreLeader_TrinityApril2010.jpg/200px-ImreLeader_TrinityApril2010.jpg",
+        "link": "https://en.wikipedia.org/wiki/Imre_Leader",
+        "name": "Imre Leader"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "B%C3%A9la Bollob%C3%A1s"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Jonathan_Partington.jpg/220px-Jonathan_Partington.jpg",
+        "link": "https://en.wikipedia.org/wiki/Jonathan_Partington",
+        "name": "Jonathan Partington"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Luke_Pebody",
+        "name": "Luke Pebody"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Charles_Read_(mathematician)",
+        "name": "Charles Read (mathematician)"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Yoshiharu_Kohayakawa",
+        "name": "Yoshiharu Kohayakawa"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Robert_Morris_(mathematician)",
+        "name": "Robert Morris (mathematician)"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Franz Ludwig Fick"
+        ],
+        "doctoral_students": [
+            "Johann Jakob M%C3%BCller"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Adolf_Fick_8bit_korr_klein1.jpg/200px-Adolf_Fick_8bit_korr_klein1.jpg",
+        "link": "https://en.wikipedia.org/wiki/Adolf_Fick",
+        "name": "Adolf Fick"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Georg Friedrich Knapp",
+            "Wilhelm Lexis"
+        ],
+        "doctoral_students": [
+            "Wassily Leontief"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ladislaus_Bortkiewicz",
+        "name": "Ladislaus Bortkiewicz"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Gustav von Schmoller",
+            "Adolph Wagner"
+        ],
+        "doctoral_students": [
+            "Wassily Leontief",
+            "Richard L%C3%B6wenthal"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Werner_sombart.jpg/220px-Werner_sombart.jpg",
+        "link": "https://en.wikipedia.org/wiki/Werner_Sombart",
+        "name": "Werner Sombart"
+    },
+    {
+        "doctoral_advisors": [
+            "Joseph Schumpeter",
+            "Wassily Leontief"
+        ],
+        "doctoral_students": [
+            "Lawrence Klein",
+            "Robert C. Merton"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/8/86/Paul_Samuelson.jpg/220px-Paul_Samuelson.jpg",
+        "link": "https://en.wikipedia.org/wiki/Paul_Samuelson",
+        "name": "Paul Samuelson"
+    },
+    {
+        "doctoral_advisors": [
+            "Wassily Leontief",
+            "James Duesenberry"
+        ],
+        "doctoral_students": [
+            "A. Michael Spence",
+            "Eli Noam"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/6/63/Thomas_Schelling.jpg/220px-Thomas_Schelling.jpg",
+        "link": "https://en.wikipedia.org/wiki/Thomas_Schelling",
+        "name": "Thomas Schelling"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Howard Aiken",
+            "Wassily Leontief"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/3/38/Kei_younger.jpg/220px-Kei_younger.jpg",
+        "link": "https://en.wikipedia.org/wiki/Kenneth_E._Iverson",
+        "name": "Kenneth E. Iverson"
+    },
+    {
+        "doctoral_advisors": [
+            "Wassily Leontief"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Vernon_L._Smith_2011.jpg/220px-Vernon_L._Smith_2011.jpg",
+        "link": "https://en.wikipedia.org/wiki/Vernon_L._Smith",
+        "name": "Vernon L. Smith"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Richard_E._Quandt",
+        "name": "Richard E. Quandt"
+    },
+    {
+        "doctoral_advisors": [
+            "Joseph Schumpeter",
+            "Wassily Leontief"
+        ],
+        "doctoral_students": [
+            "Mauro Gallegati"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/0/00/HymanMinsky-1.jpg/220px-HymanMinsky-1.jpg",
+        "link": "https://en.wikipedia.org/wiki/Hyman_Minsky",
+        "name": "Hyman Minsky"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Lion_and_the_Sun.svg/35px-Lion_and_the_Sun.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Khodadad_Mirza_Farman_Farmaian",
+        "name": "Khodadad Mirza Farman Farmaian"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Dale_W._Jorgenson",
+        "name": "Dale W. Jorgenson"
+    },
+    {
+        "doctoral_advisors": [
+            "Wassily Leontief"
+        ],
+        "doctoral_students": [
+            "Dale T. Mortensen",
+            "Edward C. Prescott"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Michael_C._Lovell",
+        "name": "Michael C. Lovell"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Karen_R._Polenske",
+        "name": "Karen R. Polenske"
+    },
+    {
+        "doctoral_advisors": [
+            "Wassily Leontief"
+        ],
+        "doctoral_students": [
+            "Francis M. Bator",
+            "Alain Enthoven",
+            "Ronald W. Jones",
+            "Herbert Mohring",
+            "Ronald Findlay",
+            "George Perry (American economist)",
+            "Harvey M. Wagner",
+            "Michael Intriligator",
+            "Arjun Kumar Sengupta",
+            "Peter Diamond",
+            "George Akerlof",
+            "Joseph Stiglitz",
+            "Martin Weitzman",
+            "Robert J. Gordon",
+            "Robert Hall (economist)",
+            "William Nordhaus",
+            "Avinash Dixit",
+            "Ray Fair",
+            "Alan Blinder",
+            "Vittorio Corbo",
+            "Robert Pindyck",
+            "Jeremy Siegel",
+            "Katsuhito Iwai",
+            "Glenn Loury",
+            "Halbert White",
+            "Mario Baldassarri",
+            "Arnold Kling",
+            "Charlie Bean"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/9/95/Robert_Solow_by_Olaf_Storbeck.jpg/220px-Robert_Solow_by_Olaf_Storbeck.jpg",
+        "link": "https://en.wikipedia.org/wiki/Robert_M._Solow",
+        "name": "Robert M. Solow"
+    },
+    {
+        "doctoral_advisors": [
+            "Peter Diamond"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Martin-Hellwig.jpg/200px-Martin-Hellwig.jpg",
+        "link": "https://en.wikipedia.org/wiki/Martin_Hellwig",
+        "name": "Martin Hellwig"
+    },
+    {
+        "doctoral_advisors": [
+            "Peter Diamond"
+        ],
+        "doctoral_students": [
+            "Guido Tabellini"
+        ],
+        "link": "https://en.wikipedia.org/wiki/David_K._Levine",
+        "name": "David K. Levine"
+    },
+    {
+        "doctoral_advisors": [
+            "Peter A. Diamond",
+            "Franklin M. Fisher"
+        ],
+        "doctoral_students": [
+            "Sendhil Mullainathan",
+            "Matthew Gentzkow"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Andrei_Shleifer",
+        "name": "Andrei Shleifer"
+    },
+    {
+        "doctoral_advisors": [
+            "James M. Poterba",
+            "Peter Diamond"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Emmanuel_Saez",
+        "name": "Emmanuel Saez"
+    },
+    {
+        "doctoral_advisors": [],
+        "link": "https://en.wikipedia.org/wiki/Nat_Keohane",
+        "name": "Nat Keohane"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Andrew_Metrick",
+        "name": "Andrew Metrick"
+    },
+    {
+        "doctoral_advisors": [],
+        "link": "https://en.wikipedia.org/wiki/Gernot_Wagner",
+        "name": "Gernot Wagner"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/1/14/Vijay_Kelkar.jpg/220px-Vijay_Kelkar.jpg",
+        "link": "https://en.wikipedia.org/wiki/Vijay_Kelkar",
+        "name": "Vijay Kelkar"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Robert_Helsley",
+        "name": "Robert Helsley"
+    },
+    {
+        "doctoral_advisors": [
+            "Avinash Dixit"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/3/34/Dani_Rodrik_AB_02.jpg/250px-Dani_Rodrik_AB_02.jpg",
+        "link": "https://en.wikipedia.org/wiki/Dani_Rodrik",
+        "name": "Dani Rodrik"
+    },
+    {
+        "doctoral_advisors": [
+            "Alan Blinder",
+            "William Hoban Branson"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Rotemberg.jpg/220px-Rotemberg.jpg",
+        "link": "https://en.wikipedia.org/wiki/Julio_Rotemberg",
+        "name": "Julio Rotemberg"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/7/76/Willem_Buiter_1984.jpg/220px-Willem_Buiter_1984.jpg",
+        "link": "https://en.wikipedia.org/wiki/Willem_Buiter",
+        "name": "Willem Buiter"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Fabrizio_Zilibotti",
+        "name": "Fabrizio Zilibotti"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Christian Samuel Weiss"
+        ],
+        "doctoral_students": [
+            "Woldemar Voigt",
+            "Alfred Clebsch",
+            "Gustav Robert Kirchhoff",
+            "Friedrich Heinrich Albert Wangerin"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/3/36/Franz_Ernst_Neumann_by_Carl_Steffeck_1886.jpg/225px-Franz_Ernst_Neumann_by_Carl_Steffeck_1886.jpg",
+        "link": "https://en.wikipedia.org/wiki/Franz_Ernst_Neumann",
+        "name": "Franz Ernst Neumann"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/1/1d/Information_icon4.svg/40px-Information_icon4.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Wikipedia:Citation_needed",
+        "name": "Wikipedia:Citation needed"
+    },
+    {
+        "doctoral_students": [
+            "Ir%C3%A8ne Joliot-Curie",
+            "Louis de Broglie",
+            "L%C3%A9on Brillouin"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Paul_Langevin_Wellcome2.jpg/244px-Paul_Langevin_Wellcome2.jpg",
+        "link": "https://en.wikipedia.org/wiki/Paul_Langevin",
+        "name": "Paul Langevin"
+    },
+    {
+        "academic_advisors": [
+            "Christoph Gudermann"
+        ],
+        "doctoral_students": [
+            "Nikolai Bugaev",
+            "Georg Cantor",
+            "Georg Frobenius",
+            "Lazarus Fuchs",
+            "Wilhelm Killing",
+            "Leo K%C3%B6nigsberger",
+            "Sofia Kovalevskaya",
+            "Mathias Lerch",
+            "Hans von Mangoldt",
+            "Eugen Netto",
+            "Adolf Piltz",
+            "Carl Runge",
+            "Arthur Schoenflies",
+            "Friedrich Schottky",
+            "Hermann Schwarz",
+            "Ludwig Stickelberger",
+            "Ernst K%C3%B6tter"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Karl_Weierstrass.jpg/220px-Karl_Weierstrass.jpg",
+        "link": "https://en.wikipedia.org/wiki/Karl_Weierstrass",
+        "name": "Karl Weierstrass"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Heinrich Scherk"
+        ],
+        "doctoral_students": [
+            "Gotthold Eisenstein",
+            "Georg Frobenius",
+            "Lazarus Fuchs",
+            "Wilhelm Killing",
+            "Adolf Kneser",
+            "Franz Mertens",
+            "Hermann Schwarz",
+            "Georg Cantor",
+            "Hans Carl Friedrich von Mangoldt",
+            "Adolf Piltz",
+            "Friedrich Prym"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/2/2f/ErnstKummer.jpg",
+        "link": "https://en.wikipedia.org/wiki/Ernst_Kummer",
+        "name": "Ernst Kummer"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Hermann Schwarz"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Harris_Hancock",
+        "name": "Harris Hancock"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Hermann Schwarz",
+            "Lazarus Fuchs"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Gerhard_Hessenberg",
+        "name": "Gerhard Hessenberg"
+    },
+    {
+        "academic_advisors": [
+            "Hermann Schwarz",
+            "Friedrich Schottky"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/a/af/Koebe%2CPaul_1930_Jena.jpg",
+        "link": "https://en.wikipedia.org/wiki/Paul_Koebe",
+        "name": "Paul Koebe"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Leon_Lichtenstein",
+        "name": "Leon Lichtenstein"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Heinrich_Maschke",
+        "name": "Heinrich Maschke"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Stolperstein_Robert_Remak%2C_Berlin_05.jpg/220px-Stolperstein_Robert_Remak%2C_Berlin_05.jpg",
+        "link": "https://en.wikipedia.org/wiki/Robert_Remak_(mathematician)",
+        "name": "Robert Remak (mathematician)"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/f7/TheodorVahlenSignature.jpg/150px-TheodorVahlenSignature.jpg",
+        "link": "https://en.wikipedia.org/wiki/Theodor_Vahlen",
+        "name": "Theodor Vahlen"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Lazarus Fuchs",
+            "Hermann Schwarz"
+        ],
+        "doctoral_students": [],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Ernst_Zermelo_1900s.jpg/220px-Ernst_Zermelo_1900s.jpg",
+        "link": "https://en.wikipedia.org/wiki/Ernst_Zermelo",
+        "name": "Ernst Zermelo"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "John von Neumann"
+        ],
+        "doctoral_students": [
+            "Alan M. Davis"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Gillies_Donald_B.jpg/200px-Gillies_Donald_B.jpg",
+        "link": "https://en.wikipedia.org/wiki/Donald_B._Gillies",
+        "name": "Donald B. Gillies"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Salomon Bochner",
+            "John von Neumann"
+        ],
+        "doctoral_students": [
+            "George A. Elliott"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Israel_Halperin",
+        "name": "Israel Halperin"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "John von Neumann"
+        ],
+        "doctoral_students": [
+            "Joseph Shalika"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Friederich_Ignaz_Mautner",
+        "name": "Friederich Ignaz Mautner"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "P%C3%A1l Tur%C3%A1n",
+            "Vera T. S%C3%B3s"
+        ],
+        "doctoral_students": [
+            "Mario Szegedy",
+            "G%C3%A1bor Tardos"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Laszlo_Babai.jpg/220px-Laszlo_Babai.jpg",
+        "link": "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Babai",
+        "name": "L%C3%A1szl%C3%B3 Babai"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/J%C3%A1nos_Pintz",
+        "name": "J%C3%A1nos Pintz"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Hans_Albert_Einstein",
+        "name": "Hans Albert Einstein"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "George P%C3%B3lya",
+            "Hermann Weyl"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Fritz_Gassmann",
+        "name": "Fritz Gassmann"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Albert_Pfluger",
+        "name": "Albert Pfluger"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Heinz Hopf",
+            "George P%C3%B3lya"
+        ],
+        "doctoral_students": [
+            "Louis Nirenberg",
+            "Jean Van Heijenoort",
+            "Eli Turkel"
+        ],
+        "link": "https://en.wikipedia.org/wiki/James_J._Stoker",
+        "name": "James J. Stoker"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Marcel Riesz"
+        ],
+        "doctoral_students": [
+            "Herman Wold",
+            "Kai Lai Chung",
+            "Ulf Grenander"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Harald_Cram%C3%A9r.jpg/220px-Harald_Cram%C3%A9r.jpg",
+        "link": "https://en.wikipedia.org/wiki/Harald_Cram%C3%A9r",
+        "name": "Harald Cram%C3%A9r"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Marcel Riesz"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Otto_Frostman",
+        "name": "Otto Frostman"
+    },
+    {
+        "doctoral_students": [
+            "Lars H%C3%B6rmander"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Lars_G%C3%A5rding",
+        "name": "Lars G%C3%A5rding"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Marcel Riesz"
+        ],
+        "doctoral_students": [
+            "George Maltese",
+            "Thomas L. Saaty",
+            "Irving Segal"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Einar_Hille_cropped.jpg/220px-Einar_Hille_cropped.jpg",
+        "link": "https://en.wikipedia.org/wiki/Einar_Carl_Hille",
+        "name": "Einar Carl Hille"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Lars_H%C3%B6rmander",
+        "name": "Lars H%C3%B6rmander"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/3/35/NewtonDetail.jpg/30px-NewtonDetail.jpg",
+        "link": "https://en.wikipedia.org/wiki/Olof_Thorin",
+        "name": "Olof Thorin"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Michael Fekete"
+        ],
+        "doctoral_students": [
+            "Shmuel Gal",
+            "Branko Gr%C3%BCnbaum",
+            "Joram Lindenstrauss"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/2/27/Dvoretzky.jpg/220px-Dvoretzky.jpg",
+        "link": "https://en.wikipedia.org/wiki/Aryeh_Dvoretzky",
+        "name": "Aryeh Dvoretzky"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Stefan Bergman",
+            "Michael Fekete"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Michael_maschler.png/220px-Michael_maschler.png",
+        "link": "https://en.wikipedia.org/wiki/Michael_Bahir_Maschler",
+        "name": "Michael Bahir Maschler"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Zeev_Nehari",
+        "name": "Zeev Nehari"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Menahem_Max_Schiffer",
+        "name": "Menahem Max Schiffer"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Solomon Lefschetz"
+        ],
+        "doctoral_students": [
+            "Frank Adams",
+            "Max Kelly",
+            "Crispin Nash-Williams",
+            "W. T. Tutte",
+            "Christopher Zeeman"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/c/c1/Shaun_Wylie.jpg/200px-Shaun_Wylie.jpg",
+        "link": "https://en.wikipedia.org/wiki/Shaun_Wylie",
+        "name": "Shaun Wylie"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Peter_Johnstone_(mathematician)",
+        "name": "Peter Johnstone (mathematician)"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Andrew_Ranicki.jpg/180px-Andrew_Ranicki.jpg",
+        "link": "https://en.wikipedia.org/wiki/Andrew_Ranicki",
+        "name": "Andrew Ranicki"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/7/78/CTC_Wall.jpeg/220px-CTC_Wall.jpeg",
+        "link": "https://en.wikipedia.org/wiki/C._T._C._Wall",
+        "name": "C. T. C. Wall"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Timothy Gowers"
+        ],
+        "link": "https://en.wikipedia.org/wiki/David_Conlon",
+        "name": "David Conlon"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Timothy Gowers"
+        ],
+        "doctoral_students": [
+            "Vicky Neale"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Ben_Green.jpg/220px-Ben_Green.jpg",
+        "link": "https://en.wikipedia.org/wiki/Ben_Joseph_Green",
+        "name": "Ben Joseph Green"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Timothy Gowers"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Tom_Sanders_(mathematician)",
+        "name": "Tom Sanders (mathematician)"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Christian Heinrich B%C3%BCnger"
+        ],
+        "doctoral_students": [
+            "Adolf Fick"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ludwick_Fick_%281813-1858%29.png/200px-Ludwick_Fick_%281813-1858%29.png",
+        "link": "https://en.wikipedia.org/wiki/Franz_Ludwig_Fick",
+        "name": "Franz Ludwig Fick"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Georg_Friedrich_Knapp",
+        "name": "Georg Friedrich Knapp"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "August Beer"
+        ],
+        "doctoral_students": [
+            "Ladislaus Bortkiewicz"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/0/08/Voit_172_Wilhelm_Lexis.jpg/220px-Voit_172_Wilhelm_Lexis.jpg",
+        "link": "https://en.wikipedia.org/wiki/Wilhelm_Lexis",
+        "name": "Wilhelm Lexis"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/8/87/Gustav_von_Schmoller_by_Nicola_Perscheid_c1908.jpg/245px-Gustav_von_Schmoller_by_Nicola_Perscheid_c1908.jpg",
+        "link": "https://en.wikipedia.org/wiki/Gustav_von_Schmoller",
+        "name": "Gustav von Schmoller"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Adolph_Wagner",
+        "name": "Adolph Wagner"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Richard_L%C3%B6wenthal",
+        "name": "Richard L%C3%B6wenthal"
+    },
+    {
+        "doctoral_advisors": [
+            "Eugen B%C3%B6hm von Bawerk"
+        ],
+        "doctoral_students": [
+            "Ferdinand A. Hermens",
+            "Paul Samuelson",
+            "James Tobin",
+            "Anne Carter (economist)"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Joseph_Schumpeter_ekonomialaria.jpg/220px-Joseph_Schumpeter_ekonomialaria.jpg",
+        "link": "https://en.wikipedia.org/wiki/Joseph_Schumpeter",
+        "name": "Joseph Schumpeter"
+    },
+    {
+        "doctoral_advisors": [
+            "Paul Samuelson"
+        ],
+        "doctoral_students": [
+            "Arthur Goldberger",
+            "E. Roy Weintraub",
+            "Bennett Harrison",
+            "Ignazio Visco"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/0/09/Lawrence_Klein.jpg/220px-Lawrence_Klein.jpg",
+        "link": "https://en.wikipedia.org/wiki/Lawrence_Klein",
+        "name": "Lawrence Klein"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Paul Samuelson"
+        ],
+        "doctoral_students": [
+            "Jonathan E. Ingersoll",
+            "Robert Jarrow"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Robert_Merton_November_2010_03%281%29.jpg/220px-Robert_Merton_November_2010_03%281%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Robert_C._Merton",
+        "name": "Robert C. Merton"
+    },
+    {
+        "doctoral_advisors": [],
+        "doctoral_students": [
+            "Thomas Schelling",
+            "Edwin Kuh",
+            "John R. Meyer",
+            "Harry Gordon Johnson"
+        ],
+        "link": "https://en.wikipedia.org/wiki/James_Duesenberry",
+        "name": "James Duesenberry"
+    },
+    {
+        "doctoral_advisors": [
+            "Kenneth Arrow",
+            "Thomas Schelling"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/a6/A_Michael_Spence.jpg/180px-A_Michael_Spence.jpg",
+        "link": "https://en.wikipedia.org/wiki/A._Michael_Spence",
+        "name": "A. Michael Spence"
+    },
+    {
+        "doctoral_advisors": [
+            "Martin Feldstein",
+            "Thomas Schelling"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/9/91/Eli_Noam.png/220px-Eli_Noam.png",
+        "link": "https://en.wikipedia.org/wiki/Eli_Noam",
+        "name": "Eli Noam"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Emory Leon Chaffee"
+        ],
+        "doctoral_students": [
+            "Gerrit Blaauw",
+            "Fred Brooks",
+            "Kenneth E. Iverson",
+            "Anthony Oettinger",
+            "Gerard Salton"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Aiken.jpeg/180px-Aiken.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Howard_Aiken",
+        "name": "Howard Aiken"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Mauro_Gallegati",
+        "name": "Mauro Gallegati"
+    },
+    {
+        "doctoral_advisors": [
+            "Michael C. Lovell"
+        ],
+        "doctoral_students": [
+            "Ronald G. Ehrenberg"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dale_Mortensen_2.jpg/220px-Dale_Mortensen_2.jpg",
+        "link": "https://en.wikipedia.org/wiki/Dale_T._Mortensen",
+        "name": "Dale T. Mortensen"
+    },
+    {
+        "doctoral_advisors": [
+            "Michael C. Lovell"
+        ],
+        "doctoral_students": [
+            "Costas Azariadis",
+            "Gary Hansen",
+            "Finn Kydland",
+            "V. V. Chari",
+            "Fernando Alvarez (economist)"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/0/05/Edward_C_Prescott_2015.jpg/250px-Edward_C_Prescott_2015.jpg",
+        "link": "https://en.wikipedia.org/wiki/Edward_C._Prescott",
+        "name": "Edward C. Prescott"
+    },
+    {
+        "doctoral_advisors": [
+            "David K. Levine"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Guido_Tabellini",
+        "name": "Guido Tabellini"
+    },
+    {
+        "doctoral_advisors": [
+            "Robert Solow"
+        ],
+        "doctoral_students": [
+            "Martin Hellwig",
+            "David K. Levine",
+            "Andrei Shleifer",
+            "Emmanuel Saez"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Peter_Diamond_%28economist%29.jpg/220px-Peter_Diamond_%28economist%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Peter_A._Diamond",
+        "name": "Peter A. Diamond"
+    },
+    {
+        "doctoral_advisors": [
+            "John R. Meyer"
+        ],
+        "doctoral_students": [
+            "Stanley Fischer",
+            "Michael Rothschild",
+            "Richard L. Schmalensee",
+            "Charles F. Manski",
+            "Mark J. Machina",
+            "Douglas Bernheim",
+            "Michael Whinston",
+            "Nancy Rose",
+            "Robert W. Vishny",
+            "Andrei Shleifer"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Franklin_M._Fisher",
+        "name": "Franklin M. Fisher"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Drew Fudenberg",
+            "Lawrence F. Katz",
+            "Andrei Shleifer"
+        ],
+        "doctoral_students": [
+            "Ebonya Washington"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Sendhil_Mullainathan",
+        "name": "Sendhil Mullainathan"
+    },
+    {
+        "doctoral_advisors": [
+            "Ariel Pakes",
+            "Andrei Shleifer"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Matthew_Gentzkow",
+        "name": "Matthew Gentzkow"
+    },
+    {
+        "doctoral_students": [
+            "David Cutler",
+            "Luigi Zingales",
+            "Andrew Samwick",
+            "Caroline Hoxby",
+            "Steven Levitt",
+            "Emmanuel Saez",
+            "Amy Finkelstein",
+            "Stefanie Stantcheva"
+        ],
+        "link": "https://en.wikipedia.org/wiki/James_M._Poterba",
+        "name": "James M. Poterba"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/William_Hoban_Branson",
+        "name": "William Hoban Branson"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Abraham Gottlob Werner"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Weiss%2C_Christian_Samuel.jpg/225px-Weiss%2C_Christian_Samuel.jpg",
+        "link": "https://en.wikipedia.org/wiki/Christian_Samuel_Weiss",
+        "name": "Christian Samuel Weiss"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Franz Ernst Neumann"
+        ],
+        "doctoral_students": [
+            "Paul Drude"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/0/0f/WoldemarVoigt_-_from_Commons.jpg/150px-WoldemarVoigt_-_from_Commons.jpg",
+        "link": "https://en.wikipedia.org/wiki/Woldemar_Voigt",
+        "name": "Woldemar Voigt"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Franz Ernst Neumann"
+        ],
+        "doctoral_students": [
+            "Gottlob Frege",
+            "Alexander von Brill"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Alfred_Clebsch.jpeg/225px-Alfred_Clebsch.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Alfred_Clebsch",
+        "name": "Alfred Clebsch"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Franz Ernst Neumann",
+            "Wikipedia:Citation needed"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Gustav_Robert_Kirchhoff.jpg/230px-Gustav_Robert_Kirchhoff.jpg",
+        "link": "https://en.wikipedia.org/wiki/Gustav_Robert_Kirchhoff",
+        "name": "Gustav Robert Kirchhoff"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Albert_Wangerin.jpg/220px-Albert_Wangerin.jpg",
+        "link": "https://en.wikipedia.org/wiki/Friedrich_Heinrich_Albert_Wangerin",
+        "name": "Friedrich Heinrich Albert Wangerin"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Paul Langevin"
+        ],
+        "doctoral_students": [],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/af/Ir%C3%A8ne_Joliot-Curie_Harcourt.jpg/220px-Ir%C3%A8ne_Joliot-Curie_Harcourt.jpg",
+        "link": "https://en.wikipedia.org/wiki/Ir%C3%A8ne_Joliot-Curie",
+        "name": "Ir%C3%A8ne Joliot-Curie"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Louis_de_Broglie",
+        "name": "Louis de Broglie"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Paul Langevin"
+        ],
+        "doctoral_students": [
+            "Nicolas Cabrera",
+            "Ivar Stakgold"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/aa/L%C3%A9on_Brillouin_Solvay_conference_1927.jpg/150px-L%C3%A9on_Brillouin_Solvay_conference_1927.jpg",
+        "link": "https://en.wikipedia.org/wiki/L%C3%A9on_Brillouin",
+        "name": "L%C3%A9on Brillouin"
+    },
+    {
+        "academic_advisors": [
+            "Carl Gauss"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Christoph_Gudermann",
+        "name": "Christoph Gudermann"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Karl Weierstrass",
+            "Ernst Kummer",
+            "Joseph Liouville"
+        ],
+        "doctoral_students": [
+            "Dmitri Egorov",
+            "Nikolay Sonin"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/d/da/BugaevNV-MatematicheskySbornik1904-2.jpg/220px-BugaevNV-MatematicheskySbornik1904-2.jpg",
+        "link": "https://en.wikipedia.org/wiki/Nikolai_Bugaev",
+        "name": "Nikolai Bugaev"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Ernst Kummer",
+            "Karl Weierstrass"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Georg_Cantor2.jpg/220px-Georg_Cantor2.jpg",
+        "link": "https://en.wikipedia.org/wiki/Georg_Cantor",
+        "name": "Georg Cantor"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Karl Weierstrass",
+            "Ernst Kummer"
+        ],
+        "doctoral_students": [
+            "Edmund Landau",
+            "Issai Schur",
+            "Konrad Knopp",
+            "Walter Schnee"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/7/77/GeorgFrobenius_%28cropped%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Georg_Frobenius",
+        "name": "Georg Frobenius"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Karl Weierstra%C3%9F"
+        ],
+        "doctoral_students": [
+            "Gerhard Hessenberg",
+            "Edmund Landau",
+            "Hermann Schapira",
+            "Ludwig Schlesinger",
+            "Issai Schur",
+            "Theodor Vahlen",
+            "Ernst Zermelo"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Lazarus_Fuchs_%28HeidICON_33457%29_%28cropped%29.jpg/220px-Lazarus_Fuchs_%28HeidICON_33457%29_%28cropped%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Lazarus_Fuchs",
+        "name": "Lazarus Fuchs"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Karl Weierstrass",
+            "Ernst Kummer"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/5/57/Wilhelm_Karl_Joseph_Killing.jpeg/220px-Wilhelm_Karl_Joseph_Killing.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Wilhelm_Killing",
+        "name": "Wilhelm Killing"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Karl Weierstrass",
+            "Ernst Kummer"
+        ],
+        "doctoral_students": [
+            "Karl Bopp",
+            "Jakob Horn",
+            "Edmund Husserl",
+            "Gyula K%C5%91nig",
+            "Georg Alexander Pick",
+            "Alfred Pringsheim",
+            "M%C3%B3r R%C3%A9thy",
+            "Max Wolf"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/4/48/Leo_Koenigsberger_%28HeidICON_28853%29_%28cropped%29.jpg/220px-Leo_Koenigsberger_%28HeidICON_28853%29_%28cropped%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Leo_K%C3%B6nigsberger",
+        "name": "Leo K%C3%B6nigsberger"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Karl Weierstrass"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Sofja_Wassiljewna_Kowalewskaja_1.jpg/220px-Sofja_Wassiljewna_Kowalewskaja_1.jpg",
+        "link": "https://en.wikipedia.org/wiki/Sofia_Kovalevskaya",
+        "name": "Sofia Kovalevskaya"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Mathias_Lerch",
+        "name": "Mathias Lerch"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Karl Weierstrass",
+            "Ernst Kummer"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Hans_von_Mangoldt",
+        "name": "Hans von Mangoldt"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Eugen_Netto",
+        "name": "Eugen Netto"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Ernst Kummer",
+            "Karl Weierstrass",
+            "Carl Johannes Thomae"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Adolf_Piltz",
+        "name": "Adolf Piltz"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Karl Weierstrass",
+            "Ernst Kummer"
+        ],
+        "doctoral_students": [
+            "Max Born"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/3/34/CarleRunge.jpg",
+        "link": "https://en.wikipedia.org/wiki/Carl_Runge",
+        "name": "Carl Runge"
+    },
+    {
+        "academic_advisors": [
+            "Ernst Kummer",
+            "Karl Weierstrass"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Arthur_Schoenflies",
+        "name": "Arthur Schoenflies"
+    },
+    {
+        "academic_advisors": [
+            "Karl Weierstrass",
+            "Hermann von Helmholtz"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/3/38/FriedrichSchottky.jpg/200px-FriedrichSchottky.jpg",
+        "link": "https://en.wikipedia.org/wiki/Friedrich_Schottky",
+        "name": "Friedrich Schottky"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Karl Weierstrass"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ludwig_Stickelberger",
+        "name": "Ludwig Stickelberger"
+    },
+    {
+        "academic_advisors": [
+            "Weierstra%C3%9F",
+            "Leopold Kronecker"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ernst_K%C3%B6tter",
+        "name": "Ernst K%C3%B6tter"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Friedrich Bessel",
+            "Heinrich Wilhelm Brandes"
+        ],
+        "doctoral_students": [
+            "Ernst Kummer"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/5/59/Heinrich_Scherk.jpg",
+        "link": "https://en.wikipedia.org/wiki/Heinrich_Scherk",
+        "name": "Heinrich Scherk"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Ernst Eduard Kummer",
+            "Nikolaus Wolfgang Fischer"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Gotthold_Eisenstein.jpeg/220px-Gotthold_Eisenstein.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Gotthold_Eisenstein",
+        "name": "Gotthold Eisenstein"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Leopold Kronecker",
+            "Ernst Eduard Kummer"
+        ],
+        "doctoral_students": [
+            "Stephan Cohn-Vossen",
+            "Rudolf Weyrich"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Adolf_Kneser.jpeg/220px-Adolf_Kneser.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Adolf_Kneser",
+        "name": "Adolf Kneser"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Ernst Eduard Kummer",
+            "Leopold Kronecker"
+        ],
+        "doctoral_students": [
+            "Ernst Sigismund Fischer",
+            "Eduard Helly"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/d/da/Franz_Mertens.jpg/220px-Franz_Mertens.jpg",
+        "link": "https://en.wikipedia.org/wiki/Franz_Mertens",
+        "name": "Franz Mertens"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Karl Weierstrass",
+            "Ernst Kummer"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Hans_Carl_Friedrich_von_Mangoldt",
+        "name": "Hans Carl Friedrich von Mangoldt"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Translation_to_english_arrow.svg/50px-Translation_to_english_arrow.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Friedrich_Prym",
+        "name": "Friedrich Prym"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Erhard Schmidt"
+        ],
+        "doctoral_students": [
+            "Richard Askey",
+            "Eugenio Calabi",
+            "Jeff Cheeger",
+            "M. T. Cheng",
+            "Hillel Furstenberg",
+            "Robert Gunning (mathematician)",
+            "Israel Halperin",
+            "Sigurdur Helgason (mathematician)",
+            "Carl S. Herz",
+            "Gilbert Hunt",
+            "Samuel Karlin",
+            "Anthony Knapp",
+            "Paco Lagerstrom",
+            "Lynn Harold Loomis",
+            "Harry Rauch",
+            "Herbert Scarf",
+            "William A. Veech",
+            "Gerard Washnitzer"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/8/8c/BochnerSalomon_Zurich1932.tif/lossy-page1-55px-BochnerSalomon_Zurich1932.tif.jpg",
+        "link": "https://en.wikipedia.org/wiki/Salomon_Bochner",
+        "name": "Salomon Bochner"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Israel Halperin"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/3/35/George_A._Elliott.jpg/220px-George_A._Elliott.jpg",
+        "link": "https://en.wikipedia.org/wiki/George_A._Elliott",
+        "name": "George A. Elliott"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Friederich Ignaz Mautner"
+        ],
+        "doctoral_students": [
+            "Freydoon Shahidi",
+            "Ramin Takloo-Bighash"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Joseph_Shalika",
+        "name": "Joseph Shalika"
+    },
+    {
+        "doctoral_students": [
+            "L%C3%A1szl%C3%B3 Babai",
+            "Katalin Vesztergombi"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Vera_T._S%C3%B3s.jpeg/220px-Vera_T._S%C3%B3s.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Vera_T._S%C3%B3s",
+        "name": "Vera T. S%C3%B3s"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "L%C3%A1szl%C3%B3 Babai"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/3/31/Mario_Szegedy_at_Rutgers_2008.jpg/220px-Mario_Szegedy_at_Rutgers_2008.jpg",
+        "link": "https://en.wikipedia.org/wiki/Mario_Szegedy",
+        "name": "Mario Szegedy"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "L%C3%A1szl%C3%B3 Babai",
+            "P%C3%A9ter P%C3%A1l P%C3%A1lfy"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/e/ec/G%C3%A1bor_Tardos.jpg/220px-G%C3%A1bor_Tardos.jpg",
+        "link": "https://en.wikipedia.org/wiki/G%C3%A1bor_Tardos",
+        "name": "G%C3%A1bor Tardos"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "David Hilbert"
+        ],
+        "doctoral_students": [
+            "Alexander Weinstein"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/8/87/Hermann_Weyl_signature.svg/150px-Hermann_Weyl_signature.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Hermann_Weyl",
+        "name": "Hermann Weyl"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Heinz_Hopf",
+        "name": "Heinz Hopf"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "James J. Stoker"
+        ],
+        "doctoral_students": [
+            "Walter Craig (mathematician)",
+            "Djairo Guedes de Figueiredo",
+            "Sergiu Klainerman",
+            "Peter B. Gilkey",
+            "Martin Schechter (mathematician)"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/0/05/Louis_Nirenberg.jpeg/220px-Louis_Nirenberg.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Louis_Nirenberg",
+        "name": "Louis Nirenberg"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Jean_Van_Heijenoort",
+        "name": "Jean Van Heijenoort"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Eli_Turkel",
+        "name": "Eli Turkel"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Harald Cram%C3%A9r"
+        ],
+        "doctoral_students": [
+            "Sten Malmquist",
+            "Peter Whittle (mathematician)",
+            "Karl J%C3%B6reskog"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Herman_Wold",
+        "name": "Herman Wold"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Harald Cram%C3%A9r",
+            "John Wilder Tukey"
+        ],
+        "doctoral_students": [
+            "Cyrus Derman",
+            "J. Michael Steele",
+            "Ruth Jeannette Williams"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/5/58/Chung_Kai-Lai.jpg/220px-Chung_Kai-Lai.jpg",
+        "link": "https://en.wikipedia.org/wiki/Kai_Lai_Chung",
+        "name": "Kai Lai Chung"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Harald Cram%C3%A9r"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ulf_Grenander",
+        "name": "Ulf Grenander"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png",
+        "link": "https://en.wikipedia.org/wiki/George_Maltese",
+        "name": "George Maltese"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Thomas_L._Saaty",
+        "name": "Thomas L. Saaty"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Einar Hille"
+        ],
+        "doctoral_students": [
+            "John C. Baez",
+            "Robert James Blattner",
+            "Lester Dubins",
+            "Henry Dye",
+            "Abel Klein",
+            "Bertram Kostant",
+            "Ray Kunze",
+            "Ernest Michael",
+            "J. Edward Nelson",
+            "Isadore Singer"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Irving_Segal.jpeg/220px-Irving_Segal.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Irving_Segal",
+        "name": "Irving Segal"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Shmuel_Gal",
+        "name": "Shmuel Gal"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Aryeh Dvoretzky"
+        ],
+        "doctoral_students": [
+            "Joram Lindenstrauss",
+            "Micha Perles"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Branko_Gr%C3%BCnbaum.jpg/220px-Branko_Gr%C3%BCnbaum.jpg",
+        "link": "https://en.wikipedia.org/wiki/Branko_Gr%C3%BCnbaum",
+        "name": "Branko Gr%C3%BCnbaum"
+    },
+    {
+        "doctoral_students": [
+            "Assaf Naor",
+            "Gideon Schechtman"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/4/48/Joram_Lindenstrauss.jpeg/220px-Joram_Lindenstrauss.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Joram_Lindenstrauss",
+        "name": "Joram Lindenstrauss"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Stefan_Bergman",
+        "name": "Stefan Bergman"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "William Edward Story"
+        ],
+        "doctoral_students": [
+            "Edward Begle",
+            "Richard Bellman",
+            "Felix Browder",
+            "Clifford Dowker",
+            "George F. D. Duff",
+            "Ralph Fox",
+            "Ralph Gomory",
+            "John McCarthy (computer scientist)",
+            "Robert Prim",
+            "Paul A. Smith",
+            "Norman Steenrod",
+            "Clifford Truesdell",
+            "Albert W. Tucker",
+            "John Tukey",
+            "Henry Wallman",
+            "Shaun Wylie"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/0/0a/Solomon_Lefschetz.jpg/180px-Solomon_Lefschetz.jpg",
+        "link": "https://en.wikipedia.org/wiki/Solomon_Lefschetz",
+        "name": "Solomon Lefschetz"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Max_Kelly",
+        "name": "Max Kelly"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Shaun Wylie"
+        ],
+        "doctoral_students": [
+            "V%C3%A1clav Chv%C3%A1tal",
+            "Alexander Dewdney",
+            "Dragan Maru%C5%A1i%C4%8D"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Crispin_Nash-Williams",
+        "name": "Crispin Nash-Williams"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Shaun Wylie"
+        ],
+        "doctoral_students": [
+            "W. G. Brown",
+            "Neil Robertson (mathematician)"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/0/05/W._T._Tutte.jpg/220px-W._T._Tutte.jpg",
+        "link": "https://en.wikipedia.org/wiki/W._T._Tutte",
+        "name": "W. T. Tutte"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Shaun Wylie"
+        ],
+        "doctoral_students": [
+            "Peter Buneman",
+            "David B. A. Epstein",
+            "Ray Lickorish",
+            "Tim Poston",
+            "Colin P. Rourke",
+            "David Trotman",
+            "C. T. C. Wall"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/8/85/Christopher_Zeeman.jpeg/150px-Christopher_Zeeman.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Christopher_Zeeman",
+        "name": "Christopher Zeeman"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Ben Green (mathematician)"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Vicky_Neale",
+        "name": "Vicky Neale"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Justus Christian Loder",
+            "Gottfried Christoph Beireis"
+        ],
+        "doctoral_students": [
+            "Franz Ludwig Fick"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/en/c/cd/Christian_Heinrich_B%C3%BCnger.jpg",
+        "link": "https://en.wikipedia.org/wiki/Christian_Heinrich_B%C3%BCnger",
+        "name": "Christian Heinrich B%C3%BCnger"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/August_Beer",
+        "name": "August Beer"
+    },
+    {
+        "doctoral_advisors": [
+            "Karl Knies",
+            "Wilhelm Roscher",
+            "Bruno Hildebrand"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/b/b3/1Bawerk.png/220px-1Bawerk.png",
+        "link": "https://en.wikipedia.org/wiki/Eugen_B%C3%B6hm_von_Bawerk",
+        "name": "Eugen B%C3%B6hm von Bawerk"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Joseph Schumpeter"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ferdinand_A._Hermens",
+        "name": "Ferdinand A. Hermens"
+    },
+    {
+        "doctoral_advisors": [
+            "Joseph Schumpeter"
+        ],
+        "doctoral_students": [
+            "Edmund Phelps",
+            "William Brainard",
+            "Koichi Hamada",
+            "Duncan K. Foley",
+            "Janet Yellen",
+            "Willem Buiter",
+            "Hiroshi Yoshikawa"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/1/11/James_Tobin.png/220px-James_Tobin.png",
+        "link": "https://en.wikipedia.org/wiki/James_Tobin",
+        "name": "James Tobin"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Joseph Schumpeter"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Anne_Carter_(economist)",
+        "name": "Anne Carter (economist)"
+    },
+    {
+        "doctoral_advisors": [
+            "Lawrence Klein"
+        ],
+        "doctoral_students": [
+            "P. A. V. B. Swamy"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/9/96/Arthur_Stanley_Goldberger.jpg/220px-Arthur_Stanley_Goldberger.jpg",
+        "link": "https://en.wikipedia.org/wiki/Arthur_Goldberger",
+        "name": "Arthur Goldberger"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/E._Roy_Weintraub",
+        "name": "E. Roy Weintraub"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/6/6c/Wiki_letter_w.svg/40px-Wiki_letter_w.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Bennett_Harrison",
+        "name": "Bennett Harrison"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/4/40/Ignazio_Visco_at_the_Rebuilding_Europe%E2%80%99s_Competitiveness_Meeting%2C_Villa_Madama%2C_Rome_30th_October_2012.jpg/220px-Ignazio_Visco_at_the_Rebuilding_Europe%E2%80%99s_Competitiveness_Meeting%2C_Villa_Madama%2C_Rome_30th_October_2012.jpg",
+        "link": "https://en.wikipedia.org/wiki/Ignazio_Visco",
+        "name": "Ignazio Visco"
+    },
+    {
+        "doctoral_advisors": [
+            "Robert C. Merton"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Jonathan_E._Ingersoll",
+        "name": "Jonathan E. Ingersoll"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Robert_Jarrow",
+        "name": "Robert Jarrow"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Edwin_Kuh",
+        "name": "Edwin Kuh"
+    },
+    {
+        "doctoral_advisors": [
+            "Guy Orcutt",
+            "James Duesenberry"
+        ],
+        "doctoral_students": [
+            "Franklin M. Fisher",
+            "Thomas Sargent"
+        ],
+        "link": "https://en.wikipedia.org/wiki/John_R._Meyer",
+        "name": "John R. Meyer"
+    },
+    {
+        "doctoral_advisors": [
+            "James Duesenberry"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Harry_Gordon_Johnson",
+        "name": "Harry Gordon Johnson"
+    },
+    {
+        "doctoral_advisors": [
+            "Harold Hotelling"
+        ],
+        "doctoral_students": [
+            "Michael Bruno",
+            "John Geanakoplos",
+            "Nancy Gordon",
+            "John Harsanyi",
+            "Jan Kmenta",
+            "Jean-Jacques Laffont",
+            "Eric S. Maskin",
+            "Roger Myerson",
+            "Andrea Prat",
+            "Karl Shell",
+            "Michael Spence",
+            "Nancy Stokey"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/9/9d/Kenneth_Arrow%2C_Stanford_University.jpg",
+        "link": "https://en.wikipedia.org/wiki/Kenneth_Arrow",
+        "name": "Kenneth Arrow"
+    },
+    {
+        "doctoral_advisors": [
+            "W. M. Gorman"
+        ],
+        "doctoral_students": [
+            "Harvey S. Rosen",
+            "Eli Noam",
+            "Jeffrey Sachs",
+            "Joel Slemrod",
+            "Douglas Elmendorf",
+            "Jeffrey Liebman",
+            "Raj Chetty"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Martin_Feldstein",
+        "name": "Martin Feldstein"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "G. W. Pierce"
+        ],
+        "doctoral_students": [
+            "Howard H. Aiken"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/0/0a/E._Leon_Chaffee.jpg/220px-E._Leon_Chaffee.jpg",
+        "link": "https://en.wikipedia.org/wiki/Emory_Leon_Chaffee",
+        "name": "Emory Leon Chaffee"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/34px-Wikiquote-logo.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Gerrit_Blaauw",
+        "name": "Gerrit Blaauw"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Howard H. Aiken"
+        ],
+        "doctoral_students": [
+            "Andrew Glassner"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/9/91/Fred_Brooks.jpg/220px-Fred_Brooks.jpg",
+        "link": "https://en.wikipedia.org/wiki/Fred_Brooks",
+        "name": "Fred Brooks"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/6/64/Ottenger_200x300.jpg",
+        "link": "https://en.wikipedia.org/wiki/Anthony_Oettinger",
+        "name": "Anthony Oettinger"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Howard Aiken"
+        ],
+        "doctoral_students": [
+            "Amit Singhal",
+            "Ellen Voorhees"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Gerard_Salton",
+        "name": "Gerard Salton"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Ronald_G._Ehrenberg",
+        "name": "Ronald G. Ehrenberg"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Costas_Azariadis",
+        "name": "Costas Azariadis"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Gary_Hansen",
+        "name": "Gary Hansen"
+    },
+    {
+        "doctoral_advisors": [
+            "Edward C. Prescott",
+            "David Cass"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Finn_E_Kydland_2015.jpg/260px-Finn_E_Kydland_2015.jpg",
+        "link": "https://en.wikipedia.org/wiki/Finn_Kydland",
+        "name": "Finn Kydland"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/V._V._Chari",
+        "name": "V. V. Chari"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Fernando_Alvarez_(economist)",
+        "name": "Fernando Alvarez (economist)"
+    },
+    {
+        "doctoral_advisors": [
+            "Franklin M. Fisher"
+        ],
+        "doctoral_students": [
+            "Zvi Bodie",
+            "Isher Judge Ahluwalia",
+            "Frederic Mishkin",
+            "Steven M. Sheffrin",
+            "Olivier Blanchard",
+            "Ben Bernanke",
+            "David Hsieh",
+            "Kenneth D. West",
+            "Greg Mankiw",
+            "Jeffrey Miron",
+            "Mark Bils",
+            "David Romer",
+            "Ricardo J. Caballero",
+            "D. Nathan Sheets",
+            "Ilan Goldfajn"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Stanley_Fischer_%2814152693510%29.jpg/220px-Stanley_Fischer_%2814152693510%29.jpg",
+        "link": "https://en.wikipedia.org/wiki/Stanley_Fischer",
+        "name": "Stanley Fischer"
+    },
+    {
+        "doctoral_advisors": [
+            "Franklin M. Fisher"
+        ],
+        "doctoral_students": [
+            "Oliver Hart (economist)"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Michael_Rothschild",
+        "name": "Michael Rothschild"
+    },
+    {
+        "doctoral_advisors": [
+            "Franklin M. Fisher"
+        ],
+        "doctoral_students": [
+            "Carl Shapiro"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Richard_L._Schmalensee",
+        "name": "Richard L. Schmalensee"
+    },
+    {
+        "doctoral_advisors": [
+            "Franklin M. Fisher"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Charles_F._Manski",
+        "name": "Charles F. Manski"
+    },
+    {
+        "doctoral_advisors": [
+            "Franklin M. Fisher"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Mark_J._Machina",
+        "name": "Mark J. Machina"
+    },
+    {
+        "doctoral_advisors": [
+            "Franklin M. Fisher"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Douglas_Bernheim",
+        "name": "Douglas Bernheim"
+    },
+    {
+        "doctoral_advisors": [
+            "Franklin M. Fisher"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Michael_Whinston",
+        "name": "Michael Whinston"
+    },
+    {
+        "doctoral_advisors": [
+            "Paul Joskow",
+            "Franklin M. Fisher"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Nancy_Rose",
+        "name": "Nancy Rose"
+    },
+    {
+        "doctoral_advisors": [
+            "Franklin M. Fisher",
+            "Eric Maskin"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Robert_W._Vishny",
+        "name": "Robert W. Vishny"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Drew_Fudenberg",
+        "name": "Drew Fudenberg"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Lawrence_F._Katz",
+        "name": "Lawrence F. Katz"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Jonathan Gruber (economist)",
+            "Sendhil Mullainathan"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ebonya_Washington",
+        "name": "Ebonya Washington"
+    },
+    {
+        "doctoral_advisors": [
+            "Zvi Griliches"
+        ],
+        "doctoral_students": [
+            "Steven T. Berry",
+            "Matthew Gentzkow",
+            "Emi Nakamura"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ariel_Pakes",
+        "name": "Ariel Pakes"
+    },
+    {
+        "doctoral_advisors": [
+            "James M. Poterba"
+        ],
+        "doctoral_students": [
+            "Heidi Williams"
+        ],
+        "link": "https://en.wikipedia.org/wiki/David_Cutler",
+        "name": "David Cutler"
+    },
+    {
+        "doctoral_advisors": [
+            "James M. Poterba",
+            "Oliver Hart (economist)"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/3/32/Luigi_Zingales_2012.jpg/220px-Luigi_Zingales_2012.jpg",
+        "link": "https://en.wikipedia.org/wiki/Luigi_Zingales",
+        "name": "Luigi Zingales"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Andrew_Samwick",
+        "name": "Andrew Samwick"
+    },
+    {
+        "doctoral_advisors": [
+            "James M. Poterba"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Caroline_Hoxby",
+        "name": "Caroline Hoxby"
+    },
+    {
+        "doctoral_advisors": [
+            "James M. Poterba"
+        ],
+        "doctoral_students": [
+            "Brian Jacob"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/2/20/Steven_Levitt%2C_2012.jpg/220px-Steven_Levitt%2C_2012.jpg",
+        "link": "https://en.wikipedia.org/wiki/Steven_Levitt",
+        "name": "Steven Levitt"
+    },
+    {
+        "doctoral_advisors": [
+            "James M. Poterba",
+            "Jonathan Gruber (economist)"
+        ],
+        "doctoral_students": [
+            "Heidi Williams"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Amy_Finkelstein",
+        "name": "Amy Finkelstein"
+    },
+    {
+        "doctoral_advisors": [
+            "James M. Poterba",
+            "Iv%C3%A1n Werning"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Stefanie_Stantcheva",
+        "name": "Stefanie Stantcheva"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Abraham_Gottlob_Werner",
+        "name": "Abraham Gottlob Werner"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Woldemar Voigt"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/0/01/Paul_Drude.jpg/250px-Paul_Drude.jpg",
+        "link": "https://en.wikipedia.org/wiki/Paul_Drude",
+        "name": "Paul Drude"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Ernst Christian Julius Schering"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/9/99/Young_frege.jpg/220px-Young_frege.jpg",
+        "link": "https://en.wikipedia.org/wiki/Gottlob_Frege",
+        "name": "Gottlob Frege"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Alfred Clebsch"
+        ],
+        "doctoral_students": [
+            "Sebastian Finsterwalder",
+            "Max Planck"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Alexander_von_Brill.jpg/220px-Alexander_von_Brill.jpg",
+        "link": "https://en.wikipedia.org/wiki/Alexander_von_Brill",
+        "name": "Alexander von Brill"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Nicolas_Cabrera",
+        "name": "Nicolas Cabrera"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Ivar_Stakgold",
+        "name": "Ivar Stakgold"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Johann Friedrich Pfaff"
+        ],
+        "doctoral_students": [
+            "Johann Benedict Listing",
+            "Christian Ludwig Gerling",
+            "Richard Dedekind",
+            "Bernhard Riemann",
+            "Christian Heinrich Friedrich Peters",
+            "Moritz Cantor"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Carl_Friedrich_Gau%C3%9F_signature.svg/150px-Carl_Friedrich_Gau%C3%9F_signature.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Carl_Gauss",
+        "name": "Carl Gauss"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Sim%C3%A9on Denis Poisson",
+            "Louis Jacques Th%C3%A9nard"
+        ],
+        "doctoral_students": [
+            "Eug%C3%A8ne Charles Catalan",
+            "Nikolai Bugaev"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Joseph_liouville.jpeg/150px-Joseph_liouville.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Joseph_Liouville",
+        "name": "Joseph Liouville"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Nikolai Bugaev"
+        ],
+        "doctoral_students": [
+            "Pavel Sergeevich Alexandrov",
+            "Nikolai Luzin",
+            "Ivan Petrovsky",
+            "Ivan Privalov",
+            "Adolf Yushkevich",
+            "Dmitrii Menshov"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/8/84/Dmitri_Egorov.jpg/200px-Dmitri_Egorov.jpg",
+        "link": "https://en.wikipedia.org/wiki/Dmitri_Egorov",
+        "name": "Dmitri Egorov"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Nikolai Bugaev"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/7/70/Nicolay_Sonin.jpeg/220px-Nicolay_Sonin.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Nikolay_Sonin",
+        "name": "Nikolay Sonin"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Edmund_Landau",
+        "name": "Edmund Landau"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Georg Frobenius",
+            "Lazarus Fuchs"
+        ],
+        "doctoral_students": [
+            "Richard Brauer",
+            "Robert Frucht",
+            "Maximilian Herzberger",
+            "Eberhard Hopf",
+            "Bernhard Neumann",
+            "Rose Peltesohn",
+            "Heinz Pr%C3%BCfer",
+            "Richard Rado",
+            "Isaac Jacob Schoenberg",
+            "Arnold Scholz",
+            "Wilhelm Specht"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Schur.jpg/200px-Schur.jpg",
+        "link": "https://en.wikipedia.org/wiki/Issai_Schur",
+        "name": "Issai Schur"
+    },
+    {
+        "academic_advisors": [
+            "Friedrich Schottky",
+            "Ferdinand Georg Frobenius"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/8/86/KonradKnopp.jpg/200px-KonradKnopp.jpg",
+        "link": "https://en.wikipedia.org/wiki/Konrad_Knopp",
+        "name": "Konrad Knopp"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Walter_Schnee",
+        "name": "Walter Schnee"
+    },
+    {
+        "academic_advisors": [
+            "Christoph Gudermann"
+        ],
+        "doctoral_students": [
+            "Nikolai Bugaev",
+            "Georg Cantor",
+            "Georg Frobenius",
+            "Lazarus Fuchs",
+            "Wilhelm Killing",
+            "Leo K%C3%B6nigsberger",
+            "Sofia Kovalevskaya",
+            "Mathias Lerch",
+            "Hans von Mangoldt",
+            "Eugen Netto",
+            "Adolf Piltz",
+            "Carl Runge",
+            "Arthur Schoenflies",
+            "Friedrich Schottky",
+            "Hermann Schwarz",
+            "Ludwig Stickelberger",
+            "Ernst K%C3%B6tter"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Karl_Weierstrass.jpg/220px-Karl_Weierstrass.jpg",
+        "link": "https://en.wikipedia.org/wiki/Karl_Weierstra%C3%9F",
+        "name": "Karl Weierstra%C3%9F"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png",
+        "link": "https://en.wikipedia.org/wiki/Hermann_Schapira",
+        "name": "Hermann Schapira"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/9/96/Ludwig_Schlesinger.jpg/220px-Ludwig_Schlesinger.jpg",
+        "link": "https://en.wikipedia.org/wiki/Ludwig_Schlesinger",
+        "name": "Ludwig Schlesinger"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Moritz Cantor",
+            "Leo K%C3%B6nigsberger"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Karl_Bopp",
+        "name": "Karl Bopp"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Jakob_Horn",
+        "name": "Jakob Horn"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Leo K%C3%B6nigsberger",
+            "Carl Stumpf"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Edmund_Husserl_1910s.jpg/220px-Edmund_Husserl_1910s.jpg",
+        "link": "https://en.wikipedia.org/wiki/Edmund_Husserl",
+        "name": "Edmund Husserl"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Leo K%C3%B6nigsberger"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Gyula_K%C3%B6nig.jpg/200px-Gyula_K%C3%B6nig.jpg",
+        "link": "https://en.wikipedia.org/wiki/Gyula_K%C5%91nig",
+        "name": "Gyula K%C5%91nig"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Leo K%C3%B6nigsberger"
+        ],
+        "doctoral_students": [
+            "Charles Loewner",
+            "Saly Ruth Ramler"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/0/09/GeorgPick.png/220px-GeorgPick.png",
+        "link": "https://en.wikipedia.org/wiki/Georg_Alexander_Pick",
+        "name": "Georg Alexander Pick"
+    },
+    {
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/e/ed/Alfred_Pringsheim.jpg",
+        "link": "https://en.wikipedia.org/wiki/Alfred_Pringsheim",
+        "name": "Alfred Pringsheim"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Leo K%C3%B6nigsberger"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/a/a4/R%C3%A9thy_M%C3%B3r_matemetikus.jpeg/220px-R%C3%A9thy_M%C3%B3r_matemetikus.jpeg",
+        "link": "https://en.wikipedia.org/wiki/M%C3%B3r_R%C3%A9thy",
+        "name": "M%C3%B3r R%C3%A9thy"
+    },
+    {
+        "doctoral_advisors": [
+            "Doctoral advisor",
+            "Leo K%C3%B6nigsberger"
+        ],
+        "doctoral_students": [
+            "August Kopff",
+            "Heinrich Vogt (astronomer)",
+            "Wilhelm Lorenz"
+        ],
+        "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Max_Wolf.jpg/150px-Max_Wolf.jpg",
+        "link": "https://en.wikipedia.org/wiki/Max_Wolf",
+        "name": "Max Wolf"
+    }
+]
