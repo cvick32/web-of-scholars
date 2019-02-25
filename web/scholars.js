@@ -15,7 +15,6 @@ function dataLoadAndSetup() {
   d3.json(scholar_data).then(function(data) {
     scholars = data;
     setUpLinks();
-    console.log(links);
     restart();
   });
 }
@@ -83,6 +82,20 @@ const svg = d3.select('body')
   .attr('width', width)
   .attr('height', height);
 
+// set up path and circle objects
+let path = svg.append('svg:g').selectAll('path');
+let circle = svg.append('svg:g').selectAll('g');
+
+// init D3 zoom
+svg.call(d3.zoom()
+  .scaleExtent([1 / 2, 8])
+  .on('zoom', zoomed));
+
+function zoomed() {
+  path.attr("transform", d3.event.transform);
+  circle.attr("transform", d3.event.transform);
+}
+
 // init D3 force
 const force = d3.forceSimulation()
   .force('link', d3.forceLink().id((d) => d.name).distance(150))
@@ -101,9 +114,6 @@ svg.append('svg:defs').append('svg:marker')
   .append('svg:path')
     .attr('d', 'M0,-5L10,0L0,5')
     .attr('fill', '#000');
-
-let path = svg.append('svg:g').selectAll('path');
-let circle = svg.append('svg:g').selectAll('g');
 
 let selectedScholar = null;
 
