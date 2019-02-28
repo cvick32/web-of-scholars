@@ -4,6 +4,7 @@ scholar_data = "./data/squeezed_scholars.json"
 let scholars;
 let links = [];
 let totalLinks = 0;
+let count = 0;
 
 /**
  * Ansync method provided by D3 for reading in JSON data.
@@ -82,9 +83,22 @@ const svg = d3.select('body')
   .attr('width', width)
   .attr('height', height);
 
-// set up path and circle objects
-let path = svg.append('svg:g').selectAll('path');
-let circle = svg.append('svg:g').selectAll('g');
+svg.append('svg:defs').append('svg:marker')
+  .attr('id', 'arrow')
+  .attr('viewBox', '0 -5 10 10')
+  .attr('refX', 6)
+  .attr('markerWidth', 3)
+  .attr('markerHeight', 3)
+  .attr('orient', 'auto')
+.append('svg:path')
+  .attr('d', 'M0,-5L10,0L0,5')
+  .attr('fill', '#000');
+
+
+// set up container, path and circle objects
+let container = svg.append('svg:g');
+let path = container.append('svg:g').selectAll('path');
+let circle = container.append('svg:g').selectAll('g');
 
 // init D3 zoom
 svg.call(d3.zoom()
@@ -92,8 +106,8 @@ svg.call(d3.zoom()
   .on('zoom', zoomed));
 
 function zoomed() {
-  path.attr("transform", d3.event.transform);
-  circle.attr("transform", d3.event.transform);
+  console.log(d3.event);
+  container.attr("transform", d3.event.transform);
 }
 
 // init D3 force
@@ -103,17 +117,6 @@ const force = d3.forceSimulation()
   .force('x', d3.forceX(width / 2))
   .force('y', d3.forceY(height / 2))
   .on('tick', tick);
-
-svg.append('svg:defs').append('svg:marker')
-    .attr('id', 'arrow')
-    .attr('viewBox', '0 -5 10 10')
-    .attr('refX', 6)
-    .attr('markerWidth', 3)
-    .attr('markerHeight', 3)
-    .attr('orient', 'auto')
-  .append('svg:path')
-    .attr('d', 'M0,-5L10,0L0,5')
-    .attr('fill', '#000');
 
 let selectedScholar = null;
 
@@ -172,7 +175,6 @@ function restart() {
   force.nodes(scholars).force('link').links(links);
 
   force.alphaTarget(0.3).restart();
-
 }
 
 // app start
