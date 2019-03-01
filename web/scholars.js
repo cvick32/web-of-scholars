@@ -6,76 +6,10 @@ let links = [];
 let totalLinks = 0;
 let count = 0;
 
-/**
- * Ansync method provided by D3 for reading in JSON data.
- * After we grab the data from the file, we set up the link
- * data structure that we will use for graphically rendering
- * the web.
- */
-function dataLoadAndSetup() {
-  d3.json(scholar_data).then(function(data) {
-    scholars = data;
-    setUpLinks();
-    restart();
-  });
-}
-
-function setUpLinks() {
-  for (let i = 0; i < scholars.length; i++) {
-    cur_scholar = scholars[i];
-    doctoral_advisors = cur_scholar["doctoral_advisors"];
-    academic_advisors = cur_scholar["academic_advisors"];
-    if (doctoral_advisors) {
-      for (let i = 0; i < doctoral_advisors.length; i++) {
-        findScholar(doctoral_advisors[i], cur_scholar);
-      }
-    }
-    if (academic_advisors) {
-      for (let i = 0; i < academic_advisors.length; i++) {
-        findScholar(academic_advisors[i], cur_scholar);
-      }
-    }
-  }
-}
-
-function findScholar(advisor_name, scholar) {
-  let found_advisor = scholars.filter((doc) => {
-    return doc.name === advisor_name;
-  });
-  if (found_advisor[0]) {
-    links.push({source: found_advisor[0], target: scholar, left: false, right: true});
-  }
-}
-
-
 // set up SVG for D3
 const width = 2000;
 const height = 1000;
 const colors = d3.scaleOrdinal(d3.schemeCategory10);
-
-
-test_links = [
-  { source: {
-    "doctoral_advisors": [
-        "Robert Solow"
-    ],
-    "doctoral_students": [
-        "Charles Engel",
-        "Adriana Kugler"
-    ],
-    "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/1/18/George_Akerlof.jpg/225px-George_Akerlof.jpg",
-    "link": "https://en.wikipedia.org/wiki/George_Akerlof",
-    "name": "George Akerlof"
-  }, target: {
-    "doctoral_advisors": [
-        "Jeffrey Frankel",
-        "George Akerlof",
-        "Janet Yellen"
-    ],
-    "link": "https://en.wikipedia.org/wiki/Charles_Engel",
-    "name": "Charles Engel"
-  }, left: false, right: true }
-]
 
 const svg = d3.select('body')
   .append('svg')
@@ -83,7 +17,9 @@ const svg = d3.select('body')
   .attr('width', width)
   .attr('height', height);
 
-svg.append('svg:defs').append('svg:marker')
+let defs = svg.append('svg:defs')
+
+defs.append('svg:marker')
   .attr('id', 'arrow')
   .attr('viewBox', '0 -5 10 10')
   .attr('refX', 6)
@@ -120,6 +56,70 @@ const force = d3.forceSimulation()
 
 let selectedScholar = null;
 
+/**
+ * Ansync method provided by D3 for reading in JSON data.
+ * After we grab the data from the file, we set up the link
+ * data structure that we will use for graphically rendering
+ * the web.
+ */
+function dataLoadAndSetup() {
+  d3.json(scholar_data).then(function(data) {
+    scholars = data;
+    setUpLinks();
+    setUpImages();
+    restart();
+  });
+}
+
+function setUpLinks() {
+  for (let i = 0; i < scholars.length; i++) {
+    cur_scholar = scholars[i];
+    doctoral_advisors = cur_scholar["doctoral_advisors"];
+    academic_advisors = cur_scholar["academic_advisors"];
+    if (doctoral_advisors) {
+      for (let i = 0; i < doctoral_advisors.length; i++) {
+        findScholar(doctoral_advisors[i], cur_scholar);
+      }
+    }
+    if (academic_advisors) {
+      for (let i = 0; i < academic_advisors.length; i++) {
+        findScholar(academic_advisors[i], cur_scholar);
+      }
+    }
+  }
+}
+
+function setUpImages() {
+  for (let i = 0; i < scholars.length; i++) {
+    cur_scholar = scholars[i]
+    cur_scholar_image = cur_scholar["image"];
+    cur_scholar_name = cur_scholar["name"];
+    if (cur_scholar_image) {
+      defs
+      .append('svg:pattern')
+        .attr('id', cur_scholar_name.replace(" ", "_") + '_image')
+        .attr('x', 0)
+        .attr('y', 0)
+        .attr('patterUnits', "userSpaceOnUse")
+        .attr('width', 1)
+        .attr('height', 1)
+      .append('svg:image')
+        .attr('x', 0)
+        .attr('y', 0)
+        .attr('xlink:href', cur_scholar_image)
+    }
+  }
+}
+
+function findScholar(advisor_name, scholar) {
+  let found_advisor = scholars.filter((doc) => {
+    return doc.name === advisor_name;
+  });
+  if (found_advisor[0]) {
+    links.push({source: found_advisor[0], target: scholar, left: false, right: true});
+  }
+}
+
 function tick() {
   path.attr('d', (d) => {
     const deltaX  = d.target.x - d.source.x;
@@ -151,7 +151,7 @@ function restart() {
   circle = circle.data(scholars, (d) => d.name);
 
   circle.selectAll('circle')
-    .style('fill', (d) => colors(d.name));
+    .style('fill', (d) => "url(#" + d.name.replace(" ", "_") + "_image)");
 
   circle.exit().remove();
 
@@ -160,7 +160,7 @@ function restart() {
   g.append('svg:circle')
     .attr('class', 'node')
     .attr('r', 12)
-    .style('fill', colors(0))
+    .style('fill', (d) => "url(#" + d.name.replace(" ", "_") + "_image)")
     .style('stroke', d3.rgb(colors(0)).darker().toString());
   
   g.append('svg:text')
@@ -177,5 +177,30 @@ function restart() {
   force.alphaTarget(0.3).restart();
 }
 
+
 // app start
 dataLoadAndSetup();
+
+
+test_links = [
+  { source: {
+    "doctoral_advisors": [
+        "Robert Solow"
+    ],
+    "doctoral_students": [
+        "Charles Engel",
+        "Adriana Kugler"
+    ],
+    "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/1/18/George_Akerlof.jpg/225px-George_Akerlof.jpg",
+    "link": "https://en.wikipedia.org/wiki/George_Akerlof",
+    "name": "George Akerlof"
+  }, target: {
+    "doctoral_advisors": [
+        "Jeffrey Frankel",
+        "George Akerlof",
+        "Janet Yellen"
+    ],
+    "link": "https://en.wikipedia.org/wiki/Charles_Engel",
+    "name": "Charles Engel"
+  }, left: false, right: true }
+]
