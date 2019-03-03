@@ -41,8 +41,8 @@ svg.call(d3.zoom()
   .scaleExtent([1 / 2, 8])
   .on('zoom', zoomed));
 
+// function called on zoom event
 function zoomed() {
-  console.log(d3.event);
   container.attr("transform", d3.event.transform);
 }
 
@@ -71,6 +71,7 @@ function dataLoadAndSetup() {
   });
 }
 
+// constructs links between related scholars
 function setUpLinks() {
   for (let i = 0; i < scholars.length; i++) {
     cur_scholar = scholars[i];
@@ -78,17 +79,19 @@ function setUpLinks() {
     academic_advisors = cur_scholar["academic_advisors"];
     if (doctoral_advisors) {
       for (let i = 0; i < doctoral_advisors.length; i++) {
-        findScholar(doctoral_advisors[i], cur_scholar);
+        findAdvisor(cur_scholar, doctoral_advisors[i]);
       }
     }
     if (academic_advisors) {
       for (let i = 0; i < academic_advisors.length; i++) {
-        findScholar(academic_advisors[i], cur_scholar);
+        findAdvisor(cur_scholar, doctoral_advisors[i]);
       }
     }
   }
 }
 
+// extracts image of each scholar and adds it to the 
+//  svg definitions
 function setUpImages() {
   for (let i = 0; i < scholars.length; i++) {
     cur_scholar = scholars[i]
@@ -111,7 +114,8 @@ function setUpImages() {
   }
 }
 
-function findScholar(advisor_name, scholar) {
+// finds a scholar's advisor
+function findAdvisor(scholar, advisor_name) {
   let found_advisor = scholars.filter((doc) => {
     return doc.name === advisor_name;
   });
@@ -120,6 +124,7 @@ function findScholar(advisor_name, scholar) {
   }
 }
 
+// d3 function that happens each clock tick
 function tick() {
   path.attr('d', (d) => {
     const deltaX  = d.target.x - d.source.x;
