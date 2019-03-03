@@ -101,11 +101,8 @@ function setUpImages() {
       defs
       .append('svg:pattern')
         .attr('id', cur_scholar_name.replace(" ", "_") + '_image')
-        .attr('x', 0)
-        .attr('y', 0)
-        .attr('patterUnits', "userSpaceOnUse")
-        .attr('width', 1)
-        .attr('height', 1)
+        .attr('width', '100%')
+        .attr('height', '100%')
       .append('svg:image')
         .attr('x', 0)
         .attr('y', 0)
@@ -164,7 +161,7 @@ function restart() {
 
   g.append('svg:circle')
     .attr('class', 'node')
-    .attr('r', 12)
+    .attr('r', 50)
     .style('fill', (d) => "url(#" + d.name.replace(" ", "_") + "_image)")
     .style('stroke', d3.rgb(colors(0)).darker().toString());
   
@@ -182,30 +179,5 @@ function restart() {
   force.alphaTarget(0.3).restart();
 }
 
-
 // app start
 dataLoadAndSetup();
-
-
-test_links = [
-  { source: {
-    "doctoral_advisors": [
-        "Robert Solow"
-    ],
-    "doctoral_students": [
-        "Charles Engel",
-        "Adriana Kugler"
-    ],
-    "image": "https:///upload.wikimedia.org/wikipedia/commons/thumb/1/18/George_Akerlof.jpg/225px-George_Akerlof.jpg",
-    "link": "https://en.wikipedia.org/wiki/George_Akerlof",
-    "name": "George Akerlof"
-  }, target: {
-    "doctoral_advisors": [
-        "Jeffrey Frankel",
-        "George Akerlof",
-        "Janet Yellen"
-    ],
-    "link": "https://en.wikipedia.org/wiki/Charles_Engel",
-    "name": "Charles Engel"
-  }, left: false, right: true }
-]
