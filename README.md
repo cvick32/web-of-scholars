@@ -7,6 +7,6 @@ you get to see which scholar influenced others.
 should this be a lookup where you search someone and then you see their tree?
 
 ## Roadmap
-Single view
-Full view
-Roll over to see wikipedia entry 
+Single view  
+Full view  
+Roll over to see wikipedia entry  
