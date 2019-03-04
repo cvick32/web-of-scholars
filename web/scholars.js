@@ -4,9 +4,8 @@ scholar_data = "./data/squeezed_scholars.json"
 let scholars;
 let links = [];
 let totalLinks = 0;
-let count = 0;
 
-// set up SVG for D3
+// set up canvas constants for D3
 const width = 2000;
 const height = 1000;
 const colors = d3.scaleOrdinal(d3.schemeCategory10);
@@ -19,6 +18,7 @@ const svg = d3.select('body')
 
 let defs = svg.append('svg:defs')
 
+// define arrow in svg
 defs.append('svg:marker')
   .attr('id', 'arrow')
   .attr('viewBox', '0 -5 10 10')
@@ -35,26 +35,27 @@ defs.append('svg:marker')
 let container = svg.append('svg:g');
 let path = container.append('svg:g').selectAll('path');
 let circle = container.append('svg:g').selectAll('g');
+let selectedScholar = null;
 
 // init D3 zoom
 svg.call(d3.zoom()
   .scaleExtent([1 / 2, 8])
   .on('zoom', zoomed));
 
-// function called on zoom event
-function zoomed() {
-  container.attr("transform", d3.event.transform);
-}
-
 // init D3 force
 const force = d3.forceSimulation()
   .force('link', d3.forceLink().id((d) => d.name).distance(150))
-  .force('charge', d3.forceManyBody().strength(-500))
+  .force('charge', d3.forceManyBody().strength(-2000))
   .force('x', d3.forceX(width / 2))
   .force('y', d3.forceY(height / 2))
   .on('tick', tick);
 
-let selectedScholar = null;
+/**
+ * function called on zoom event
+ */
+function zoomed() {
+  container.attr("transform", d3.event.transform);
+}
 
 /**
  * Ansync method provided by D3 for reading in JSON data.
@@ -67,11 +68,13 @@ function dataLoadAndSetup() {
     scholars = data;
     setUpLinks();
     setUpImages();
-    restart();
+    setSVG();
   });
 }
 
-// constructs links between related scholars
+/**
+ * constructs links between related scholars
+ */
 function setUpLinks() {
   for (let i = 0; i < scholars.length; i++) {
     cur_scholar = scholars[i];
@@ -90,8 +93,10 @@ function setUpLinks() {
   }
 }
 
-// extracts image of each scholar and adds it to the 
-//  svg definitions
+/**
+ * extracts image of each scholar and adds it to the
+ * svg definitions
+ */
 function setUpImages() {
   for (let i = 0; i < scholars.length; i++) {
     cur_scholar = scholars[i]
@@ -111,7 +116,11 @@ function setUpImages() {
   }
 }
 
-// finds a scholar's advisor
+/**
+ * finds a given scholar's advisor
+ * @param {scholar object} scholar 
+ * @param {string} advisor_name 
+ */
 function findAdvisor(scholar, advisor_name) {
   let found_advisor = scholars.filter((doc) => {
     return doc.name === advisor_name;
@@ -121,7 +130,9 @@ function findAdvisor(scholar, advisor_name) {
   }
 }
 
-// d3 function that happens each clock tick
+/**
+ *  d3 function that happens each clock tick
+ */
 function tick() {
   path.attr('d', (d) => {
     const deltaX  = d.target.x - d.source.x;
@@ -141,7 +152,10 @@ function tick() {
   circle.attr('transform', (d) => `translate(${d.x},${d.y})`);
 }
 
-function restart() {
+/**
+ * sets the svg objects for all scholars and links
+ */
+function setSVG() {
   path = path.data(links);
   path.exit().remove();
 
@@ -172,10 +186,7 @@ function restart() {
     .text((d) => d.name);
   
   circle = g.merge(circle);
-
-
   force.nodes(scholars).force('link').links(links);
-
   force.alphaTarget(0.3).restart();
 }
 
