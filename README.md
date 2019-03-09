@@ -7,6 +7,12 @@ you get to see which scholar influenced others.
 should this be a lookup where you search someone and then you see their tree?
 
 ## Roadmap
-Single view  
-Full view  
-Roll over to see wikipedia entry  
+- [ ] Single view  
+- [ ] Full view  
+- [ ] Roll over to see wikipedia entry  
+- [x] Get all possible wiki entries available from Akerlof
+- [x] Get all possible wiki entries for set of scholars
+- [x] Display scholars as a directed graph
+- [x] Implement zoom in to graph, i know y'all wanted it :eyes:
+- [x] Make image from wikipedia page the show up in circle
+- [ ] Make image from wikipedia page not look terrible in circle
