@@ -8,13 +8,12 @@ let totalLinks = 0;
 // set up canvas constants for D3
 const width = 2000;
 const height = 1000;
+const color = ["#00C851", "#0099CC", "#ffeb3b", "#FF8800", "#ff4444"];
 const colors = d3.scaleOrdinal(d3.schemeCategory10);
 
 const svg = d3.select('body')
   .append('svg')
-  .attr('oncontextmenu', 'return false;')
-  .attr('width', width)
-  .attr('height', height);
+  .attr('oncontextmenu', 'return false;');
 
 let defs = svg.append('svg:defs')
 
@@ -45,7 +44,7 @@ svg.call(d3.zoom()
 // init D3 force
 const force = d3.forceSimulation()
   .force('link', d3.forceLink().id((d) => d.name).distance(150))
-  .force('charge', d3.forceManyBody().strength(-2000))
+  .force('charge', d3.forceManyBody().strength(-500))
   .force('x', d3.forceX(width / 2))
   .force('y', d3.forceY(height / 2))
   .on('tick', tick);
@@ -166,16 +165,13 @@ function setSVG() {
 
   circle = circle.data(scholars, (d) => d.name);
 
-  circle.selectAll('circle')
-    .style('fill', (d) => "url(#" + d.name.replace(" ", "_") + "_image)");
-
   circle.exit().remove();
 
   const g = circle.enter().append('svg:g');
 
   g.append('svg:circle')
     .attr('class', 'node')
-    .attr('r', 50)
+    .attr('r', 20)
     .style('fill', (d) => "url(#" + d.name.replace(" ", "_") + "_image)")
     .style('stroke', d3.rgb(colors(0)).darker().toString());
   
