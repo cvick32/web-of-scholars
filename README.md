@@ -19,3 +19,5 @@ maybe it should be a tool for people on wikipedia to see which important links n
 - [x] Implement zoom in to graph, i know y'all wanted it :eyes:
 - [x] Make image from wikipedia page the show up in circle
 - [ ] Make image from wikipedia page not look terrible in circle
+- [x] Scaling colors by number of connections (influenceColor)
+- [ ] Scaling size by number of connections (influenceSize)

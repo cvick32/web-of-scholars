@@ -8,7 +8,7 @@ let totalLinks = 0;
 // set up canvas constants for D3
 const width = 2000;
 const height = 1000;
-const color = ["#00C851", "#0099CC", "#ffeb3b", "#FF8800", "#ff4444"];
+const color_set = ["#00C851", "#0099CC", "#ffeb3b", "#FF8800", "#ff4444"];
 const colors = d3.scaleOrdinal(d3.schemeCategory10);
 
 const svg = d3.select('body')
@@ -172,7 +172,7 @@ function setSVG() {
   g.append('svg:circle')
     .attr('class', 'node')
     .attr('r', 20)
-    .style('fill', (d) => "url(#" + d.name.replace(" ", "_") + "_image)")
+    .style('fill', (d) => determineInfluence(d))
     .style('stroke', d3.rgb(colors(0)).darker().toString());
   
   g.append('svg:text')
@@ -184,6 +184,19 @@ function setSVG() {
   circle = g.merge(circle);
   force.nodes(scholars).force('link').links(links);
   force.alphaTarget(0.3).restart();
+}
+
+function determineInfluence(scholar) {
+  if (scholar.doctoral_students) {
+    let num_students = scholar.doctoral_students.length;
+    if (num_students > 5) {
+      return "#CCAC00"; // gold
+    } else {
+      return color_set[num_students - 1];
+    }
+  } else {
+    return "#000000";
+  }
 }
 
 // app start
