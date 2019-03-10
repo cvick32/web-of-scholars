@@ -1,15 +1,20 @@
 // set data file
-scholar_data = "./data/squeezed_scholars.json"
+scholar_data = "./data/prelim_fixed_scholars.json"
 
 let scholars;
 let links = [];
 let totalLinks = 0;
+let selectedScholar = null;
 
 // set up canvas constants for D3
 const width = 2000;
 const height = 1000;
 const color_set = ["#00C851", "#0099CC", "#ffeb3b", "#FF8800", "#ff4444"];
 const colors = d3.scaleOrdinal(d3.schemeCategory10);
+
+// negative repels objects, positive attracts
+let forceStrength = -1000;
+let circleSize = 13;
 
 const svg = d3.select('body')
   .append('svg')
@@ -34,7 +39,6 @@ defs.append('svg:marker')
 let container = svg.append('svg:g');
 let path = container.append('svg:g').selectAll('path');
 let circle = container.append('svg:g').selectAll('g');
-let selectedScholar = null;
 
 // init D3 zoom
 svg.call(d3.zoom()
@@ -44,7 +48,7 @@ svg.call(d3.zoom()
 // init D3 force
 const force = d3.forceSimulation()
   .force('link', d3.forceLink().id((d) => d.name).distance(150))
-  .force('charge', d3.forceManyBody().strength(-500))
+  .force('charge', d3.forceManyBody().strength(forceStrength))
   .force('x', d3.forceX(width / 2))
   .force('y', d3.forceY(height / 2))
   .on('tick', tick);
@@ -86,7 +90,7 @@ function setUpLinks() {
     }
     if (academic_advisors) {
       for (let i = 0; i < academic_advisors.length; i++) {
-        findAdvisor(cur_scholar, doctoral_advisors[i]);
+        findAdvisor(cur_scholar, academic_advisors[i]);
       }
     }
   }
@@ -171,7 +175,7 @@ function setSVG() {
 
   g.append('svg:circle')
     .attr('class', 'node')
-    .attr('r', 20)
+    .attr('r', circleSize)
     .style('fill', (d) => determineInfluence(d))
     .style('stroke', d3.rgb(colors(0)).darker().toString());
   
@@ -195,7 +199,7 @@ function determineInfluence(scholar) {
       return color_set[num_students - 1];
     }
   } else {
-    return "";
+    return "#ffe4c4";
   }
 }
 
