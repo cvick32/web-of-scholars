@@ -195,7 +195,7 @@ function determineInfluence(scholar) {
       return color_set[num_students - 1];
     }
   } else {
-    return "#000000";
+    return "";
   }
 }
 

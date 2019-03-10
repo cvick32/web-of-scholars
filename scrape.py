@@ -45,6 +45,11 @@ marie_json = {
     'name': 'Marie Curie'
 }
 
+mathias_json = {
+  'link': 'https://en.wikipedia.org/wiki/Mathias_Dewatripont',
+  'name': 'Mathias Dewatripont'
+}
+
 # ~3k results
 # to_process = [albert_json, george_json, isaac_json, marie_json, paul_json]
 
@@ -69,21 +74,29 @@ class ScholarWeb:
     self.scholar_json.truncate()
     # set arbitrary limit and scholars for now
     self.total_scholars = 300
+    self.no_infobox = 0
 
-    self.to_process = [albert_json, george_json, isaac_json, marie_json, paul_json]
+    #self.to_process = [albert_json, george_json, isaac_json, marie_json, paul_json]
+    self.to_process = [mathias_json]
     self.seen_scholars = set()
     self.all_scholars = list()
 
   def make_request(self, scholar):
     if not scholar['name'] in self.seen_scholars:
       res = http.request('GET', scholar['link']).data
-      soup = BeautifulSoup(res, 'html.parser')
+      soup = BeautifulSoup(res, 'html.parser')  
       try:
-        sidebar_details_table = soup.findChildren('table')[0]
-      except:
-        self.debug.write(scholar['name'] + ' has no info table\n')
+        sidebar_details_table = soup.find(class_="infobox biography vcard")
+        if sidebar_details_table is None:
+          sidebar_details_table = soup.find(class_="infobox vcard")
+          if sidebar_details_table is None:
+            self.no_infobox += 1
+            raise ValueError(scholar['name'] + " has no infobox attribute")
+      except ValueError as err:
+        self.debug.write(repr(err) + '\n')
         return
-      rows = sidebar_details_table.findChildren('tr')
+      print(scholar)
+      rows = sidebar_details_table.find_all('tr')
       self.all_scholars.append(self.find_advisors_and_students(rows, scholar))
       self.seen_scholars.add(scholar['name'])
 
@@ -133,6 +146,7 @@ class ScholarWeb:
     self.output.write('number of found scholars in scholars_seen set: ')
     self.output.write(str(len(self.all_scholars)))
 
+    self.debug.write("number of scholars with no infobox: " + str(self.no_infobox))
     self.debug.close()
     self.output.close()
 
@@ -145,7 +159,5 @@ class ScholarWeb:
         self.finish_and_print()
         break
 
-
 scholar_web = ScholarWeb()
-
 scholar_web.run()
