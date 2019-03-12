@@ -3,6 +3,8 @@
 ## Purpose
 I made this so I could see the relationships between scholars that I had been looking up. An interesting byproduct of this web is that 
 you get to see which scholar influenced others. 
+## Viewing 
+Right now you can view a truncated version of the web that shows the first 300 links `scrape.py` found for [Mathias Dewatripont](https://en.wikipedia.org/wiki/Mathias_Dewatripont), link to the site above. It runs super hot right now and it will probably be stressful for slower computers to run for even a few minutes. Sorry about that, I'm working on a better solution.
 ## Notes
 should this be a lookup where you search someone and then you see their tree?
 maybe it should be a tool for people on wikipedia to see which important links need more information
