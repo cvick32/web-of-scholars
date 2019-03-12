@@ -4,12 +4,12 @@
 I made this so I could see the relationships between scholars that I had been looking up. An interesting byproduct of this web is that 
 you get to see which scholar influenced others. 
 ## Viewing 
-Right now you can view a truncated version of the web that shows the first 300 links `scrape.py` found for [Mathias Dewatripont](https://en.wikipedia.org/wiki/Mathias_Dewatripont), link to the site above. It runs super hot right now and it will probably be stressful for slower computers to run for even a few minutes. Sorry about that, I'm working on a better solution.
+Right now you can view a truncated version of the web that shows the first 300 links `data_collection/scrape.py` found for [Mathias Dewatripont](https://en.wikipedia.org/wiki/Mathias_Dewatripont), link to the site above. It runs super hot right now and it will probably be stressful for slower computers to run for even a few minutes. Sorry about that, I'm working on a better solution.
 ## Notes
-should this be a lookup where you search someone and then you see their tree?
-maybe it should be a tool for people on wikipedia to see which important links need more information
+- should this be a lookup where you search someone and then you see their tree?
+- maybe it should be a tool for people on wikipedia to see which important links need more information
   - this will obviously take a while but I think it would be cool to be able to see that someones doctoral student doesn't have a lot of info and fill it in
-might need to split everyone up by field, but not every entry has a field  
+- want to split everyone up by field, but not every entry has a field  
 
 ## Roadmap
 - [ ] Single view  
