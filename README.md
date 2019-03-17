@@ -10,8 +10,9 @@ Right now you can view a truncated version of the web that shows the first 300 l
 - maybe it should be a tool for people on wikipedia to see which important links need more information
   - this will obviously take a while but I think it would be cool to be able to see that someones doctoral student doesn't have a lot of info and fill it in
 - want to split everyone up by field, but not every entry has a field  
-
+- need to look at [neo4j](https://neo4j.com/developer/)
 ## Roadmap
+- [ ] NEED TO LOOK AT WIKIDATA
 - [ ] Single view  
 - [ ] Full view  
 - [ ] Roll over to see wikipedia entry  
