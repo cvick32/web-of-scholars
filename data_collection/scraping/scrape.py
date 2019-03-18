@@ -149,6 +149,7 @@ class ScholarWeb:
     self.debug.write("number of scholars with no infobox: " + str(self.no_infobox))
     self.debug.close()
     self.output.close()
+    self.scholar_json.close()
 
   def run(self):
     while self.to_process:
