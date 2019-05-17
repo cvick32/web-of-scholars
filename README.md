@@ -11,6 +11,10 @@ Right now you can view a truncated version of the web that shows the first 300 l
   - this will obviously take a while but I think it would be cool to be able to see that someones doctoral student doesn't have a lot of info and fill it in
 - want to split everyone up by field, but not every entry has a field  
 - need to look at [neo4j](https://neo4j.com/developer/)
+- this could also be an auto-posting instagram page
+  - first slide is the WoS graph between a scholar and their connections
+  - second slide is their photo
+  - caption is their first paragraph from wikipedia
 ## Strangeness
 I'm keeping a lot of the old, worse stuff in the repo so I can see what I've changed and how it used to be. T
   - The http_requests folder was my first idea and hopefully I'll have a few more ways to collect the data
