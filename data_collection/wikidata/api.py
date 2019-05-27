@@ -42,9 +42,11 @@ class WikiDataScholars:
         # try to get scholar's name
         try:
             cur_scholar_name = cur_scholar.attributes["aliases"]["en"][0]["value"]
+            print(cur_scholar_name)
         except (TypeError, KeyError):
             try:
                 cur_scholar_name = cur_scholar.attributes["labels"]["en"]["value"]
+                print(cur_scholar_name)
             except (TypeError, KeyError):
                 self.debug.write("NO NAME: " + scholar_query_id)
                 # if this scholar does not have a name, do nothing else
