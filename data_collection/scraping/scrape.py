@@ -173,6 +173,5 @@ class ScholarWeb:
                 self.finish_and_print()
                 break
 
-
 scholar_web = ScholarWeb()
 scholar_web.run()

@@ -48,7 +48,7 @@ class WikiDataScholars:
                 cur_scholar_name = cur_scholar.attributes["labels"]["en"]["value"]
                 print(cur_scholar_name)
             except (TypeError, KeyError):
-                self.debug.write("NO NAME: " + scholar_query_id)
+                self.debug.write("NO NAME: " + scholar_query_id + "\n")
                 # if this scholar does not have a name, do nothing else
                 return
         # try to get scholar's image
@@ -57,13 +57,13 @@ class WikiDataScholars:
                 property_map["image"]
             ][0]["mainsnak"]["datavalue"]["value"].replace(" ", "_")
         except (TypeError, KeyError):
-            self.debug.write("NO IMAGE: " + scholar_query_id)
+            self.debug.write("NO IMAGE: " + scholar_query_id + "\n")
             cur_scholar_image = ""
         # try to get scholar's link to wiki, only accept english wiki currently
         try:
             cur_scholar_link = cur_scholar.attributes["sitelinks"]["enwiki"]["url"]
         except (TypeError, KeyError):
-            self.debug.write("NO WIKI LINK: " + scholar_query_id)
+            self.debug.write("NO WIKI LINK: " + scholar_query_id + "\n")
             cur_scholar_link = ""
 
         # try to get scholar's academic field
@@ -72,7 +72,7 @@ class WikiDataScholars:
                 0
             ]["mainsnak"]["datavalue"]["value"]["id"]
         except (TypeError, KeyError):
-            self.debug.write("NO FIELD: " + scholar_query_id)
+            self.debug.write("NO FIELD: " + scholar_query_id + "\n")
             cur_scholar_field = ""
 
         cur_scholar_json = {
