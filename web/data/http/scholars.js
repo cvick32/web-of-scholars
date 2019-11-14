@@ -1,5 +1,5 @@
 // set data file
-scholar_data = "./data/prelim_fixed_scholars.json"
+scholar_data = "./data/http/after_http_fixes/prelim_fixed_scholars.json"
 
 let scholars;
 let links = [];

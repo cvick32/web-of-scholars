@@ -1,3 +1,4 @@
 .DS_Store
 .vscode
-data_collection/bitcoin
+len.py
+scholars_full.json

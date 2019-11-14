@@ -1,5 +1,5 @@
 // set data file
-scholar_data = "./data/prelim_fixed_scholars.json"
+scholar_data = "./data/wikidata/scholars.json"
 
 let scholars;
 let links = [];
@@ -81,8 +81,8 @@ function dataLoadAndSetup() {
 function setUpLinks() {
   for (let i = 0; i < scholars.length; i++) {
     cur_scholar = scholars[i];
-    doctoral_advisors = cur_scholar["doctoral_advisors"];
-    academic_advisors = cur_scholar["academic_advisors"];
+    doctoral_advisors = cur_scholar["doctoral_advisor"];
+    academic_advisors = cur_scholar["academic_advisor"];
     if (doctoral_advisors) {
       for (let i = 0; i < doctoral_advisors.length; i++) {
         findAdvisor(cur_scholar, doctoral_advisors[i]);
@@ -93,6 +93,20 @@ function setUpLinks() {
         findAdvisor(cur_scholar, academic_advisors[i]);
       }
     }
+  }
+}
+
+/**
+ * finds a given scholar's advisor
+ * @param {scholar object} scholar 
+ * @param {string} advisor_name 
+ */
+function findAdvisor(scholar, advisor_name) {
+  let found_advisor = scholars.filter((scholar) => {
+    return scholar.name === advisor_name;
+  });
+  if (found_advisor[0]) {
+    links.push({source: found_advisor[0], target: scholar, left: false, right: true});
   }
 }
 
@@ -116,20 +130,6 @@ function setUpImages() {
         .attr('y', 0)
         .attr('xlink:href', cur_scholar_image)
     }
-  }
-}
-
-/**
- * finds a given scholar's advisor
- * @param {scholar object} scholar 
- * @param {string} advisor_name 
- */
-function findAdvisor(scholar, advisor_name) {
-  let found_advisor = scholars.filter((doc) => {
-    return doc.name === advisor_name;
-  });
-  if (found_advisor[0]) {
-    links.push({source: found_advisor[0], target: scholar, left: false, right: true});
   }
 }
 

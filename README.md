@@ -19,6 +19,8 @@ Right now you can view a truncated version of the web that shows the first 300 l
 I'm keeping a lot of the old, worse stuff in the repo so I can see what I've changed and how it used to be. T
   - The http_requests folder was my first idea and hopefully I'll have a few more ways to collect the data
   - The web/data/*_fixes folders refer to some changes I made in the http_requests data collection script that changes the way I got the info table for the scholar's
+## Local Running
+`php -S localhost:8000` in top level directory
 ## Roadmap
 ### Front-end
 - [ ] Single view  
