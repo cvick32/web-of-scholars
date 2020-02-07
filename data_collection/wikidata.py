@@ -1,12 +1,14 @@
 import json
 from wikidata.client import Client
 
-property_map = {
+string_to_wikidata_key = {
     "doctoral_advisor": "P184",
     "doctoral_student": "P185",
     "field": "P101",
     "image": "P18",
 }
+
+
 
 WIKIDATA_IMAGE = "https://commons.wikimedia.org/wiki/File:"
 
@@ -77,14 +79,14 @@ class WikiDataScholars:
         self.all_scholars.append(cur_scholar_json)
 
     
-    def get_any_from_attributes(self, attributes, items, desired, query_id):
+    def get_any_from_attributes(self, attributes, items, desired_attr, query_id):
         try:
             current_attr = attributes
             for item in items:
                 current_attr = current_attr.__getitem__(item)
             return current_attr
         except (TypeError, KeyError):
-            self.debug.write(f"NO {desired}: {query_id}\n")
+            self.debug.write(f"NO {desired_attr}: {query_id}\n")
             return ""
     
     def get_name(self, scholar, query_id):
@@ -98,15 +100,15 @@ class WikiDataScholars:
         return self.get_any_from_attributes(scholar.attributes, ["sitelinks", "enwiki", "url"], "wiki_link", query_id)
 
     def get_image(self, scholar, query_id):
-        image_link = self.get_any_from_attributes(scholar.attributes, ["claims", property_map["image"], 0, "mainsnak", "datavalue", "value"], "image", query_id)
+        image_link = self.get_any_from_attributes(scholar.attributes, ["claims", string_to_wikidata_key["image"], 0, "mainsnak", "datavalue", "value"], "image", query_id)
         return WIKIDATA_IMAGE + image_link.replace(" ", "_")
     
     def get_field(self, scholar, query_id):
-        return self.get_any_from_attributes(scholar.attributes, ["claims", property_map["field"], 0, "mainsnak", "datavalue", "value", "id"], "field", query_id)
+        return self.get_any_from_attributes(scholar.attributes, ["claims", string_to_wikidata_key["field"], 0, "mainsnak", "datavalue", "value", "id"], "field", query_id)
        
     def get_advisors(self, scholar, query_id):
         advisors = list()
-        for advisor in self.get_any_from_attributes(scholar.attributes, ["claims", property_map["doctoral_advisor"]], "advisors", query_id):
+        for advisor in self.get_any_from_attributes(scholar.attributes, ["claims", string_to_wikidata_key["doctoral_advisor"]], "advisors", query_id):
             advisor_qid = self.get_any_from_attributes(advisor, ["mainsnak", "datavalue", "value", "id"], "advisor query ids", query_id)
             if advisor_qid:
                 self.to_process.append(advisor_qid)
@@ -116,7 +118,7 @@ class WikiDataScholars:
     def get_students(self, scholar, query_id):
         students = list()
         
-        for student in self.get_any_from_attributes(scholar.attributes, ["claims", property_map["doctoral_student"]], "students", query_id):
+        for student in self.get_any_from_attributes(scholar.attributes, ["claims", string_to_wikidata_key["doctoral_student"]], "students", query_id):
             student_qid = self.get_any_from_attributes(student, ["mainsnak", "datavalue", "value", "id"], "student query id", query_id)
             if student_qid:
                 self.to_process.append(student_qid)

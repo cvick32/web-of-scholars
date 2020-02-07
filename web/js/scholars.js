@@ -116,7 +116,7 @@ function findAdvisor(scholar, advisor_name) {
  */
 function setUpImages() {
   for (let i = 0; i < scholars.length; i++) {
-    cur_scholar = scholars[i]
+    cur_scholar = scholars[i];
     cur_scholar_image = cur_scholar["image"];
     cur_scholar_name = cur_scholar["name"];
     if (cur_scholar_image) {
