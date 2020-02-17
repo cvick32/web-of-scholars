@@ -1,5 +1,5 @@
 // set data file
-scholar_data = "./data/wikidata/scholars.json"
+scholar_data = "./data/scholars_full.json"
 
 let scholars;
 let links = [];

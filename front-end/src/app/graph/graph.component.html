@@ -1,0 +1,28 @@
+<svg #svg [attr.width]="_options.width" [attr.height]="_options.height">
+  <g [zoomable]="svg">
+    <g *ngFor="let link of links">
+      <svg:line class="link"
+        [attr.x1]="link.source.x"
+        [attr.y1]="link.source.y"
+        [attr.x2]="link.target.x"
+        [attr.y2]="link.target.y" />
+    </g>
+    <g [draggableNode]="node" [draggableInGraph]="graph" *ngFor="let node of nodes">
+      <svg:g [attr.transform]="'translate(' + node.x + ',' + node.y + ')'">
+      <svg:circle
+          class="node"
+          [attr.fill]="node.color"
+          cx="0"
+          cy="0"
+          [attr.r]="node.r">
+      </svg:circle>
+      <svg:text
+          class="node-name"
+          [attr.font-size]="node.fontSize">
+        {{node.id}}
+      </svg:text>
+    </svg:g>
+    </g>
+  </g>
+</svg>
+

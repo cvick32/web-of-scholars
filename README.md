@@ -2,7 +2,7 @@
 
 ## Purpose
 I made this so I could see the relationships between scholars that I had been looking up. An interesting byproduct of this web is that 
-you get to see which scholar influenced others. 
+you get to see which scholars influenced other scholars. 
 ## Viewing 
 Right now you can view a truncated version of the web that shows the first 300 links `data_collection/scrape.py` found for [Mathias Dewatripont](https://en.wikipedia.org/wiki/Mathias_Dewatripont), link to the site above. It runs super hot right now and it will probably be stressful for slower computers to run for even a few minutes. Sorry about that, I'm working on a better solution.
 ## Notes
@@ -29,14 +29,14 @@ I'm keeping a lot of the old, worse stuff in the repo so I can see what I've cha
 - [ ] Scaling of circles from a slider
 - [ ] Scaling size by number of connections (influenceSize)
 - [ ] Make image from wikipedia page not look terrible in circle
+- [ ] Switch to Angular 9
 - [x] Display scholars as a directed graph
 - [x] Implement zoom in to graph, i know y'all wanted it :eyes:
 - [x] Make image from wikipedia page the show up in circle
 - [x] Scaling colors by number of connections (influenceColor) put back in images
 ### Back-end
 - [ ] Need to fix scraping to not get Doctoral Advisor entries
+- [x] Refactor scraping
 - [x] NEED TO LOOK AT WIKIDATA
 - [x] Get all possible wiki entries available from Akerlof
 - [x] Get all possible wiki entries for set of scholars
-
-
