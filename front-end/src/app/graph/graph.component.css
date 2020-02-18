@@ -1,6 +1,6 @@
 .link {
-  stroke-width: 0.25;
-  stroke: rgb(222,237,250);
+  stroke-width: 0.5;
+  stroke: #000000;
 }
 
 .node {
@@ -17,5 +17,6 @@
 font-family: 'Lato';
 text-anchor: middle;
 font-weight: 300;
-fill: white;
+alignment-baseline:"middle";
+fill: #000000;
 }
