@@ -8,28 +8,48 @@ import { Node, Link } from './d3/models';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'wos';
+  title = 'Web of Scholars';
 
   nodes: Node[] = [];
   links: Link[] = [];
 
+  scholars = APP_CONFIG.SCHOLARS;
+  cur_scholar;
+
   constructor() {
-    const N = APP_CONFIG.N,
-          getIndex = number => number - 1;
-
     /** constructing the nodes array */
-    for (let i = 1; i <= N; i++) {
-      this.nodes.push(new Node(i));
+    for (let i = 0; i < this.scholars.length; i++) {
+      const scholar = this.scholars[i];
+      this.nodes.push(new Node(scholar.id, scholar.name));
     }
+    this.setUpLinks();
+  }
 
-    for (let i = 1; i <= N; i++) {
-      for (let m = 2; i * m <= N; m++) {
-        /** increasing connections toll on connecting nodes */
-        this.nodes[getIndex(i)].linkCount++;
-        this.nodes[getIndex(i * m)].linkCount++;
+  /**
+   *  constructs links between related scholars
+   */
+  setUpLinks() {
+    for (let i = 0; i < this.scholars.length; i++) {
+      const cur_scholar = this.scholars[i];
+      const doctoral_advisors = cur_scholar['doctoral_advisor'];
+      doctoral_advisors.push(...cur_scholar['academic_advisor']);
+      if (doctoral_advisors) {
+        for (let j = 0; j < doctoral_advisors.length; j++) {
+          this.findAdvisor(i, doctoral_advisors[j]);
+        }
+      }
+    }
+  }
 
-        /** connecting the nodes before starting the simulation */
-        this.links.push(new Link(i, i * m));
+  /**
+   * finds a given scholar's advisor
+   * @param {scholar} scholar index in the scholars array
+   * @param {string} advisor_qid
+   */
+  findAdvisor(scholar_index, advisor_qid) {
+    for (let i = 0; i < this.scholars.length; i++) {
+      if (this.scholars[i].id === advisor_qid) {
+        this.links.push(new Link(this.nodes[i], this.nodes[scholar_index]));
       }
     }
   }
