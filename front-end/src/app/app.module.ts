@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { DraggableDirective } from './d3/directives/draggable.directive';
@@ -18,6 +18,7 @@ import { GraphComponent } from './graph/graph.component';
   imports: [
     BrowserModule
   ],
+  schemas: [NO_ERRORS_SCHEMA],
   providers: [D3Service],
   bootstrap: [AppComponent]
 })
