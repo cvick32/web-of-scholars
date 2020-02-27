@@ -8,7 +8,7 @@ string_to_wikidata_key = {
     "image": "P18",
 }
 
-'''
+"""
 This is a map from names of attributes to the list of attributes
 that are needed to call on a list of attributes to get the desired
 field. Let's try an example:
@@ -29,23 +29,45 @@ select the first position of the array, then select the value of that
 object. So, it would be exactly the array described below to find the 
 name, if we iterate over the attributes, as we do in the function
 `get_value_from_attributes` below.
-'''
+"""
 name_to_attribute = {
     "advisors": ["claims", string_to_wikidata_key["doctoral_advisor"]],
-    "field": ["claims", string_to_wikidata_key["field"], 0, "mainsnak", "datavalue", "value", "id"],
-    "image": ["claims", string_to_wikidata_key["image"], 0, "mainsnak", "datavalue", "value"],
+    "field": [
+        "claims",
+        string_to_wikidata_key["field"],
+        0,
+        "mainsnak",
+        "datavalue",
+        "value",
+        "id",
+    ],
+    "image": [
+        "claims",
+        string_to_wikidata_key["image"],
+        0,
+        "mainsnak",
+        "datavalue",
+        "value",
+    ],
     "name": ["aliases", "en", 0, "value"],
     "other_name": ["aliases", "en", "value"],
     "title_name": ["labels", "en", "value"],
     "scholar_qid": ["mainsnak", "datavalue", "value", "id"],
     "students": ["claims", string_to_wikidata_key["doctoral_student"]],
-    "wiki_link": ["sitelinks", "enwiki", "url"]
+    "wiki_link": ["sitelinks", "enwiki", "url"],
 }
 
 WIKIDATA_IMAGE = "https://commons.wikimedia.org/wiki/File:"
 
+
 class WikiDataScholars:
-    def __init__(self, max_scholars, starting_scholars=["Q222541"], scholar_json_file="scholars.json", debug_file="debug.txt"):
+    def __init__(
+        self,
+        max_scholars,
+        starting_scholars=["Q222541"],
+        scholar_json_file="scholars.json",
+        debug_file="debug.txt",
+    ):
         """
         Creates a new instance of a WikiDataScholar object. 
 
@@ -53,7 +75,6 @@ class WikiDataScholars:
         scholar_json_file: file path for the JSON object of the web
         debug_file: file path for debug file
         max_scholars: how many scholars we want to scrape before exiting
-        bounded_huh: do we want to stop on a bound?
         """
         self.debug = open(debug_file, "w+")
         self.debug.seek(0)
@@ -90,17 +111,17 @@ class WikiDataScholars:
 
         cur_scholar = self.Wiki_Client.get(scholar_query_id)
 
-        scholar_name      = self.get_name(cur_scholar)
+        scholar_name = self.get_name(cur_scholar)
         scholar_wiki_link = self.get_wiki_link(cur_scholar)
-        scholar_image     = self.get_image(cur_scholar)
-        scholar_field     = self.get_field(cur_scholar)
-        scholar_advisors  = self.get_advisors(cur_scholar)
-        scholar_students  = self.get_students(cur_scholar)
+        scholar_image = self.get_image(cur_scholar)
+        scholar_field = self.get_field(cur_scholar)
+        scholar_advisors = self.get_advisors(cur_scholar)
+        scholar_students = self.get_students(cur_scholar)
 
         self.debug.write(f"Scholar Name: {scholar_name}\n")
         self.debug.write(f"Scholar Query ID: {scholar_query_id}\n")
         print("Current Scholar: {} {}".format(scholar_name, scholar_query_id))
-      
+
         cur_scholar_json = {
             "id": scholar_query_id,
             "name": scholar_name,
@@ -112,7 +133,6 @@ class WikiDataScholars:
         }
         self.all_scholars.append(cur_scholar_json)
 
-    
     def get_value_from_attributes(self, desired_attr, attributes_object):
         """
         Takes in an object of scholar attributes and a desired attribute value
@@ -128,7 +148,7 @@ class WikiDataScholars:
         except (TypeError, KeyError):
             self.debug.write(f"NO {desired_attr}: {self.cur_scholar_id}\n")
             return ""
-    
+
     def get_name(self, scholar):
         name = self.get_value_from_attributes("name", scholar.attributes)
         if not name:
@@ -144,10 +164,10 @@ class WikiDataScholars:
     def get_image(self, scholar):
         image_link = self.get_value_from_attributes("image", scholar.attributes)
         return WIKIDATA_IMAGE + image_link.replace(" ", "_")
-    
+
     def get_field(self, scholar):
         return self.get_value_from_attributes("field", scholar.attributes)
-       
+
     def get_advisors(self, scholar):
         advisors = list()
         for advisor in self.get_value_from_attributes("advisors", scholar.attributes):
@@ -156,7 +176,7 @@ class WikiDataScholars:
                 self.to_process.append(advisor_qid)
                 advisors.append(advisor_qid)
         return advisors
-    
+
     def get_students(self, scholar):
         students = list()
         for student in self.get_value_from_attributes("students", scholar.attributes):
@@ -167,8 +187,7 @@ class WikiDataScholars:
         return students
 
     def finish_and_print(self):
-        self.scholar_json.write(json.dumps(
-            self.all_scholars, indent=4, sort_keys=True))
+        self.scholar_json.write(json.dumps(self.all_scholars, indent=4, sort_keys=True))
         self.debug.close()
         self.scholar_json.close()
 
