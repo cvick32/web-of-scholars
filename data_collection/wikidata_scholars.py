@@ -35,6 +35,8 @@ name_to_attribute = {
     "field": ["claims", string_to_wikidata_key["field"], 0, "mainsnak", "datavalue", "value", "id"],
     "image": ["claims", string_to_wikidata_key["image"], 0, "mainsnak", "datavalue", "value"],
     "name": ["aliases", "en", 0, "value"],
+    "other_name": ["aliases", "en", "value"],
+    "title_name": ["labels", "en", "value"],
     "scholar_qid": ["mainsnak", "datavalue", "value", "id"],
     "students": ["claims", string_to_wikidata_key["doctoral_student"]],
     "wiki_link": ["sitelinks", "enwiki", "url"]
@@ -43,7 +45,7 @@ name_to_attribute = {
 WIKIDATA_IMAGE = "https://commons.wikimedia.org/wiki/File:"
 
 class WikiDataScholars:
-    def __init__(self, starting_scholars=["Q222541"], scholar_json_file="scholars.json", debug_file="debug.txt", max_scholars=0, bounded_huh=True):
+    def __init__(self, max_scholars, starting_scholars=["Q222541"], scholar_json_file="scholars.json", debug_file="debug.txt"):
         """
         Creates a new instance of a WikiDataScholar object. 
 
@@ -68,14 +70,13 @@ class WikiDataScholars:
         self.all_scholars = list()
 
         self.max_scholars = max_scholars
-        self.bounded_huh = bounded_huh
 
         self.num_processed = 0
 
     def run(self):
         """Begin the scraping process for the web."""
         while self.to_process:
-            if self.bounded_huh and self.num_processed >= self.max_scholars:
+            if self.num_processed >= self.max_scholars:
                 break
             if not self.to_process[0] in self.seen_scholars:
                 self.seen_scholars.add(self.to_process[0])
@@ -88,7 +89,7 @@ class WikiDataScholars:
         self.cur_scholar_id = scholar_query_id
 
         cur_scholar = self.Wiki_Client.get(scholar_query_id)
-        
+
         scholar_name      = self.get_name(cur_scholar)
         scholar_wiki_link = self.get_wiki_link(cur_scholar)
         scholar_image     = self.get_image(cur_scholar)
@@ -98,7 +99,8 @@ class WikiDataScholars:
 
         self.debug.write(f"Scholar Name: {scholar_name}\n")
         self.debug.write(f"Scholar Query ID: {scholar_query_id}\n")
-
+        print("Current Scholar: {} {}".format(scholar_name, scholar_query_id))
+      
         cur_scholar_json = {
             "id": scholar_query_id,
             "name": scholar_name,
@@ -130,7 +132,9 @@ class WikiDataScholars:
     def get_name(self, scholar):
         name = self.get_value_from_attributes("name", scholar.attributes)
         if not name:
-            return self.get_value_from_attributes("name", scholar.attributes)
+            name = self.get_value_from_attributes("other_name", scholar.attributes)
+            if not name:
+                return self.get_value_from_attributes("title_name", scholar.attributes)
         else:
             return name
 
@@ -169,5 +173,5 @@ class WikiDataScholars:
         self.scholar_json.close()
 
 
-scholar_web = WikiDataScholars(max_scholars=5)
+scholar_web = WikiDataScholars(max_scholars=10)
 scholar_web.run()
