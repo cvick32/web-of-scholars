@@ -7,13 +7,16 @@ import { ZoomableDirective } from './d3/directives/zoomable.directive';
 import { D3Service } from './d3/d3.service';
 
 import { GraphComponent } from './graph/graph.component';
+import { HeaderComponent } from './header/header.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     DraggableDirective,
     ZoomableDirective,
-    GraphComponent
+    GraphComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule

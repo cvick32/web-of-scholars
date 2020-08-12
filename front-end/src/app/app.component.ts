@@ -13,16 +13,22 @@ export class AppComponent {
   nodes: Node[] = [];
   links: Link[] = [];
 
-  scholars = APP_CONFIG.SCHOLARS;
-  cur_scholar;
+  scholars = APP_CONFIG.SCHOLARS; // start with some base scholars, need to implement on changes with
+  //this variable that way can reset this variable and update the whole web
 
   constructor() {
-    /** constructing the nodes array */
+    this.setUpNodes();
+    this.setUpLinks();
+  }
+
+  /**
+   * constructing the nodes array
+  */
+  setUpNodes() {
     for (let i = 0; i < this.scholars.length; i++) {
       const scholar = this.scholars[i];
       this.nodes.push(new Node(scholar.id, scholar.name));
     }
-    this.setUpLinks();
   }
 
   /**
