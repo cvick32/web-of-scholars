@@ -54,7 +54,7 @@
             "Q30074877",
             "Q4795127"
         ],
-        "field": "Q8134",
+        "field": "Q39680",
         "id": "Q157268",
         "image": "https://commons.wikimedia.org/wiki/File:Robert_Solow_by_Olaf_Storbeck.jpg",
         "link": "https://en.wikipedia.org/wiki/Robert_Solow",
@@ -69,7 +69,7 @@
         "id": "Q16210448",
         "image": "https://commons.wikimedia.org/wiki/File:",
         "link": "https://en.wikipedia.org/wiki/Charles_Engel",
-        "name": ""
+        "name": "Charles Engel"
     },
     {
         "doctoral_advisor": [
@@ -80,7 +80,7 @@
         "id": "Q4685502",
         "image": "https://commons.wikimedia.org/wiki/File:Adriana_Kugler.jpg",
         "link": "https://en.wikipedia.org/wiki/Adriana_Kugler",
-        "name": ""
+        "name": "Adriana Kugler"
     },
     {
         "doctoral_advisor": [
@@ -98,5 +98,86 @@
         "image": "https://commons.wikimedia.org/wiki/File:Robert_Shiller_-_World_Economic_Forum_Annual_Meeting_2012_(cropped).jpg",
         "link": "https://en.wikipedia.org/wiki/Robert_J._Shiller",
         "name": "Robert James \"Bob\" Shiller"
+    },
+    {
+        "doctoral_advisor": [
+            "Q222541"
+        ],
+        "doctoral_student": [],
+        "field": "",
+        "id": "Q63100946",
+        "image": "https://commons.wikimedia.org/wiki/File:",
+        "link": "",
+        "name": "Ross Milbourne"
+    },
+    {
+        "doctoral_advisor": [
+            "Q836646",
+            "Q58031"
+        ],
+        "doctoral_student": [
+            "Q102454",
+            "Q206460",
+            "Q157268",
+            "Q92629",
+            "Q295717",
+            "Q7325399",
+            "Q256745",
+            "Q23883699",
+            "Q6369982",
+            "Q1710365",
+            "Q4084032",
+            "Q4470081",
+            "Q1747459",
+            "Q41799746",
+            "Q40041223",
+            "Q4722800",
+            "Q18412608"
+        ],
+        "field": "Q8134",
+        "id": "Q44061",
+        "image": "https://commons.wikimedia.org/wiki/File:Wassily_Leontief_1973.jpg",
+        "link": "https://en.wikipedia.org/wiki/Wassily_Leontief",
+        "name": "Wassily Leontief"
+    },
+    {
+        "doctoral_advisor": [
+            "Q157268"
+        ],
+        "doctoral_student": [],
+        "field": "",
+        "id": "Q18639479",
+        "image": "https://commons.wikimedia.org/wiki/File:",
+        "link": "https://en.wikipedia.org/wiki/Francis_M._Bator",
+        "name": "Francis Michel Bator"
+    },
+    {
+        "doctoral_advisor": [
+            "Q157268"
+        ],
+        "doctoral_student": [],
+        "field": "",
+        "id": "Q4705651",
+        "image": "https://commons.wikimedia.org/wiki/File:",
+        "link": "https://en.wikipedia.org/wiki/Alain_Enthoven",
+        "name": "Alain Enthoven"
+    },
+    {
+        "doctoral_advisor": [
+            "Q157268"
+        ],
+        "doctoral_student": [
+            "Q20807008",
+            "Q11584437",
+            "Q30077788",
+            "Q27919288",
+            "Q11443676",
+            "Q30069265"
+        ],
+        "field": "",
+        "id": "Q4160425",
+        "image": "https://commons.wikimedia.org/wiki/File:",
+        "link": "https://en.wikipedia.org/wiki/Ronald_W._Jones",
+        "name": "Ronald Winthrop Jones"
     }
 ]
