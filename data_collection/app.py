@@ -22,7 +22,7 @@ def web():
 
 @app.route("/scholar/<scholar_name>", methods=["GET"])
 @cross_origin(origin="localhost", headers=["Content-Type", "Authorization"])
-def send_jeopardy_json(scholar_name):
+def get_scholar(scholar_name):
     scholar_qid = get_scholar_id_from_name(scholar_name)
     scholar = wikidata.get_scholar_advisors_and_students(scholar_qid)
     scholar.convert_qids()
