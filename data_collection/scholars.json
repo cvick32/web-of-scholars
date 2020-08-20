@@ -1,183 +1,185 @@
-[
-    {
-        "doctoral_advisor": [
-            "Q157268"
-        ],
-        "doctoral_student": [
-            "Q16210448",
-            "Q4685502",
-            "Q338151",
-            "Q63100946"
-        ],
-        "field": "Q8134",
-        "id": "Q222541",
-        "image": "https://commons.wikimedia.org/wiki/File:George_Akerlof.jpg",
-        "link": "https://en.wikipedia.org/wiki/George_Akerlof",
-        "name": "George Arthur Akerlof"
-    },
-    {
-        "doctoral_advisor": [
-            "Q44061"
-        ],
-        "doctoral_student": [
-            "Q18639479",
-            "Q4705651",
-            "Q4160425",
-            "Q5735099",
-            "Q7364858",
-            "Q16092067",
-            "Q5543349",
-            "Q109570",
-            "Q4202167",
-            "Q4791568",
-            "Q222541",
-            "Q6970257",
-            "Q18430",
-            "Q7345891",
-            "Q2156948",
-            "Q562481",
-            "Q591572",
-            "Q791030",
-            "Q4493811",
-            "Q2711499",
-            "Q9094553",
-            "Q15126543",
-            "Q6181880",
-            "Q6378105",
-            "Q30069434",
-            "Q12036341",
-            "Q2347681",
-            "Q41805343",
-            "Q5568962",
-            "Q471047",
-            "Q3848308",
-            "Q30074877",
-            "Q4795127"
-        ],
-        "field": "Q39680",
-        "id": "Q157268",
-        "image": "https://commons.wikimedia.org/wiki/File:Robert_Solow_by_Olaf_Storbeck.jpg",
-        "link": "https://en.wikipedia.org/wiki/Robert_Solow",
-        "name": "Robert Merton Solow"
-    },
-    {
-        "doctoral_advisor": [
-            "Q222541"
-        ],
-        "doctoral_student": [],
-        "field": "",
-        "id": "Q16210448",
-        "image": "https://commons.wikimedia.org/wiki/File:",
-        "link": "https://en.wikipedia.org/wiki/Charles_Engel",
-        "name": "Charles Engel"
-    },
-    {
-        "doctoral_advisor": [
-            "Q222541"
-        ],
-        "doctoral_student": [],
-        "field": "",
-        "id": "Q4685502",
-        "image": "https://commons.wikimedia.org/wiki/File:Adriana_Kugler.jpg",
-        "link": "https://en.wikipedia.org/wiki/Adriana_Kugler",
-        "name": "Adriana Kugler"
-    },
-    {
-        "doctoral_advisor": [
-            "Q205850",
-            "Q222541"
-        ],
-        "doctoral_student": [
-            "Q1383155",
-            "Q7792986",
-            "Q41802129",
-            "Q41804345"
-        ],
-        "field": "Q8134",
-        "id": "Q338151",
-        "image": "https://commons.wikimedia.org/wiki/File:Robert_Shiller_-_World_Economic_Forum_Annual_Meeting_2012_(cropped).jpg",
-        "link": "https://en.wikipedia.org/wiki/Robert_J._Shiller",
-        "name": "Robert James Shiller"
-    },
-    {
-        "doctoral_advisor": [
-            "Q222541"
-        ],
-        "doctoral_student": [],
-        "field": "",
-        "id": "Q63100946",
-        "image": "https://commons.wikimedia.org/wiki/File:",
-        "link": "",
-        "name": "Ross Milbourne"
-    },
-    {
-        "doctoral_advisor": [
-            "Q836646",
-            "Q58031"
-        ],
-        "doctoral_student": [
-            "Q102454",
-            "Q206460",
-            "Q157268",
-            "Q92629",
-            "Q295717",
-            "Q7325399",
-            "Q256745",
-            "Q23883699",
-            "Q6369982",
-            "Q1710365",
-            "Q4084032",
-            "Q4470081",
-            "Q1747459",
-            "Q41799746",
-            "Q40041223",
-            "Q4722800",
-            "Q18412608"
-        ],
-        "field": "Q8134",
-        "id": "Q44061",
-        "image": "https://commons.wikimedia.org/wiki/File:Wassily_Leontief_1973.jpg",
-        "link": "https://en.wikipedia.org/wiki/Wassily_Leontief",
-        "name": "Wassily Leontief"
-    },
-    {
-        "doctoral_advisor": [
-            "Q157268"
-        ],
-        "doctoral_student": [],
-        "field": "",
-        "id": "Q18639479",
-        "image": "https://commons.wikimedia.org/wiki/File:",
-        "link": "https://en.wikipedia.org/wiki/Francis_M._Bator",
-        "name": "Francis Michel Bator"
-    },
-    {
-        "doctoral_advisor": [
-            "Q157268"
-        ],
-        "doctoral_student": [],
-        "field": "",
-        "id": "Q4705651",
-        "image": "https://commons.wikimedia.org/wiki/File:",
-        "link": "https://en.wikipedia.org/wiki/Alain_Enthoven",
-        "name": "Alain Enthoven"
-    },
-    {
-        "doctoral_advisor": [
-            "Q157268"
-        ],
-        "doctoral_student": [
-            "Q20807008",
-            "Q11584437",
-            "Q30077788",
-            "Q27919288",
-            "Q11443676",
-            "Q30069265"
-        ],
-        "field": "",
-        "id": "Q4160425",
-        "image": "https://commons.wikimedia.org/wiki/File:",
-        "link": "https://en.wikipedia.org/wiki/Ronald_W._Jones",
-        "name": "Ronald Winthrop Jones"
-    }
-]
+{
+    "scholars": [
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [
+                "Q16210448",
+                "Q4685502",
+                "Q338151",
+                "Q63100946"
+            ],
+            "field": "Q8134",
+            "id": "Q222541",
+            "image_link_": "https://commons.wikimedia.org/wiki/File:George_Akerlof.jpg",
+            "wiki_link": "https://en.wikipedia.org/wiki/George_Akerlof",
+            "name": "George Arthur Akerlof"
+        },
+        {
+            "doctoral_advisor": [
+                "Q44061"
+            ],
+            "doctoral_student": [
+                "Q18639479",
+                "Q4705651",
+                "Q4160425",
+                "Q5735099",
+                "Q7364858",
+                "Q16092067",
+                "Q5543349",
+                "Q109570",
+                "Q4202167",
+                "Q4791568",
+                "Q222541",
+                "Q6970257",
+                "Q18430",
+                "Q7345891",
+                "Q2156948",
+                "Q562481",
+                "Q591572",
+                "Q791030",
+                "Q4493811",
+                "Q2711499",
+                "Q9094553",
+                "Q15126543",
+                "Q6181880",
+                "Q6378105",
+                "Q30069434",
+                "Q12036341",
+                "Q2347681",
+                "Q41805343",
+                "Q5568962",
+                "Q471047",
+                "Q3848308",
+                "Q30074877",
+                "Q4795127"
+            ],
+            "field": "Q39680",
+            "id": "Q157268",
+            "image_link": "https://commons.wikimedia.org/wiki/File:Robert_Solow_by_Olaf_Storbeck.jpg",
+            "link": "https://en.wikipedia.org/wiki/Robert_Solow",
+            "name": "Robert Merton Solow"
+        },
+        {
+            "doctoral_advisor": [
+                "Q222541"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q16210448",
+            "image_link": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Charles_Engel",
+            "name": "Charles Engel"
+        },
+        {
+            "doctoral_advisor": [
+                "Q222541"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q4685502",
+            "image_link": "https://commons.wikimedia.org/wiki/File:Adriana_Kugler.jpg",
+            "wiki_link": "https://en.wikipedia.org/wiki/Adriana_Kugler",
+            "name": "Adriana Kugler"
+        },
+        {
+            "doctoral_advisor": [
+                "Q205850",
+                "Q222541"
+            ],
+            "doctoral_student": [
+                "Q1383155",
+                "Q7792986",
+                "Q41802129",
+                "Q41804345"
+            ],
+            "field": "Q8134",
+            "id": "Q338151",
+            "image_link": "https://commons.wikimedia.org/wiki/File:Robert_Shiller_-_World_Economic_Forum_Annual_Meeting_2012_(cropped).jpg",
+            "wiki_link": "https://en.wikipedia.org/wiki/Robert_J._Shiller",
+            "name": "Robert James Shiller"
+        },
+        {
+            "doctoral_advisor": [
+                "Q222541"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q63100946",
+            "image_link": "https://commons.wikimedia.org/wiki/File:",
+            "wiki_link": "",
+            "name": "Ross Milbourne"
+        },
+        {
+            "doctoral_advisor": [
+                "Q836646",
+                "Q58031"
+            ],
+            "doctoral_student": [
+                "Q102454",
+                "Q206460",
+                "Q157268",
+                "Q92629",
+                "Q295717",
+                "Q7325399",
+                "Q256745",
+                "Q23883699",
+                "Q6369982",
+                "Q1710365",
+                "Q4084032",
+                "Q4470081",
+                "Q1747459",
+                "Q41799746",
+                "Q40041223",
+                "Q4722800",
+                "Q18412608"
+            ],
+            "field": "Q8134",
+            "id": "Q44061",
+            "image_link": "https://commons.wikimedia.org/wiki/File:Wassily_Leontief_1973.jpg",
+            "wiki_link": "https://en.wikipedia.org/wiki/Wassily_Leontief",
+            "name": "Wassily Leontief"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q18639479",
+            "image_link": "https://commons.wikimedia.org/wiki/File:",
+            "wiki_link": "https://en.wikipedia.org/wiki/Francis_M._Bator",
+            "name": "Francis Michel Bator"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q4705651",
+            "image_link": "https://commons.wikimedia.org/wiki/File:",
+            "wiki_link": "https://en.wikipedia.org/wiki/Alain_Enthoven",
+            "name": "Alain Enthoven"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [
+                "Q20807008",
+                "Q11584437",
+                "Q30077788",
+                "Q27919288",
+                "Q11443676",
+                "Q30069265"
+            ],
+            "field": "",
+            "id": "Q4160425",
+            "image_link": "https://commons.wikimedia.org/wiki/File:",
+            "wiki_link": "https://en.wikipedia.org/wiki/Ronald_W._Jones",
+            "name": "Ronald Winthrop Jones"
+        }
+    ]
+}
