@@ -3,7 +3,7 @@ from dataclasses import dataclass
 from wikidata.client import Client
 from datetime import datetime
 
-from .mappings import name_to_attribute
+from data_collection.mappings import name_to_attribute
 import requests
 
 WIKIDATA_IMAGE = "https://commons.wikimedia.org/wiki/File:"
