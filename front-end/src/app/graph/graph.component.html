@@ -1,13 +1,13 @@
 <svg #svg [attr.width]="options.width" [attr.height]="options.height">
   <g [zoomable]="svg">
-    <g *ngFor="let link of links">
+    <g *ngFor="let link of links$ | async">
       <svg:line class="link"
         [attr.x1]="link.source.x"
         [attr.y1]="link.source.y"
         [attr.x2]="link.target.x"
         [attr.y2]="link.target.y" />
     </g>
-    <g [draggableNode]="node" [draggableInGraph]="graph" *ngFor="let node of nodes">
+    <g [draggableNode]="node" [draggableInGraph]="graph" *ngFor="let node of nodes$ | async">
       <svg:g [attr.transform]="'translate(' + node.x + ',' + node.y + ')'">
       <svg:circle
           class="node"

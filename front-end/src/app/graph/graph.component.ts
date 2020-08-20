@@ -4,6 +4,7 @@ import { Subject } from 'rxjs';
 import { ForceDirectedGraph } from '../d3/models/index';
 import { D3Service } from '../d3/d3.service';
 import { NodesAndLinks } from '../nodes-and-links.model';
+import { Node, Link } from '../d3/models/index';
 
 @Component({
   selector: 'app-graph',
@@ -14,6 +15,9 @@ export class GraphComponent implements OnInit, AfterViewInit {
   @Input('currentNodesAndLinks') currentNodesAndLinks: Subject<NodesAndLinks>;
 
   graph: ForceDirectedGraph;
+
+  links$ = new Subject<Link[]>();
+  nodes$ = new Subject<Node[]>();
 
   private _options: {width, height} = {width: 800, height: 600};
 
@@ -26,11 +30,13 @@ export class GraphComponent implements OnInit, AfterViewInit {
 
   ngOnInit() {
     this.currentNodesAndLinks.subscribe(nodesAndLinks => {
-      console.log(nodesAndLinks.nodes);
+      this.nodes$.next(nodesAndLinks.nodes);
+      this.links$.next(nodesAndLinks.links);
       this.graph = this.d3Service.getForceDirectedGraph(nodesAndLinks.nodes, nodesAndLinks.links, this.options);
       this.graph.ticker.subscribe((d) => {
         this.ref.markForCheck();
       });
+      this.graph.initSimulation(this.options);
     });
   }
 
