@@ -1,5 +1,6 @@
 .DS_Store
 .vscode
 len.py
+__pycache__
 scholars_full.json
-__*
+scholar
