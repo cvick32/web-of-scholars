@@ -12,8 +12,8 @@
             ],
             "field": "Q8134",
             "id": "Q222541",
-            "image_link_": "https://commons.wikimedia.org/wiki/File:George_Akerlof.jpg",
-            "wiki_link": "https://en.wikipedia.org/wiki/George_Akerlof",
+            "image": "https://commons.wikimedia.org/wiki/File:George_Akerlof.jpg",
+            "link": "https://en.wikipedia.org/wiki/George_Akerlof",
             "name": "George Arthur Akerlof"
         },
         {
@@ -57,7 +57,7 @@
             ],
             "field": "Q39680",
             "id": "Q157268",
-            "image_link": "https://commons.wikimedia.org/wiki/File:Robert_Solow_by_Olaf_Storbeck.jpg",
+            "image": "https://commons.wikimedia.org/wiki/File:Robert_Solow_by_Olaf_Storbeck.jpg",
             "link": "https://en.wikipedia.org/wiki/Robert_Solow",
             "name": "Robert Merton Solow"
         },
@@ -68,7 +68,7 @@
             "doctoral_student": [],
             "field": "",
             "id": "Q16210448",
-            "image_link": "https://commons.wikimedia.org/wiki/File:",
+            "image": "https://commons.wikimedia.org/wiki/File:",
             "link": "https://en.wikipedia.org/wiki/Charles_Engel",
             "name": "Charles Engel"
         },
@@ -79,8 +79,8 @@
             "doctoral_student": [],
             "field": "",
             "id": "Q4685502",
-            "image_link": "https://commons.wikimedia.org/wiki/File:Adriana_Kugler.jpg",
-            "wiki_link": "https://en.wikipedia.org/wiki/Adriana_Kugler",
+            "image": "https://commons.wikimedia.org/wiki/File:Adriana_Kugler.jpg",
+            "link": "https://en.wikipedia.org/wiki/Adriana_Kugler",
             "name": "Adriana Kugler"
         },
         {
@@ -96,8 +96,8 @@
             ],
             "field": "Q8134",
             "id": "Q338151",
-            "image_link": "https://commons.wikimedia.org/wiki/File:Robert_Shiller_-_World_Economic_Forum_Annual_Meeting_2012_(cropped).jpg",
-            "wiki_link": "https://en.wikipedia.org/wiki/Robert_J._Shiller",
+            "image": "https://commons.wikimedia.org/wiki/File:Robert_Shiller_-_World_Economic_Forum_Annual_Meeting_2012_(cropped).jpg",
+            "link": "https://en.wikipedia.org/wiki/Robert_J._Shiller",
             "name": "Robert James Shiller"
         },
         {
@@ -107,8 +107,8 @@
             "doctoral_student": [],
             "field": "",
             "id": "Q63100946",
-            "image_link": "https://commons.wikimedia.org/wiki/File:",
-            "wiki_link": "",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "",
             "name": "Ross Milbourne"
         },
         {
@@ -137,8 +137,8 @@
             ],
             "field": "Q8134",
             "id": "Q44061",
-            "image_link": "https://commons.wikimedia.org/wiki/File:Wassily_Leontief_1973.jpg",
-            "wiki_link": "https://en.wikipedia.org/wiki/Wassily_Leontief",
+            "image": "https://commons.wikimedia.org/wiki/File:Wassily_Leontief_1973.jpg",
+            "link": "https://en.wikipedia.org/wiki/Wassily_Leontief",
             "name": "Wassily Leontief"
         },
         {
@@ -148,8 +148,8 @@
             "doctoral_student": [],
             "field": "",
             "id": "Q18639479",
-            "image_link": "https://commons.wikimedia.org/wiki/File:",
-            "wiki_link": "https://en.wikipedia.org/wiki/Francis_M._Bator",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Francis_M._Bator",
             "name": "Francis Michel Bator"
         },
         {
@@ -159,8 +159,8 @@
             "doctoral_student": [],
             "field": "",
             "id": "Q4705651",
-            "image_link": "https://commons.wikimedia.org/wiki/File:",
-            "wiki_link": "https://en.wikipedia.org/wiki/Alain_Enthoven",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Alain_Enthoven",
             "name": "Alain Enthoven"
         },
         {
@@ -177,9 +177,466 @@
             ],
             "field": "",
             "id": "Q4160425",
-            "image_link": "https://commons.wikimedia.org/wiki/File:",
-            "wiki_link": "https://en.wikipedia.org/wiki/Ronald_W._Jones",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Ronald_W._Jones",
             "name": "Ronald Winthrop Jones"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [
+                "Q54874834",
+                "Q30080873"
+            ],
+            "field": "",
+            "id": "Q5735099",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Herbert_Mohring",
+            "name": "Herbert D. Mohring"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [
+                "Q30071064",
+                "Q7077617",
+                "Q29349934",
+                "Q1239795",
+                "Q30072813"
+            ],
+            "field": "",
+            "id": "Q7364858",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Ronald_Findlay",
+            "name": "Ronald Edsel Findlay"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q16092067",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Harvey_M._Wagner",
+            "name": "Harvey M. Wagner"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q5543349",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/George_Perry_(American_economist)",
+            "name": "George L. Perry"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [
+                "Q1770204",
+                "Q5235801",
+                "Q502557",
+                "Q984436",
+                "Q41804225"
+            ],
+            "field": "Q47555",
+            "id": "Q109570",
+            "image": "https://commons.wikimedia.org/wiki/File:Peter_Diamond_(economist).jpg",
+            "link": "https://en.wikipedia.org/wiki/Peter_Diamond",
+            "name": "Peter Arthur Diamond"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [
+                "Q84513725"
+            ],
+            "field": "Q166542",
+            "id": "Q4202167",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Michael_Intriligator",
+            "name": "Michael Intriligator"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q4791568",
+            "image": "https://commons.wikimedia.org/wiki/File:ARJUN_desk.jpg",
+            "link": "https://en.wikipedia.org/wiki/Arjun_Kumar_Sengupta",
+            "name": "Arjun Kumar Sengupta"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [],
+            "field": "Q8134",
+            "id": "Q6970257",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Eytan_Sheshinski",
+            "name": "Eytan Sheshinski"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [],
+            "field": "Q8134",
+            "id": "Q18430",
+            "image": "https://commons.wikimedia.org/wiki/File:Joseph_E._Stiglitz,_2019_(cropped).jpg",
+            "link": "https://en.wikipedia.org/wiki/Joseph_Stiglitz",
+            "name": "Joseph Eugene Stiglitz"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [
+                "Q41803764"
+            ],
+            "field": "",
+            "id": "Q7345891",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Robert_J._Gordon",
+            "name": "Robert Gordon"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [
+                "Q11981268",
+                "Q15127124"
+            ],
+            "field": "Q8134",
+            "id": "Q2156948",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Robert_Hall_(economist)",
+            "name": "Robert E. Hall"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [
+                "Q7792986"
+            ],
+            "field": "",
+            "id": "Q562481",
+            "image": "https://commons.wikimedia.org/wiki/File:William_Nordhaus_EM1B6005_(46234137031).jpg",
+            "link": "https://en.wikipedia.org/wiki/William_Nordhaus",
+            "name": "William Dawbney Nordhaus"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [
+                "Q30071679"
+            ],
+            "field": "",
+            "id": "Q591572",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Martin_Weitzman",
+            "name": "Martin Weitzman"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [
+                "Q19815702",
+                "Q28086026",
+                "Q559838"
+            ],
+            "field": "",
+            "id": "Q791030",
+            "image": "https://commons.wikimedia.org/wiki/File:Avinash_Dixit.JPG",
+            "link": "https://en.wikipedia.org/wiki/Avinash_Dixit",
+            "name": "Avinash Dixit"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [
+                "Q20708611"
+            ],
+            "field": "",
+            "id": "Q4493811",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Ray_Fair",
+            "name": "Ray Clarence Fair"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [
+                "Q6309517",
+                "Q6230134",
+                "Q7346146"
+            ],
+            "field": "",
+            "id": "Q2711499",
+            "image": "https://commons.wikimedia.org/wiki/File:Alan_S._Blinder,_Vice_Chairman_Federal_Reserve.jpg",
+            "link": "https://en.wikipedia.org/wiki/Alan_Blinder",
+            "name": "Alan S. Blinder"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q9094553",
+            "image": "https://commons.wikimedia.org/wiki/File:Vittoriocorbo.jpg",
+            "link": "https://en.wikipedia.org/wiki/Vittorio_Corbo",
+            "name": "Vittorio Corbo"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [
+                "Q6960895",
+                "Q16731779"
+            ],
+            "field": "",
+            "id": "Q15126543",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Robert_Pindyck",
+            "name": "Robert S. Pindyck"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q6181880",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Jeremy_Siegel",
+            "name": "Jeremy James Siegel"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [
+                "Q2099975",
+                "Q11628630"
+            ],
+            "field": "",
+            "id": "Q6378105",
+            "image": "https://commons.wikimedia.org/wiki/File:Katsuhito_Iwai_cropped_1_Katsuhito_Iwai_201611.jpg",
+            "link": "https://en.wikipedia.org/wiki/Katsuhito_Iwai",
+            "name": "Katsuhito Iwai"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [
+                "Q41805437",
+                "Q5218932"
+            ],
+            "field": "",
+            "id": "Q30069434",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "",
+            "name": "John Graham Riley"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q12036341",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "",
+            "name": "Meir Gregory Kohn"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q2347681",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Steven_Shavell",
+            "name": "Steven Mark Shavell"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q41805343",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "",
+            "name": "Arthur J. Robson"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q5568962",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Glenn_Loury",
+            "name": "Glenn Cartman Loury"
+        },
+        {
+            "doctoral_advisor": [
+                "Q1687835",
+                "Q157268"
+            ],
+            "doctoral_student": [
+                "Q16193936",
+                "Q41804774",
+                "Q30074857",
+                "Q30075399",
+                "Q30074960",
+                "Q58790232",
+                "Q29570897",
+                "Q61854847",
+                "Q30074526"
+            ],
+            "field": "",
+            "id": "Q471047",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Halbert_White",
+            "name": "Halbert L. White Jr."
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q3848308",
+            "image": "https://commons.wikimedia.org/wiki/File:Mario_Baldassarri.jpg",
+            "link": "https://en.wikipedia.org/wiki/Mario_Baldassarri",
+            "name": "Mario Baldassarri"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q30074877",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "",
+            "name": "Robert Douglas Cairns"
+        },
+        {
+            "doctoral_advisor": [
+                "Q157268"
+            ],
+            "doctoral_student": [],
+            "field": "Q8134",
+            "id": "Q4795127",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Arnold_Kling",
+            "name": "Arnold Kling"
+        },
+        {
+            "doctoral_advisor": [
+                "Q91541",
+                "Q305781"
+            ],
+            "doctoral_student": [
+                "Q4709633",
+                "Q338151",
+                "Q294460",
+                "Q164281",
+                "Q6500730",
+                "Q15896957",
+                "Q85951319",
+                "Q7329303"
+            ],
+            "field": "Q8134",
+            "id": "Q205850",
+            "image": "https://commons.wikimedia.org/wiki/File:Franco_Modigliani.jpg",
+            "link": "https://en.wikipedia.org/wiki/Franco_Modigliani",
+            "name": "F. Modigliani"
+        },
+        {
+            "doctoral_advisor": [
+                "Q338151"
+            ],
+            "doctoral_student": [
+                "Q30069699"
+            ],
+            "field": "",
+            "id": "Q1383155",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/John_Y._Campbell",
+            "name": "John Campbell"
+        },
+        {
+            "doctoral_advisor": [
+                "Q338151",
+                "Q562481"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q7792986",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "https://en.wikipedia.org/wiki/Thomas_Palley",
+            "name": "Thomas Isidore Palley"
+        },
+        {
+            "doctoral_advisor": [
+                "Q338151"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q41802129",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "",
+            "name": "Andrea Frazzini"
+        },
+        {
+            "doctoral_advisor": [
+                "Q338151"
+            ],
+            "doctoral_student": [],
+            "field": "",
+            "id": "Q41804345",
+            "image": "https://commons.wikimedia.org/wiki/File:",
+            "link": "",
+            "name": "Adlai Julian Fisher"
+        },
+        {
+            "doctoral_advisor": [
+                "Q66332",
+                "Q64383"
+            ],
+            "doctoral_student": [
+                "Q44061"
+            ],
+            "field": "",
+            "id": "Q836646",
+            "image": "https://commons.wikimedia.org/wiki/File:Ladislaus_Bortkiewicz.jpg",
+            "link": "https://en.wikipedia.org/wiki/Ladislaus_Bortkiewicz",
+            "name": "Ladislaus von Bortkiewicz"
         }
     ]
 }
