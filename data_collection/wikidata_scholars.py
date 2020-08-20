@@ -1,63 +1,31 @@
 import json
+from dataclasses import dataclass
 from wikidata.client import Client
-
-string_to_wikidata_key = {
-    "doctoral_advisor": "P184",
-    "doctoral_student": "P185",
-    "field": "P101",
-    "image": "P18",
-}
-
-"""
-This is a map from names of attributes to the list of attributes
-that are needed to call on a list of attributes to get the desired
-field. Let's try an example:
-
-Scholar 101 = {
-    "claims": ...
-    "aliases": {
-        "en": [{"value": "Cole Vick"}, "]
-        "es": ...
-        ...
-    }
-    ...
-}
-
-So to get the correct name out of this structure we need to navigate 
-to the `aliases` object, then select english as the language, then 
-select the first position of the array, then select the value of that
-object. So, it would be exactly the array described below to find the 
-name, if we iterate over the attributes, as we do in the function
-`get_value_from_attributes` below.
-"""
-name_to_attribute = {
-    "advisors": ["claims", string_to_wikidata_key["doctoral_advisor"]],
-    "field": [
-        "claims",
-        string_to_wikidata_key["field"],
-        0,
-        "mainsnak",
-        "datavalue",
-        "value",
-        "id",
-    ],
-    "image": [
-        "claims",
-        string_to_wikidata_key["image"],
-        0,
-        "mainsnak",
-        "datavalue",
-        "value",
-    ],
-    "name": ["aliases", "en", 0, "value"],
-    "other_name": ["aliases", "en", "value"],
-    "title_name": ["labels", "en", "value"],
-    "scholar_qid": ["mainsnak", "datavalue", "value", "id"],
-    "students": ["claims", string_to_wikidata_key["doctoral_student"]],
-    "wiki_link": ["sitelinks", "enwiki", "url"],
-}
+from mappings import name_to_attribute
 
 WIKIDATA_IMAGE = "https://commons.wikimedia.org/wiki/File:"
+
+
+@dataclass
+class Scholar:
+    id: str
+    name: str
+    image_link: str
+    wiki_link: str
+    field: str
+    doctoral_advisors: []
+    doctoral_students: []
+
+    def to_json(self):
+        return {
+            "id": self.id,
+            "name": self.name,
+            "image": self.image_link,
+            "link": self.wiki_link,
+            "field": self.field,
+            "doctoral_advisor": self.doctoral_advisors,
+            "doctoral_student": self.doctoral_students,
+        }
 
 
 class WikiDataScholars:
@@ -101,12 +69,16 @@ class WikiDataScholars:
                 break
             if not self.to_process[0] in self.seen_scholars:
                 self.seen_scholars.add(self.to_process[0])
-                self.get_scholar_advisors_and_students(self.to_process[0])
+                cur_scholar_json = self.get_scholar_advisors_and_students(
+                    self.to_process[0]
+                )
+                self.all_scholars.append(cur_scholar_json)
             self.to_process = self.to_process[1:]
             self.num_processed += 1
         self.finish_and_print()
 
     def get_scholar_advisors_and_students(self, scholar_query_id):
+        """string -> Scholar"""
         self.cur_scholar_id = scholar_query_id
 
         cur_scholar = self.Wiki_Client.get(scholar_query_id)
@@ -122,16 +94,15 @@ class WikiDataScholars:
         self.debug.write(f"Scholar Query ID: {scholar_query_id}\n")
         print("Current Scholar: {} {}".format(scholar_name, scholar_query_id))
 
-        cur_scholar_json = {
-            "id": scholar_query_id,
-            "name": scholar_name,
-            "image": scholar_image,
-            "link": scholar_wiki_link,
-            "field": scholar_field,
-            "doctoral_advisor": scholar_advisors,
-            "doctoral_student": scholar_students,
-        }
-        self.all_scholars.append(cur_scholar_json)
+        return Scholar(
+            scholar_query_id,
+            scholar_name,
+            scholar_image,
+            scholar_wiki_link,
+            scholar_field,
+            scholar_advisors,
+            scholar_students,
+        )
 
     def get_value_from_attributes(self, desired_attr, attributes_object):
         """
@@ -187,7 +158,11 @@ class WikiDataScholars:
         return students
 
     def finish_and_print(self):
-        self.scholar_json.write(json.dumps(self.all_scholars, indent=4, sort_keys=True))
+        self.scholar_json.write(
+            json.dumps(
+                list(map(Scholar.to_json, self.all_scholars)), indent=4, sort_keys=True
+            )
+        )
         self.debug.close()
         self.scholar_json.close()
 

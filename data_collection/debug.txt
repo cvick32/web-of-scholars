@@ -15,7 +15,7 @@ NO field: Q4685502
 NO students: Q4685502
 Scholar Name: Adriana Kugler
 Scholar Query ID: Q4685502
-Scholar Name: Robert James "Bob" Shiller
+Scholar Name: Robert James Shiller
 Scholar Query ID: Q338151
 NO name: Q63100946
 NO other_name: Q63100946
