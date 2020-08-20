@@ -2,6 +2,7 @@ import json
 from dataclasses import dataclass
 from wikidata.client import Client
 from mappings import name_to_attribute
+import requests
 
 WIKIDATA_IMAGE = "https://commons.wikimedia.org/wiki/File:"
 
@@ -31,7 +32,7 @@ class Scholar:
 class WikiDataScholars:
     def __init__(
         self,
-        max_scholars,
+        max_scholars=0,
         starting_scholars=["Q222541"],
         scholar_json_file="scholars.json",
         debug_file="debug.txt",
@@ -64,7 +65,7 @@ class WikiDataScholars:
 
     def run(self):
         """Begin the scraping process for the web."""
-        while self.to_process:
+        while self.to_process and self.max_scholars != 0:
             if self.num_processed >= self.max_scholars:
                 break
             if not self.to_process[0] in self.seen_scholars:
@@ -167,5 +168,12 @@ class WikiDataScholars:
         self.scholar_json.close()
 
 
-scholar_web = WikiDataScholars(max_scholars=10)
-scholar_web.run()
+def get_scholar_id_from_name(name: str):
+    """ str -> str (QID) """
+    wiki_res = requests.get(
+        f"https://en.wikipedia.org/w/api.php?action=query&prop=pageprops&ppprop=wikibase_item&redirects=1&format=json&titles={name}"
+    )
+    return json.loads(wiki_res.content)["query"]["pages"]["192252"]["pageprops"][
+        "wikibase_item"
+    ]
+    # return wiki_res.content["query"]["pages"]["192252"]["pageprops"]["wikibase_item"]
