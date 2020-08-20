@@ -1,7 +1,9 @@
 import { Component, Input, OnInit, AfterViewInit, HostListener, ChangeDetectorRef } from '@angular/core';
-import { ForceDirectedGraph, Node, Link } from '../d3/models/index';
-import { D3Service } from '../d3/d3.service';
+import { Subject } from 'rxjs';
 
+import { ForceDirectedGraph } from '../d3/models/index';
+import { D3Service } from '../d3/d3.service';
+import { NodesAndLinks } from '../nodes-and-links.model';
 
 @Component({
   selector: 'app-graph',
@@ -9,8 +11,7 @@ import { D3Service } from '../d3/d3.service';
   styleUrls: ['./graph.component.css']
 })
 export class GraphComponent implements OnInit, AfterViewInit {
-  @Input('nodes') nodes: Node[];
-  @Input('links') links: Link[];
+  @Input('currentNodesAndLinks') currentNodesAndLinks: Subject<NodesAndLinks>;
 
   graph: ForceDirectedGraph;
 
@@ -24,9 +25,12 @@ export class GraphComponent implements OnInit, AfterViewInit {
   constructor(private d3Service: D3Service, private ref: ChangeDetectorRef) {}
 
   ngOnInit() {
-    this.graph = this.d3Service.getForceDirectedGraph(this.nodes, this.links, this.options);
-    this.graph.ticker.subscribe((d) => {
-      this.ref.markForCheck();
+    this.currentNodesAndLinks.subscribe(nodesAndLinks => {
+      console.log(nodesAndLinks.nodes);
+      this.graph = this.d3Service.getForceDirectedGraph(nodesAndLinks.nodes, nodesAndLinks.links, this.options);
+      this.graph.ticker.subscribe((d) => {
+        this.ref.markForCheck();
+      });
     });
   }
 
