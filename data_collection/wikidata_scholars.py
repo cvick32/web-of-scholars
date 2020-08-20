@@ -172,7 +172,9 @@ class WikiDataScholars:
 
         self.scholar_json.write(
             json.dumps(
-                list(map(Scholar.to_json, self.all_scholars)), indent=4, sort_keys=True
+                {"scholars": list(map(Scholar.to_json, self.all_scholars))},
+                indent=4,
+                sort_keys=True,
             )
         )
         self.debug.close()
