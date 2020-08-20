@@ -1,10 +1,13 @@
 import json
 from dataclasses import dataclass
 from wikidata.client import Client
-from mappings import name_to_attribute
+from datetime import datetime
+
+from .mappings import name_to_attribute
 import requests
 
 WIKIDATA_IMAGE = "https://commons.wikimedia.org/wiki/File:"
+Wiki_Client = Client()
 
 
 @dataclass
@@ -28,6 +31,14 @@ class Scholar:
             "doctoral_student": self.doctoral_students,
         }
 
+    def convert_qids(self):
+        self.doctoral_students = list(
+            map(get_scholar_name_from_id, self.doctoral_students)
+        )
+        self.doctoral_advisors = list(
+            map(get_scholar_name_from_id, self.doctoral_advisors)
+        )
+
 
 class WikiDataScholars:
     def __init__(
@@ -46,14 +57,9 @@ class WikiDataScholars:
         max_scholars: how many scholars we want to scrape before exiting
         """
         self.debug = open(debug_file, "w+")
-        self.debug.seek(0)
-        self.debug.truncate()
+        self.debug.write(f"Moment of Instantiation: {datetime.now()}")
 
-        self.scholar_json = open(scholar_json_file, "w+")
-        self.scholar_json.seek(0)
-        self.scholar_json.truncate()
-
-        self.Wiki_Client = Client()
+        self.scholar_json_file = scholar_json_file
 
         self.to_process = starting_scholars
         self.seen_scholars = set()
@@ -82,7 +88,7 @@ class WikiDataScholars:
         """string -> Scholar"""
         self.cur_scholar_id = scholar_query_id
 
-        cur_scholar = self.Wiki_Client.get(scholar_query_id)
+        cur_scholar = Wiki_Client.get(scholar_query_id)
 
         scholar_name = self.get_name(cur_scholar)
         scholar_wiki_link = self.get_wiki_link(cur_scholar)
@@ -122,6 +128,7 @@ class WikiDataScholars:
             return ""
 
     def get_name(self, scholar):
+        self.cur_scholar_id = scholar
         name = self.get_value_from_attributes("name", scholar.attributes)
         if not name:
             name = self.get_value_from_attributes("other_name", scholar.attributes)
@@ -159,6 +166,10 @@ class WikiDataScholars:
         return students
 
     def finish_and_print(self):
+        self.scholar_json = open(self.scholar_json_file, "w+")
+        self.scholar_json.seek(0)
+        self.scholar_json.truncate()
+
         self.scholar_json.write(
             json.dumps(
                 list(map(Scholar.to_json, self.all_scholars)), indent=4, sort_keys=True
@@ -176,4 +187,9 @@ def get_scholar_id_from_name(name: str):
     return json.loads(wiki_res.content)["query"]["pages"]["192252"]["pageprops"][
         "wikibase_item"
     ]
-    # return wiki_res.content["query"]["pages"]["192252"]["pageprops"]["wikibase_item"]
+
+
+def get_scholar_name_from_id(qid: str):
+    wd = WikiDataScholars()
+    scholar = Wiki_Client.get(qid)
+    return wd.get_name(scholar)
