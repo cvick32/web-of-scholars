@@ -8,6 +8,7 @@ import { D3Service } from './d3/d3.service';
 
 import { GraphComponent } from './graph/graph.component';
 import { HeaderComponent } from './header/header.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { HeaderComponent } from './header/header.component';
     HeaderComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   schemas: [NO_ERRORS_SCHEMA],
   providers: [D3Service],
