@@ -1,32 +1,48 @@
-import { Component } from '@angular/core';
-import APP_CONFIG from './app.config';
+import { Component, OnInit } from '@angular/core';
+import { Subscription, Subject } from 'rxjs';
+
 import { Node, Link } from './d3/models';
+import { ScholarSearchService } from './scholar-search.service';
+import { Scholar } from './scholar.model';
+import { NodesAndLinks } from './nodes-and-links.model';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'Web of Scholars';
 
+  scholars: Scholar[];
   nodes: Node[] = [];
   links: Link[] = [];
 
-  scholars = APP_CONFIG.SCHOLARS; // start with some base scholars, need to implement on changes with
-  //this variable that way can reset this variable and update the whole web
+  currentNodesAndLinks =  new Subject<NodesAndLinks>();
 
-  constructor() {
-    this.setUpNodes();
-    this.setUpLinks();
+  private scholarsSub: Subscription;
+
+  constructor(public scholarService: ScholarSearchService) { }
+
+  ngOnInit() {
+    this.scholarService.getScholars();
+
+    this.scholarsSub = this.scholarService.getScholarUpdateListener()
+      .subscribe((scholarData: {scholars: Scholar[]}) => {
+        this.scholars = scholarData.scholars;
+        console.log('app');
+        console.log(this.scholars);
+        this.setUpNodes();
+        this.setUpLinks();
+        this.currentNodesAndLinks.next({nodes: this.nodes, links: this.links});
+      });
   }
 
   /**
    * constructing the nodes array
   */
-  setUpNodes() {
-    for (let i = 0; i < this.scholars.length; i++) {
-      const scholar = this.scholars[i];
+  setUpNodes(): void {
+    for (const scholar of this.scholars) {
       this.nodes.push(new Node(scholar.id, scholar.name));
     }
   }
@@ -34,14 +50,12 @@ export class AppComponent {
   /**
    *  constructs links between related scholars
    */
-  setUpLinks() {
-    for (let i = 0; i < this.scholars.length; i++) {
-      const cur_scholar = this.scholars[i];
-      const doctoral_advisors = cur_scholar['doctoral_advisor'];
-      doctoral_advisors.push(...cur_scholar['academic_advisor']);
+  setUpLinks(): void {
+    for (const scholar of this.scholars) {
+      const doctoral_advisors = scholar.doctoral_advisor;
       if (doctoral_advisors) {
-        for (let j = 0; j < doctoral_advisors.length; j++) {
-          this.findAdvisor(i, doctoral_advisors[j]);
+        for (const advisor of doctoral_advisors) {
+          this.findAdvisor(scholar, advisor);
         }
       }
     }
@@ -52,10 +66,22 @@ export class AppComponent {
    * @param {scholar} scholar index in the scholars array
    * @param {string} advisor_qid
    */
-  findAdvisor(scholar_index, advisor_qid) {
-    for (let i = 0; i < this.scholars.length; i++) {
-      if (this.scholars[i].id === advisor_qid) {
-        this.links.push(new Link(this.nodes[i], this.nodes[scholar_index]));
+  findAdvisor(scholar: Scholar, advisor_qid: string): void {
+    for (const advisor of this.scholars) {
+      if (advisor.id === advisor_qid) {
+        this.links.push(new Link(this.scholarToNode(advisor), this.scholarToNode(scholar)));
+      }
+    }
+  }
+
+  /**
+   * Returns the Node associated with the given scholar
+   * @param scholar scholar whose node we are looking for
+   */
+  scholarToNode(scholar: Scholar): Node {
+    for (const node of this.nodes) {
+      if (node.id === scholar.id) {
+        return node;
       }
     }
   }
