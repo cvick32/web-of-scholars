@@ -30,8 +30,6 @@ export class AppComponent implements OnInit {
     this.scholarsSub = this.scholarService.getScholarUpdateListener()
       .subscribe((scholarData: {scholars: Scholar[]}) => {
         this.scholars = scholarData.scholars;
-        console.log('app');
-        console.log(this.scholars);
         this.setUpNodes();
         this.setUpLinks();
         this.currentNodesAndLinks.next({nodes: this.nodes, links: this.links});
