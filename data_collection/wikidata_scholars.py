@@ -186,7 +186,8 @@ def get_scholar_id_from_name(name: str):
     wiki_res = requests.get(
         f"https://en.wikipedia.org/w/api.php?action=query&prop=pageprops&ppprop=wikibase_item&redirects=1&format=json&titles={name}"
     )
-    return json.loads(wiki_res.content)["query"]["pages"]["192252"]["pageprops"][
+    key = list(json.loads(wiki_res.content)["query"]["pages"].keys())[0]
+    return json.loads(wiki_res.content)["query"]["pages"][key]["pageprops"][
         "wikibase_item"
     ]
 
