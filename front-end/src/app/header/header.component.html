@@ -2,7 +2,7 @@
 <span class="spacer"></span>
 <ul>
   <li>
-    <input type="text"><button>Search Scholar</button>
+    <input #search type="text"><button (click)="searchScholar(search.value); search.value = ''">Search Scholar</button>
   </li>
 </ul>
 

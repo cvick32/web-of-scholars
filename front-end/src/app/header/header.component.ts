@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ScholarSearchService } from '../scholar-search.service';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   scholar = '';
-  constructor() { }
+  constructor(public scholarService: ScholarSearchService) { }
 
   ngOnInit(): void {
+  }
+
+  searchScholar(scholarName: string) {
+    this.scholarService.searchScholar(scholarName);
   }
 
 }
