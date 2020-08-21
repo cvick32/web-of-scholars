@@ -26,4 +26,4 @@ def get_scholar(scholar_name):
     scholar_qid = get_scholar_id_from_name(scholar_name)
     scholar = wikidata.get_scholar_advisors_and_students(scholar_qid)
     scholar.convert_qids()
-    return json.dumps([scholar.to_json()])
+    return json.dumps({"scholars": [scholar.to_json()]})
