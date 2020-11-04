@@ -2,9 +2,9 @@ import json
 from dataclasses import dataclass
 from wikidata.client import Client
 from datetime import datetime
+import requests
 
 from data_collection.mappings import name_to_attribute
-import requests
 
 WIKIDATA_IMAGE = "https://commons.wikimedia.org/wiki/File:"
 Wiki_Client = Client()
@@ -42,11 +42,7 @@ class Scholar:
 
 class WikiDataScholars:
     def __init__(
-        self,
-        max_scholars=0,
-        starting_scholars=["Q222541"],
-        scholar_json_file="scholars.json",
-        debug_file="debug.txt",
+        self, scholar_json_file="scholars.json", debug_file="debug.txt",
     ):
         """
         Creates a new instance of a WikiDataScholar object. 
@@ -61,18 +57,16 @@ class WikiDataScholars:
 
         self.scholar_json_file = scholar_json_file
 
-        self.to_process = starting_scholars
         self.seen_scholars = set()
         self.all_scholars = list()
 
-        self.max_scholars = max_scholars
-
         self.num_processed = 0
 
-    def run(self):
+    def run(self, max_scholars=0, starting_scholars=["Q222541"]):
         """Begin the scraping process for the web."""
-        while self.to_process and self.max_scholars != 0:
-            if self.num_processed >= self.max_scholars:
+        self.to_process = starting_scholars
+        while self.to_process and max_scholars != 0:
+            if self.num_processed >= max_scholars:
                 break
             if not self.to_process[0] in self.seen_scholars:
                 self.seen_scholars.add(self.to_process[0])
@@ -82,7 +76,7 @@ class WikiDataScholars:
                 self.all_scholars.append(cur_scholar_json)
             self.to_process = self.to_process[1:]
             self.num_processed += 1
-        self.finish_and_print()
+        return self.all_scholars
 
     def get_scholar_advisors_and_students(self, scholar_query_id):
         """string -> Scholar"""
@@ -186,10 +180,13 @@ def get_scholar_id_from_name(name: str):
     wiki_res = requests.get(
         f"https://en.wikipedia.org/w/api.php?action=query&prop=pageprops&ppprop=wikibase_item&redirects=1&format=json&titles={name}"
     )
-    key = list(json.loads(wiki_res.content)["query"]["pages"].keys())[0]
-    return json.loads(wiki_res.content)["query"]["pages"][key]["pageprops"][
-        "wikibase_item"
-    ]
+    try:
+        key = list(json.loads(wiki_res.content)["query"]["pages"].keys())[0]
+        return json.loads(wiki_res.content)["query"]["pages"][key]["pageprops"][
+            "wikibase_item"
+        ]
+    except KeyError:
+        return json.loads("missing")
 
 
 def get_scholar_name_from_id(qid: str):
