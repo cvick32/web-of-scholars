@@ -3,11 +3,11 @@ import logging
 from flask import Flask, json, request, render_template
 from flask_cors import CORS, cross_origin
 
-from .wikidata_scholars import WikiDataScholars, get_scholar_id_from_name
+from data_collection.wikidata_scholars import WikiDataScholars, get_scholar_id_from_name
 
 app = Flask(__name__)
 app.config["CORS_HEADERS"] = "Content-Type"
-cors = CORS(app, resources={r"/foo": {"origins": "http://localhost:port"}})
+cors = CORS(app, resources={r"/*": {"origins": "http://localhost:4200"}})
 
 wikidata = WikiDataScholars()
 
