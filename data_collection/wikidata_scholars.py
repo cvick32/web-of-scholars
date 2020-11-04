@@ -73,6 +73,8 @@ class WikiDataScholars:
                 cur_scholar_json = self.get_scholar_advisors_and_students(
                     self.to_process[0]
                 )
+                self.to_process.extend(cur_scholar_json.doctoral_advisors)
+                self.to_process.extend(cur_scholar_json.doctoral_students)
                 self.all_scholars.append(cur_scholar_json)
             self.to_process = self.to_process[1:]
             self.num_processed += 1
@@ -146,7 +148,6 @@ class WikiDataScholars:
         for advisor in self.get_value_from_attributes("advisors", scholar.attributes):
             advisor_qid = self.get_value_from_attributes("scholar_qid", advisor)
             if advisor_qid:
-                self.to_process.append(advisor_qid)
                 advisors.append(advisor_qid)
         return advisors
 
@@ -155,7 +156,6 @@ class WikiDataScholars:
         for student in self.get_value_from_attributes("students", scholar.attributes):
             student_qid = self.get_value_from_attributes("scholar_qid", student)
             if student_qid:
-                self.to_process.append(student_qid)
                 students.append(student_qid)
         return students
 
