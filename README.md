@@ -17,7 +17,15 @@ Right now you can view a truncated version of the web that shows the first 300 l
   - caption is their first paragraph from wikipedia
 
 ## Local Running
-`ng serve` in `/front-end`
+`cd data_collection`
+`python3 -m venv scholar`
+`. scholar/bin/activate`
+`pip install -r requirements.txt`
+`export FLASK_APP=app.py`
+`flask run`
+`cd ..`
+`cd front-end`
+`ng serve`
 
 ## Roadmap
 ### Front-end
