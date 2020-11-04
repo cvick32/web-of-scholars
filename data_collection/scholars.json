@@ -133,13 +133,14 @@
                 "Q41799746",
                 "Q40041223",
                 "Q4722800",
-                "Q18412608"
+                "Q18412608",
+                "Q30069444"
             ],
             "field": "Q8134",
             "id": "Q44061",
             "image": "https://commons.wikimedia.org/wiki/File:Wassily_Leontief_1973.jpg",
             "link": "https://en.wikipedia.org/wiki/Wassily_Leontief",
-            "name": "Wassily Leontief"
+            "name": "Wassily W. Leontief"
         },
         {
             "doctoral_advisor": [
@@ -283,7 +284,7 @@
             "field": "Q8134",
             "id": "Q6970257",
             "image": "https://commons.wikimedia.org/wiki/File:",
-            "link": "https://en.wikipedia.org/wiki/Eytan_Sheshinski",
+            "link": "",
             "name": "Eytan Sheshinski"
         },
         {
@@ -497,7 +498,7 @@
             "doctoral_student": [],
             "field": "",
             "id": "Q5568962",
-            "image": "https://commons.wikimedia.org/wiki/File:",
+            "image": "https://commons.wikimedia.org/wiki/File:Glenn_Loury.jpg",
             "link": "https://en.wikipedia.org/wiki/Glenn_Loury",
             "name": "Glenn Cartman Loury"
         },
