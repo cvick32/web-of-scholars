@@ -12,11 +12,13 @@ export class Node implements d3.SimulationNodeDatum {
 
   id: string;
   name: string;
+  wikiLink: string;
   linkCount = 0;
 
-  constructor(id, name) {
+  constructor(id, name, wikiLink) {
       this.id = id;
       this.name = name;
+      this.wikiLink = wikiLink;
   }
 
   get r() {

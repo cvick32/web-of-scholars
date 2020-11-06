@@ -8,7 +8,7 @@
         [attr.y2]="link.target.y" />
     </g>
     <g [draggableNode]="node" [draggableInGraph]="graph" *ngFor="let node of nodes$ | async">
-      <svg:g [attr.transform]="'translate(' + node.x + ',' + node.y + ')'">
+      <svg:g [attr.transform]="'translate(' + node.x + ',' + node.y + ')'" (click)="navigateToWikiLink(node.wikiLink)">
       <svg:circle
           class="node"
           [attr.fill]="node.color"

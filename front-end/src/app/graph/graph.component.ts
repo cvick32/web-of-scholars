@@ -44,6 +44,10 @@ export class GraphComponent implements OnInit, AfterViewInit {
     this.graph.initSimulation(this.options);
   }
 
+  navigateToWikiLink(link: string) {
+    window.open(link, '_blank');
+  }
+
   get options() {
     return this._options = {
       width: window.innerWidth,
