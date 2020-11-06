@@ -3,7 +3,11 @@ import logging
 from flask import Flask, json, request, render_template
 from flask_cors import CORS, cross_origin
 
-from data_collection.wikidata_scholars import WikiDataScholars, get_scholar_id_from_name
+from data_collection.wikidata_scholars import (
+    WikiDataScholars,
+    get_scholar_id_from_name,
+    Scholar,
+)
 
 app = Flask(__name__)
 app.config["CORS_HEADERS"] = "Content-Type"
@@ -26,6 +30,5 @@ def get_scholar(scholar_name):
     scholar_qid = get_scholar_id_from_name(scholar_name)
     if scholar_qid == "missing":
         return json.dumps({"scholars": []})
-    scholar = wikidata.get_scholar_advisors_and_students(scholar_qid)
-    scholar.convert_qids()
-    return json.dumps({"scholars": [scholar.to_json()]})
+    scholars = wikidata.run(max_scholars=50, starting_scholars=[scholar_qid])
+    return json.dumps({"scholars": list(map(Scholar.to_json, scholars))})
