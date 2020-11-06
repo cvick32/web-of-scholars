@@ -24,8 +24,8 @@ class Scholar:
         return {
             "id": self.id,
             "name": self.name,
-            "image": self.image_link,
-            "link": self.wiki_link,
+            "image_link": self.image_link,
+            "wiki_link": self.wiki_link,
             "field": self.field,
             "doctoral_advisor": self.doctoral_advisors,
             "doctoral_student": self.doctoral_students,
@@ -57,35 +57,28 @@ class WikiDataScholars:
 
         self.scholar_json_file = scholar_json_file
 
-        self.seen_scholars = set()
-        self.all_scholars = list()
-
-        self.num_processed = 0
-
     def run(self, max_scholars=0, starting_scholars=["Q222541"]):
-        """Begin the scraping process for the web."""
-        self.to_process = starting_scholars
-        while self.to_process and max_scholars != 0:
-            if self.num_processed >= max_scholars:
-                break
-            if not self.to_process[0] in self.seen_scholars:
-                self.seen_scholars.add(self.to_process[0])
-                cur_scholar_json = self.get_scholar_advisors_and_students(
-                    self.to_process[0]
-                )
-                self.to_process.extend(cur_scholar_json.doctoral_advisors)
-                self.to_process.extend(cur_scholar_json.doctoral_students)
-                self.all_scholars.append(cur_scholar_json)
-            self.to_process = self.to_process[1:]
-            self.num_processed += 1
-        return self.all_scholars
+        """Begin the scraping process for the web"""
+        num_processed = 0
+        to_process = starting_scholars
+        seen_scholars = set()
+        scholars_json = list()
+        while to_process and max_scholars > num_processed:
+            if not to_process[0] in seen_scholars:
+                seen_scholars.add(to_process[0])
+                cur_scholar_json = self.get_scholar_advisors_and_students(to_process[0])
+                to_process.extend(cur_scholar_json.doctoral_advisors)
+                to_process.extend(cur_scholar_json.doctoral_students)
+                scholars_json.append(cur_scholar_json)
+            to_process = to_process[1:]
+            num_processed += 1
+        return scholars_json
 
     def get_scholar_advisors_and_students(self, scholar_query_id):
         """string -> Scholar"""
         self.cur_scholar_id = scholar_query_id
 
         cur_scholar = Wiki_Client.get(scholar_query_id)
-
         scholar_name = self.get_name(cur_scholar)
         scholar_wiki_link = self.get_wiki_link(cur_scholar)
         scholar_image = self.get_image(cur_scholar)
@@ -137,7 +130,7 @@ class WikiDataScholars:
         return self.get_value_from_attributes("wiki_link", scholar.attributes)
 
     def get_image(self, scholar):
-        image_link = self.get_value_from_attributes("image", scholar.attributes)
+        image_link = self.get_value_from_attributes("image_link", scholar.attributes)
         return WIKIDATA_IMAGE + image_link.replace(" ", "_")
 
     def get_field(self, scholar):
@@ -159,14 +152,14 @@ class WikiDataScholars:
                 students.append(student_qid)
         return students
 
-    def finish_and_print(self):
+    def finish_and_print(self, scholars):
         self.scholar_json = open(self.scholar_json_file, "w+")
         self.scholar_json.seek(0)
         self.scholar_json.truncate()
 
         self.scholar_json.write(
             json.dumps(
-                {"scholars": list(map(Scholar.to_json, self.all_scholars))},
+                {"scholars": list(map(Scholar.to_json, scholars))},
                 indent=4,
                 sort_keys=True,
             )
@@ -186,7 +179,7 @@ def get_scholar_id_from_name(name: str):
             "wikibase_item"
         ]
     except KeyError:
-        return json.loads("missing")
+        return json.loads('"missing"')
 
 
 def get_scholar_name_from_id(qid: str):
