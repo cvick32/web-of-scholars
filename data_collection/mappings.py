@@ -38,7 +38,7 @@ name_to_attribute = {
         "value",
         "id",
     ],
-    "image": [
+    "image_link": [
         "claims",
         string_to_wikidata_key["image"],
         0,
