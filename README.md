@@ -29,11 +29,11 @@ Right now you can view a truncated version of the web that shows the first 300 l
 
 ## Roadmap
 ### Front-end
-- [ ] Single view  
-- [ ] Full view  
+- [x] Single view  
+- [x] Full view  
 - [ ] Roll over to see wikipedia entry  
 - [ ] Scaling of circles from a slider
-- [ ] Scaling size by number of connections (influenceSize)
+- [x] Scaling size by number of connections 
 - [ ] Make image from wikipedia page not look terrible in circle
 - [ ] Switch to Angular 9
 - [x] Display scholars as a directed graph

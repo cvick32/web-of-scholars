@@ -47,7 +47,8 @@ export class AppComponent implements OnInit, OnDestroy {
   setUpNodes(): void {
     this.nodes = [];
     for (const scholar of this.scholars) {
-      this.nodes.push(new Node(scholar.id, scholar.name, scholar.wiki_link));
+      const numLinks = scholar.doctoral_advisor.length + scholar.doctoral_student.length;
+      this.nodes.push(new Node(scholar.id, scholar.name, scholar.wiki_link, numLinks));
     }
   }
 

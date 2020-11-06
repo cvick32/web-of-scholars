@@ -13,16 +13,17 @@ export class Node implements d3.SimulationNodeDatum {
   id: string;
   name: string;
   wikiLink: string;
-  linkCount = 0;
+  linkCount: number;
 
-  constructor(id, name, wikiLink) {
+  constructor(id, name, wikiLink, linkCount) {
       this.id = id;
       this.name = name;
       this.wikiLink = wikiLink;
+      this.linkCount = linkCount;
   }
 
   get r() {
-    return APP_CONFIG.NODE_SIZE;
+    return APP_CONFIG.NODE_SIZE + this.linkCount;
   }
 
   get fontSize() {
