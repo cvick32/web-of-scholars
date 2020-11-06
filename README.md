@@ -28,6 +28,7 @@ Right now you can view a truncated version of the web that shows the first 300 l
 `ng serve`
 
 ## Roadmap
+- [ ] Actually launch
 ### Front-end
 - [x] Single view  
 - [x] Full view  
@@ -35,8 +36,8 @@ Right now you can view a truncated version of the web that shows the first 300 l
 - [ ] Scaling of circles from a slider
 - [x] Scaling size by number of connections 
 - [ ] Make image from wikipedia page not look terrible in circle
-- [ ] Switch to Angular 9
-- [x] Display scholars as a directed graph
+- [x] Switch to Angular 9
+- [x] Display scholars as a graph
 - [x] Implement zoom in to graph, i know y'all wanted it :eyes:
 - [x] Make image from wikipedia page the show up in circle
 - [x] Scaling colors by number of connections (influenceColor) put back in images
