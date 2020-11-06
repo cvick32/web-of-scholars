@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription, Subject } from 'rxjs';
 
 import { Node, Link } from './d3/models';
@@ -11,7 +11,7 @@ import { NodesAndLinks } from './nodes-and-links.model';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit, OnDestroy {
   title = 'Web of Scholars';
 
   scholars: Scholar[];
@@ -29,6 +29,7 @@ export class AppComponent implements OnInit {
 
     this.scholarsSub = this.scholarService.getScholarUpdateListener()
       .subscribe((scholarData: {scholars: Scholar[]}) => {
+        console.log(scholarData.scholars);
         this.scholars = scholarData.scholars;
         this.setUpNodes();
         this.setUpLinks();
@@ -36,10 +37,15 @@ export class AppComponent implements OnInit {
       });
   }
 
+  ngOnDestroy() {
+    this.scholarsSub.unsubscribe();
+  }
+
   /**
    * constructing the nodes array
   */
   setUpNodes(): void {
+    this.nodes = [];
     for (const scholar of this.scholars) {
       this.nodes.push(new Node(scholar.id, scholar.name));
     }
@@ -49,6 +55,7 @@ export class AppComponent implements OnInit {
    *  constructs links between related scholars
    */
   setUpLinks(): void {
+    this.links = [];
     for (const scholar of this.scholars) {
       const doctoral_advisors = scholar.doctoral_advisor;
       if (doctoral_advisors) {
