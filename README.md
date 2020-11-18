@@ -41,8 +41,10 @@ Right now you can view a truncated version of the web that shows the first 300 l
 - [x] Implement zoom in to graph, i know y'all wanted it :eyes:
 - [x] Make image from wikipedia page the show up in circle
 - [x] Scaling colors by number of connections (influenceColor) put back in images
+- [ ] Add route for coauthors + publications
 ### Back-end
 - [ ] Need to fix scraping to not get Doctoral Advisor entries
+- [ ] Add another route for viewing coauthors + publications 
 - [x] Refactor scraping
 - [x] NEED TO LOOK AT WIKIDATA
 - [x] Get all possible wiki entries available from Akerlof
